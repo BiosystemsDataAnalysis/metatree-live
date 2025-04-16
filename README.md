@@ -88,7 +88,7 @@ To upload the data select move into the PLANT_PHYSIOLOGY department you just cre
 ![images/metatree_upload.png](images/metatree_upload.png)
 
 
-Furthermore information about the uploading process can be found in the [metatree documentation](uploading_data/Uploading_Metadata.pdf)
+Further information about the uploading process can be found in the [metatree documentation](uploading_data/Uploading_Metadata.pdf)
 
 
 
