@@ -1,0 +1,60 @@
+@prefix fs: <https://metatree.nl/ontology#> .
+@prefix example: <https://example.com/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix file: <http://localhost:8080/api/v1/webdav/> .
+@prefix uniprot: <https://uniprot.org/taxonomy/> .
+@prefix sils: <https://sils.uva.nl/ontology#> .
+@prefix treat: <http://purl.obolibrary.org/obo/> .
+
+treat:MCO_0000170 a sils:Treatment ;
+    rdfs:label "temperature stress" .
+
+treat:PECO_0001036 a sils:Treatment ;
+    rdfs:label "chemical stress" .
+
+treat:MCO_0000173 a sils:Treatment ;
+    rdfs:label "nutrient availability stress" .
+
+treat:SILSTREAT_200 a sils:Treatment ;
+    rdfs:label "mechanical stress" .
+
+treat:SILSTREAT_201 a sils:Treatment ;
+    rdfs:label "herbivory stress" .
+
+treat:SILSTREAT_500 a sils:Treatment ;
+    rdfs:label "control" .
+
+treat:SILSTREAT_501 a sils:Treatment ;
+    rdfs:label "genotype" .
+
+treat:SILSTREAT_502 a sils:Treatment ;
+    rdfs:label "microbial treatment" .
+
+treat:PECO_0007404 a sils:Treatment ;
+    rdfs:label "drought stress" .
+
+treat:SILSTREAT_7404_1036 a sils:Treatment ;
+    rdfs:label "drought + chemical stress" .
+
+treat:SILSTREAT_7404_500 a sils:Treatment ;
+    rdfs:label "drought + nutrient availability stress" .
+
+treat:SILSCOMB3_1 a sils:Treatment ;
+    rdfs:label "microbial treatment + inoculation method + drought stress".
+
+treat:SILSCOMB3_2 a sils:Treatment ;
+    rdfs:label "drought + herbivory + microbial stress".
+
+treat:SILSCOMB2_1 a sils:Treatment ;
+    rdfs:label "microbial treatment + inoculation method".
+
+treat:SILSLANDUSE a sils:Treatment ;
+    rdfs:label "landuse".
+
+
+
+

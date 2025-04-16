@@ -1,0 +1,7062 @@
+
+@prefix fs: <https://metatree.nl/ontology#> .
+@prefix example: <https://example.com/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix file: <http://localhost:8080/api/v1/webdav/> .
+@prefix uniprot: <https://uniprot.org/taxonomy/> .
+@prefix sils: <https://sils.uva.nl/ontology#> .
+
+
+uniprot:4081 a sils:Species ;
+rdfs:label "Solanum lycopersicum" .
+
+uniprot:4058 a sils:Species ;
+rdfs:label "Catharanthus roseus" .
+
+uniprot:32201 a sils:Species ;
+rdfs:label "Carya illinoinensis" .
+
+uniprot:51953 a sils:Species ;
+rdfs:label "Elaeis guineensis var. tenera" .
+
+uniprot:60698 a sils:Species ;
+rdfs:label "Macadamia integrifolia" .
+
+uniprot:4182 a sils:Species ;
+rdfs:label "Sesamum indicum" .
+
+uniprot:4232 a sils:Species ;
+rdfs:label "Helianthus annuus" .
+
+uniprot:3661 a sils:Species ;
+rdfs:label "Cucurbita maxima" .
+
+uniprot:3747 a sils:Species ;
+rdfs:label "Fragaria ananassa" .
+
+uniprot:3617 a sils:Species ;
+rdfs:label "Fagopyrum esculentum" .
+
+uniprot:62330 a sils:Species ;
+rdfs:label "Fagopyrum tataricum" .
+
+uniprot:3702 a sils:Species ;
+rdfs:label "Arabidopsis thaliana" .
+
+uniprot:4577 a sils:Species ;
+rdfs:label "Zea mays" .
+
+uniprot:39947 a sils:Species ;
+rdfs:label "Oryza sativa subsp. japonica" .
+
+uniprot:3357 a sils:Species ;
+rdfs:label "Pseudotsuga menziesii" .
+
+uniprot:4113 a sils:Species ;
+rdfs:label "Solanum tuberosum" .
+
+uniprot:4513 a sils:Species ;
+rdfs:label "Hordeum vulgare" .
+
+uniprot:3847 a sils:Species ;
+rdfs:label "Glycine max" .
+
+uniprot:4097 a sils:Species ;
+rdfs:label "Nicotiana tabacum" .
+
+uniprot:3906 a sils:Species ;
+rdfs:label "Vicia faba" .
+
+uniprot:3055 a sils:Species ;
+rdfs:label "Chlamydomonas reinhardtii" .
+
+uniprot:49266 a sils:Species ;
+rdfs:label "Fucus vesiculosus" .
+
+uniprot:4690 a sils:Species ;
+rdfs:label "Lilium longiflorum" .
+
+uniprot:3544 a sils:Species ;
+rdfs:label "Mesembryanthemum crystallinum" .
+
+uniprot:85636 a sils:Species ;
+rdfs:label "Oenothera elata subsp. hookeri" .
+
+uniprot:3888 a sils:Species ;
+rdfs:label "Pisum sativum" .
+
+uniprot:75702 a sils:Species ;
+rdfs:label "Populus euphratica" .
+
+uniprot:3562 a sils:Species ;
+rdfs:label "Spinacia oleracea" .
+
+uniprot:4039 a sils:Species ;
+rdfs:label "Daucus carota" .
+
+uniprot:3663 a sils:Species ;
+rdfs:label "Cucurbita pepo" .
+
+uniprot:39946 a sils:Species ;
+rdfs:label "Oryza sativa subsp. indica" .
+
+uniprot:102107 a sils:Species ;
+rdfs:label "Prunus mume" .
+
+uniprot:3570 a sils:Species ;
+rdfs:label "Dianthus caryophyllus" .
+
+uniprot:3750 a sils:Species ;
+rdfs:label "Malus domestica" .
+
+uniprot:3916 a sils:Species ;
+rdfs:label "Vigna radiata var. radiata" .
+
+uniprot:36774 a sils:Species ;
+rdfs:label "Brassica oleracea var. italica" .
+
+uniprot:4565 a sils:Species ;
+rdfs:label "Triticum aestivum" .
+
+uniprot:4573 a sils:Species ;
+rdfs:label "Aegilops speltoides" .
+
+uniprot:37682 a sils:Species ;
+rdfs:label "Aegilops tauschii" .
+
+uniprot:629273 a sils:Species ;
+rdfs:label "Bromus pictus" .
+
+uniprot:52714 a sils:Species ;
+rdfs:label "Leymus chinensis" .
+
+uniprot:4572 a sils:Species ;
+rdfs:label "Triticum urartu" .
+
+uniprot:29760 a sils:Species ;
+rdfs:label "Vitis vinifera" .
+
+uniprot:93608 a sils:Species ;
+rdfs:label "Sinopodophyllum hexandrum" .
+
+uniprot:18101 a sils:Species ;
+rdfs:label "Gerbera hybrida" .
+
+uniprot:3645 a sils:Species ;
+rdfs:label "Bertholletia excelsa" .
+
+uniprot:3708 a sils:Species ;
+rdfs:label "Brassica napus" .
+
+uniprot:3714 a sils:Species ;
+rdfs:label "Brassica oleracea var. alboglabra" .
+
+uniprot:93385 a sils:Species ;
+rdfs:label "Brassica rapa subsp. chinensis" .
+
+uniprot:13395 a sils:Species ;
+rdfs:label "Capparis masaikai" .
+
+uniprot:3330 a sils:Species ;
+rdfs:label "Picea glauca" .
+
+uniprot:3988 a sils:Species ;
+rdfs:label "Ricinus communis" .
+
+uniprot:3662 a sils:Species ;
+rdfs:label "Cucurbita moschata" .
+
+uniprot:51240 a sils:Species ;
+rdfs:label "Juglans regia" .
+
+uniprot:3277 a sils:Species ;
+rdfs:label "Matteuccia struthiopteris" .
+
+uniprot:50225 a sils:Species ;
+rdfs:label "Taraxacum officinale" .
+
+uniprot:3712 a sils:Species ;
+rdfs:label "Brassica oleracea" .
+
+uniprot:48386 a sils:Species ;
+rdfs:label "Perilla frutescens" .
+
+uniprot:3329 a sils:Species ;
+rdfs:label "Picea abies" .
+
+uniprot:3332 a sils:Species ;
+rdfs:label "Picea sitchensis" .
+
+uniprot:373101 a sils:Species ;
+rdfs:label "Picea engelmannii x Picea glauca" .
+
+uniprot:3353 a sils:Species ;
+rdfs:label "Pinus banksiana" .
+
+uniprot:3339 a sils:Species ;
+rdfs:label "Pinus contorta" .
+
+uniprot:101596 a sils:Species ;
+rdfs:label "Dahlia pinnata" .
+
+uniprot:4151 a sils:Species ;
+rdfs:label "Antirrhinum majus" .
+
+uniprot:39639 a sils:Species ;
+rdfs:label "Narcissus pseudonarcissus" .
+
+uniprot:4043 a sils:Species ;
+rdfs:label "Petroselinum crispum" .
+
+uniprot:4102 a sils:Species ;
+rdfs:label "Petunia hybrida" .
+
+uniprot:3352 a sils:Species ;
+rdfs:label "Pinus taeda" .
+
+uniprot:51239 a sils:Species ;
+rdfs:label "Vanilla planifolia" .
+
+uniprot:3469 a sils:Species ;
+rdfs:label "Papaver somniferum" .
+
+uniprot:3442 a sils:Species ;
+rdfs:label "Coptis japonica" .
+
+uniprot:49450 a sils:Species ;
+rdfs:label "Digitalis lanata" .
+
+uniprot:49451 a sils:Species ;
+rdfs:label "Nicotiana attenuata" .
+
+uniprot:4072 a sils:Species ;
+rdfs:label "Capsicum annuum" .
+
+uniprot:55190 a sils:Species ;
+rdfs:label "Gentiana triflora" .
+
+uniprot:76714 a sils:Species ;
+rdfs:label "Verbena hybrida" .
+
+uniprot:180675 a sils:Species ;
+rdfs:label "Salvia splendens" .
+
+uniprot:161934 a sils:Species ;
+rdfs:label "Beta vulgaris" .
+
+uniprot:150095 a sils:Species ;
+rdfs:label "Thalictrum flavum subsp. glaucum" .
+
+uniprot:76966 a sils:Species ;
+rdfs:label "Citrus japonica" .
+
+uniprot:55188 a sils:Species ;
+rdfs:label "Citrus unshiu" .
+
+uniprot:49666 a sils:Species ;
+rdfs:label "Paris polyphylla" .
+
+uniprot:78534 a sils:Species ;
+rdfs:label "Trigonella foenum-graecum" .
+
+uniprot:50459 a sils:Species ;
+rdfs:label "Barbarea vulgaris" .
+
+uniprot:190515 a sils:Species ;
+rdfs:label "Siraitia grosvenorii" .
+
+uniprot:3879 a sils:Species ;
+rdfs:label "Medicago sativa" .
+
+uniprot:3755 a sils:Species ;
+rdfs:label "Prunus dulcis" .
+
+uniprot:4084 a sils:Species ;
+rdfs:label "Solanum pimpinellifolium" .
+
+uniprot:4787 a sils:Species ;
+rdfs:label "Phytophthora infestans" .
+
+uniprot:403677 a sils:Species ;
+rdfs:label "Phytophthora infestans" .
+
+uniprot:85439 a sils:Species ;
+rdfs:label "Delphinium grandiflorum" .
+
+uniprot:3483 a sils:Species ;
+rdfs:label "Cannabis sativa" .
+
+uniprot:4060 a sils:Species ;
+rdfs:label "Rauvolfia serpentina" .
+
+uniprot:329875 a sils:Species ;
+rdfs:label "Rauvolfia verticillata" .
+
+uniprot:35872 a sils:Species ;
+rdfs:label "Cenchrus ciliaris" .
+
+uniprot:3871 a sils:Species ;
+rdfs:label "Lupinus angustifolius" .
+
+uniprot:3760 a sils:Species ;
+rdfs:label "Prunus persica" .
+
+uniprot:4092 a sils:Species ;
+rdfs:label "Nicotiana plumbaginifolia" .
+
+uniprot:36596 a sils:Species ;
+rdfs:label "Prunus armeniaca" .
+
+uniprot:2767 a sils:Species ;
+rdfs:label "Antithamnion sp." .
+
+uniprot:2771 a sils:Species ;
+rdfs:label "Cyanidium caldarium" .
+
+uniprot:2762 a sils:Species ;
+rdfs:label "Cyanophora paradoxa." .
+
+uniprot:130081 a sils:Species ;
+rdfs:label "Galdieria sulphuraria" .
+
+uniprot:55529 a sils:Species ;
+rdfs:label "Guillardia theta" .
+
+uniprot:2788 a sils:Species ;
+rdfs:label "Neopyropia yezoensis" .
+
+uniprot:2787 a sils:Species ;
+rdfs:label "Porphyra purpurea" .
+
+uniprot:1514140 a sils:Species ;
+rdfs:label "Trieres chinensis" .
+
+uniprot:761204 a sils:Species ;
+rdfs:label "Phytophthora parasitica" .
+
+uniprot:82316 a sils:Species ;
+rdfs:label "Lilium davidii" .
+
+uniprot:3816 a sils:Species ;
+rdfs:label "Abrus precatorius" .
+
+uniprot:64177 a sils:Species ;
+rdfs:label "Fritillaria agrestis" .
+
+uniprot:3635 a sils:Species ;
+rdfs:label "Gossypium hirsutum" .
+
+uniprot:280699 a sils:Species ;
+rdfs:label "Cyanidioschyzon merolae" .
+
+uniprot:285951 a sils:Species ;
+rdfs:label "Gracilaria tenuistipitata var. liui" .
+
+uniprot:3694 a sils:Species ;
+rdfs:label "Populus trichocarpa" .
+
+uniprot:13818 a sils:Species ;
+rdfs:label "Adiantum capillus-veneris" .
+
+uniprot:434059 a sils:Species ;
+rdfs:label "Aethionema cordifolium" .
+
+uniprot:72657 a sils:Species ;
+rdfs:label "Aethionema grandiflorum" .
+
+uniprot:13333 a sils:Species ;
+rdfs:label "Amborella trichopoda." .
+
+uniprot:3267 a sils:Species ;
+rdfs:label "Angiopteris lygodiifolia" .
+
+uniprot:48387 a sils:Species ;
+rdfs:label "Anthoceros angustus" .
+
+uniprot:78191 a sils:Species ;
+rdfs:label "Arabis hirsuta" .
+
+uniprot:33113 a sils:Species ;
+rdfs:label "Atropa belladonna" .
+
+uniprot:50458 a sils:Species ;
+rdfs:label "Barbarea verna" .
+
+uniprot:153571 a sils:Species ;
+rdfs:label "Buxus microphylla" .
+
+uniprot:212734 a sils:Species ;
+rdfs:label "Calycanthus floridus var. glaucus" .
+
+uniprot:3719 a sils:Species ;
+rdfs:label "Capsella bursa-pastoris" .
+
+uniprot:3649 a sils:Species ;
+rdfs:label "Carica papaya" .
+
+uniprot:4428 a sils:Species ;
+rdfs:label "Ceratophyllum demersum" .
+
+uniprot:13006 a sils:Species ;
+rdfs:label "Chloranthus spicatus" .
+
+uniprot:3077 a sils:Species ;
+rdfs:label "Chlorella vulgaris" .
+
+uniprot:3827 a sils:Species ;
+rdfs:label "Cicer arietinum" .
+
+uniprot:2711 a sils:Species ;
+rdfs:label "Citrus sinensis" .
+
+uniprot:13443 a sils:Species ;
+rdfs:label "Coffea arabica" .
+
+uniprot:78192 a sils:Species ;
+rdfs:label "Crucihimalaya wallichii" .
+
+uniprot:3369 a sils:Species ;
+rdfs:label "Cryptomeria japonica" .
+
+uniprot:3659 a sils:Species ;
+rdfs:label "Cucumis sativus" .
+
+uniprot:35886 a sils:Species ;
+rdfs:label "Cuscuta gronovii" .
+
+uniprot:4129 a sils:Species ;
+rdfs:label "Cuscuta reflexa" .
+
+uniprot:145284 a sils:Species ;
+rdfs:label "Dioscorea elephantipes" .
+
+uniprot:171822 a sils:Species ;
+rdfs:label "Draba nemorosa" .
+
+uniprot:224735 a sils:Species ;
+rdfs:label "Drimys granadensis." .
+
+uniprot:4177 a sils:Species ;
+rdfs:label "Epifagus virginiana" .
+
+uniprot:71271 a sils:Species ;
+rdfs:label "Eucalyptus globulus subsp. globulus" .
+
+uniprot:180217 a sils:Species ;
+rdfs:label "Fagopyrum esculentum subsp. ancestrale" .
+
+uniprot:3634 a sils:Species ;
+rdfs:label "Gossypium barbadense" .
+
+uniprot:4230 a sils:Species ;
+rdfs:label "Guizotia abyssinica" .
+
+uniprot:145475 a sils:Species ;
+rdfs:label "Helicosporidium sp. subsp. Simulium jonesii" .
+
+uniprot:145286 a sils:Species ;
+rdfs:label "Illicium oligandrum" .
+
+uniprot:4121 a sils:Species ;
+rdfs:label "Ipomoea purpurea" .
+
+uniprot:4236 a sils:Species ;
+rdfs:label "Lactuca sativa" .
+
+uniprot:4472 a sils:Species ;
+rdfs:label "Lemna minor" .
+
+uniprot:59292 a sils:Species ;
+rdfs:label "Lepidium virginicum" .
+
+uniprot:3415 a sils:Species ;
+rdfs:label "Liriodendron tulipifera" .
+
+uniprot:226051 a sils:Species ;
+rdfs:label "Lobularia maritima" .
+
+uniprot:34305 a sils:Species ;
+rdfs:label "Lotus japonicus" .
+
+uniprot:3197 a sils:Species ;
+rdfs:label "Marchantia polymorpha" .
+
+uniprot:248361 a sils:Species ;
+rdfs:label "Morus indica" .
+
+uniprot:41776 a sils:Species ;
+rdfs:label "Nandina domestica" .
+
+uniprot:65948 a sils:Species ;
+rdfs:label "Nasturtium officinale" .
+
+uniprot:4096 a sils:Species ;
+rdfs:label "Nicotiana sylvestris" .
+
+uniprot:4098 a sils:Species ;
+rdfs:label "Nicotiana tomentosiformis" .
+
+uniprot:77108 a sils:Species ;
+rdfs:label "Nuphar advena" .
+
+uniprot:34301 a sils:Species ;
+rdfs:label "Nymphaea alba" .
+
+uniprot:74718 a sils:Species ;
+rdfs:label "Olimarabidopsis pumila" .
+
+uniprot:4530 a sils:Species ;
+rdfs:label "Oryza sativa" .
+
+uniprot:4054 a sils:Species ;
+rdfs:label "Panax ginseng" .
+
+uniprot:308872 a sils:Species ;
+rdfs:label "Phalaenopsis aphrodite subsp. formosana" .
+
+uniprot:3218 a sils:Species ;
+rdfs:label "Physcomitrium patens" .
+
+uniprot:88728 a sils:Species ;
+rdfs:label "Pinus koraiensis" .
+
+uniprot:3350 a sils:Species ;
+rdfs:label "Pinus thunbergii" .
+
+uniprot:398741 a sils:Species ;
+rdfs:label "Piper cenocladum" .
+
+uniprot:4403 a sils:Species ;
+rdfs:label "Platanus occidentalis" .
+
+uniprot:43335 a sils:Species ;
+rdfs:label "Populus alba" .
+
+uniprot:334596 a sils:Species ;
+rdfs:label "Ranunculus macranthus" .
+
+uniprot:147425 a sils:Species ;
+rdfs:label "Solanum bulbocastanum" .
+
+uniprot:3707 a sils:Species ;
+rdfs:label "Brassica juncea" .
+
+uniprot:3656 a sils:Species ;
+rdfs:label "Cucumis melo" .
+
+uniprot:4749 a sils:Species ;
+rdfs:label "Doritaenopsis sp." .
+
+uniprot:3627 a sils:Species ;
+rdfs:label "Actinidia deliciosa" .
+
+uniprot:51096 a sils:Species ;
+rdfs:label "Dendrobium crumenatum" .
+
+uniprot:35925 a sils:Species ;
+rdfs:label "Diospyros kaki" .
+
+uniprot:4641 a sils:Species ;
+rdfs:label "Musa acuminata" .
+
+uniprot:3435 a sils:Species ;
+rdfs:label "Persea americana" .
+
+uniprot:3225 a sils:Species ;
+rdfs:label "Ceratodon purpureus" .
+
+uniprot:103355 a sils:Species ;
+rdfs:label "Vitis labrusca" .
+
+uniprot:3657 a sils:Species ;
+rdfs:label "Cucumis melo var. conomon" .
+
+uniprot:2777 a sils:Species ;
+rdfs:label "Gracilaria gracilis" .
+
+uniprot:3522 a sils:Species ;
+rdfs:label "Casuarina glauca" .
+
+uniprot:3930 a sils:Species ;
+rdfs:label "Cuphea lanceolata" .
+
+uniprot:3396 a sils:Species ;
+rdfs:label "Cycas revoluta" .
+
+uniprot:3711 a sils:Species ;
+rdfs:label "Brassica campestris" .
+
+uniprot:2855 a sils:Species ;
+rdfs:label "Cylindrotheca sp." .
+
+uniprot:556484 a sils:Species ;
+rdfs:label "Phaeodactylum tricornutum" .
+
+uniprot:37565 a sils:Species ;
+rdfs:label "Ruta graveolens" .
+
+uniprot:4558 a sils:Species ;
+rdfs:label "Sorghum bicolor" .
+
+uniprot:1590841 a sils:Species ;
+rdfs:label "Actinidia chinensis var. chinensis" .
+
+uniprot:35862 a sils:Species ;
+rdfs:label "Acetabularia peniculus" .
+
+uniprot:4766 a sils:Species ;
+rdfs:label "Achlya bisexualis" .
+
+uniprot:2769 a sils:Species ;
+rdfs:label "Chondrus crispus" .
+
+uniprot:3125 a sils:Species ;
+rdfs:label "Coleochaete scutata." .
+
+uniprot:2872 a sils:Species ;
+rdfs:label "Costaria costata" .
+
+uniprot:3012 a sils:Species ;
+rdfs:label "Fucus distichus" .
+
+uniprot:41882 a sils:Species ;
+rdfs:label "Mesostigma viride" .
+
+uniprot:3560 a sils:Species ;
+rdfs:label "Oxybasis rubra" .
+
+uniprot:4788 a sils:Species ;
+rdfs:label "Phytophthora megasperma" .
+
+uniprot:71647 a sils:Species ;
+rdfs:label "Pinus pinaster" .
+
+uniprot:3190 a sils:Species ;
+rdfs:label "Scherffelia dubia" .
+
+uniprot:3067 a sils:Species ;
+rdfs:label "Volvox carteri" .
+
+uniprot:35608 a sils:Species ;
+rdfs:label "Artemisia annua" .
+
+uniprot:4543 a sils:Species ;
+rdfs:label "Cenchrus americanus" .
+
+uniprot:212925 a sils:Species ;
+rdfs:label "Euphorbia lathyris" .
+
+uniprot:118510 a sils:Species ;
+rdfs:label "Tanacetum cinerariifolium" .
+
+uniprot:3899 a sils:Species ;
+rdfs:label "Trifolium repens" .
+
+uniprot:15945 a sils:Species ;
+rdfs:label "Zea luxurians" .
+
+uniprot:3074 a sils:Species ;
+rdfs:label "Parachlorella kessleri" .
+
+uniprot:145753 a sils:Species ;
+rdfs:label "Malva parviflora" .
+
+uniprot:3818 a sils:Species ;
+rdfs:label "Arachis hypogaea" .
+
+uniprot:159422 a sils:Species ;
+rdfs:label "Passiflora alata" .
+
+uniprot:78168 a sils:Species ;
+rdfs:label "Passiflora edulis" .
+
+uniprot:22666 a sils:Species ;
+rdfs:label "Trapa natans" .
+
+uniprot:429560 a sils:Species ;
+rdfs:label "Cullen corylifolium" .
+
+uniprot:37488 a sils:Species ;
+rdfs:label "Diospyros texana" .
+
+uniprot:53580 a sils:Species ;
+rdfs:label "Engelmannia peristenia" .
+
+uniprot:40321 a sils:Species ;
+rdfs:label "Capsicum annuum var. annuum" .
+
+uniprot:3832 a sils:Species ;
+rdfs:label "Cyamopsis tetragonoloba" .
+
+uniprot:3991 a sils:Species ;
+rdfs:label "Euphorbia characias" .
+
+uniprot:28955 a sils:Species ;
+rdfs:label "Euphorbia marginata" .
+
+uniprot:3501 a sils:Species ;
+rdfs:label "Urtica dioica" .
+
+uniprot:3728 a sils:Species ;
+rdfs:label "Sinapis alba" .
+
+uniprot:4109 a sils:Species ;
+rdfs:label "Solanum commersonii" .
+
+uniprot:29714 a sils:Species ;
+rdfs:label "Aranda deborah" .
+
+uniprot:3880 a sils:Species ;
+rdfs:label "Medicago truncatula" .
+
+uniprot:23207 a sils:Species ;
+rdfs:label "Prunus serotina" .
+
+uniprot:4006 a sils:Species ;
+rdfs:label "Linum usitatissimum" .
+
+uniprot:271192 a sils:Species ;
+rdfs:label "Pimpinella anisum" .
+
+uniprot:212809 a sils:Species ;
+rdfs:label "Anemone leveillei" .
+
+uniprot:4146 a sils:Species ;
+rdfs:label "Olea europaea" .
+
+uniprot:4540 a sils:Species ;
+rdfs:label "Panicum miliaceum" .
+
+uniprot:3848 a sils:Species ;
+rdfs:label "Glycine soja" .
+
+uniprot:3914 a sils:Species ;
+rdfs:label "Phaseolus angularis" .
+
+uniprot:3891 a sils:Species ;
+rdfs:label "Psophocarpus tetragonolobus" .
+
+uniprot:3860 a sils:Species ;
+rdfs:label "Lathyrus sativus" .
+
+uniprot:3864 a sils:Species ;
+rdfs:label "Lens culinaris" .
+
+uniprot:4153 a sils:Species ;
+rdfs:label "Craterostigma plantagineum" .
+
+uniprot:3348 a sils:Species ;
+rdfs:label "Pinus strobus" .
+
+uniprot:4045 a sils:Species ;
+rdfs:label "Apium graveolens" .
+
+uniprot:4220 a sils:Species ;
+rdfs:label "Artemisia vulgaris" .
+
+uniprot:3915 a sils:Species ;
+rdfs:label "Vigna mungo" .
+
+uniprot:3485 a sils:Species ;
+rdfs:label "Humulus japonicus" .
+
+uniprot:3981 a sils:Species ;
+rdfs:label "Hevea brasiliensis" .
+
+uniprot:3505 a sils:Species ;
+rdfs:label "Betula pendula" .
+
+uniprot:4682 a sils:Species ;
+rdfs:label "Allium sativum" .
+
+uniprot:4679 a sils:Species ;
+rdfs:label "Allium cepa" .
+
+uniprot:28911 a sils:Species ;
+rdfs:label "Allium cepa var. aggregatum" .
+
+uniprot:2903 a sils:Species ;
+rdfs:label "Emiliania huxleyi" .
+
+uniprot:298137 a sils:Species ;
+rdfs:label "Durusdinium sp. clade D" .
+
+uniprot:51432 a sils:Species ;
+rdfs:label "Amaryllis belladonna" .
+
+uniprot:119829 a sils:Species ;
+rdfs:label "Astragalus mongholicus" .
+
+uniprot:112509 a sils:Species ;
+rdfs:label "Hordeum vulgare subsp. vulgare" .
+
+uniprot:13894 a sils:Species ;
+rdfs:label "Cocos nucifera" .
+
+uniprot:542673 a sils:Species ;
+rdfs:label "Lippia sidoides" .
+
+uniprot:3538 a sils:Species ;
+rdfs:label "Mirabilis jalapa" .
+
+uniprot:71633 a sils:Species ;
+rdfs:label "Pinus halepensis" .
+
+uniprot:3345 a sils:Species ;
+rdfs:label "Pinus monticola" .
+
+uniprot:13274 a sils:Species ;
+rdfs:label "Stellaria media" .
+
+uniprot:3567 a sils:Species ;
+rdfs:label "Amaranthus caudatus" .
+
+uniprot:124763 a sils:Species ;
+rdfs:label "Amaranthus retroflexus" .
+
+uniprot:90397 a sils:Species ;
+rdfs:label "Echinochloa crus-galli" .
+
+uniprot:63779 a sils:Species ;
+rdfs:label "Impatiens balsamina" .
+
+uniprot:35883 a sils:Species ;
+rdfs:label "Ipomoea nil" .
+
+uniprot:220462 a sils:Species ;
+rdfs:label "Leymus arenarius" .
+
+uniprot:376535 a sils:Species ;
+rdfs:label "Triticum kiharae" .
+
+uniprot:80379 a sils:Species ;
+rdfs:label "Capsicum chinense" .
+
+uniprot:77009 a sils:Species ;
+rdfs:label "Hordeum vulgare subsp. spontaneum" .
+
+uniprot:4120 a sils:Species ;
+rdfs:label "Ipomoea batatas" .
+
+uniprot:4550 a sils:Species ;
+rdfs:label "Secale cereale" .
+
+uniprot:3917 a sils:Species ;
+rdfs:label "Vigna unguiculata" .
+
+uniprot:4615 a sils:Species ;
+rdfs:label "Ananas comosus" .
+
+uniprot:171929 a sils:Species ;
+rdfs:label "Anacardium occidentale" .
+
+uniprot:128735 a sils:Species ;
+rdfs:label "Rosa hybrid cultivar." .
+
+uniprot:4041 a sils:Species ;
+rdfs:label "Pastinaca sativa" .
+
+uniprot:3311 a sils:Species ;
+rdfs:label "Ginkgo biloba" .
+
+uniprot:29780 a sils:Species ;
+rdfs:label "Mangifera indica" .
+
+uniprot:4463 a sils:Species ;
+rdfs:label "Sauromatum venosum" .
+
+uniprot:3715 a sils:Species ;
+rdfs:label "Brassica oleracea var. botrytis" .
+
+uniprot:81972 a sils:Species ;
+rdfs:label "Arabidopsis lyrata subsp. lyrata" .
+
+uniprot:51351 a sils:Species ;
+rdfs:label "Brassica rapa subsp. pekinensis" .
+
+uniprot:49456 a sils:Species ;
+rdfs:label "Asarum europaeum" .
+
+uniprot:2765 a sils:Species ;
+rdfs:label "Aglaothamnion neglectum" .
+
+uniprot:1262161 a sils:Species ;
+rdfs:label "Neoporphyra haitanensis" .
+
+uniprot:3885 a sils:Species ;
+rdfs:label "Phaseolus vulgaris" .
+
+uniprot:82095 a sils:Species ;
+rdfs:label "Aralia elata" .
+
+uniprot:72444 a sils:Species ;
+rdfs:label "Salix bakko" .
+
+uniprot:2786 a sils:Species ;
+rdfs:label "Porphyra umbilicalis" .
+
+uniprot:3517 a sils:Species ;
+rdfs:label "Alnus glutinosa" .
+
+uniprot:3654 a sils:Species ;
+rdfs:label "Citrullus lanatus" .
+
+uniprot:436017 a sils:Species ;
+rdfs:label "Ostreococcus lucimarinus" .
+
+uniprot:35128 a sils:Species ;
+rdfs:label "Thalassiosira pseudonana" .
+
+uniprot:3464 a sils:Species ;
+rdfs:label "Capnoides sempervirens" .
+
+uniprot:3039 a sils:Species ;
+rdfs:label "Euglena gracilis." .
+
+uniprot:4686 a sils:Species ;
+rdfs:label "Asparagus officinalis" .
+
+uniprot:61864 a sils:Species ;
+rdfs:label "Sandersonia aurantiaca" .
+
+uniprot:64093 a sils:Species ;
+rdfs:label "Triphysaria versicolor" .
+
+uniprot:3665 a sils:Species ;
+rdfs:label "Cucurbita pepo var. melopepo" .
+
+uniprot:3870 a sils:Species ;
+rdfs:label "Lupinus albus" .
+
+uniprot:3872 a sils:Species ;
+rdfs:label "Lupinus arboreus" .
+
+uniprot:3873 a sils:Species ;
+rdfs:label "Lupinus luteus" .
+
+uniprot:3641 a sils:Species ;
+rdfs:label "Theobroma cacao" .
+
+uniprot:1053288 a sils:Species ;
+rdfs:label "Crocosmia x crocosmiiflora" .
+
+uniprot:559515 a sils:Species ;
+rdfs:label "Hyaloperonospora arabidopsidis" .
+
+uniprot:165200 a sils:Species ;
+rdfs:label "Actinidia eriantha" .
+
+uniprot:13790 a sils:Species ;
+rdfs:label "Dunaliella bioculata" .
+
+uniprot:3406 a sils:Species ;
+rdfs:label "Magnolia grandiflora" .
+
+uniprot:37661 a sils:Species ;
+rdfs:label "Brassica tournefortii" .
+
+uniprot:3950 a sils:Species ;
+rdfs:label "Oenothera berteroana" .
+
+uniprot:2885 a sils:Species ;
+rdfs:label "Pylaiella littoralis" .
+
+uniprot:4570 a sils:Species ;
+rdfs:label "Triticum timopheevii" .
+
+uniprot:3942 a sils:Species ;
+rdfs:label "Oenothera biennis" .
+
+uniprot:4104 a sils:Species ;
+rdfs:label "Petunia sp." .
+
+uniprot:3726 a sils:Species ;
+rdfs:label "Raphanus sativus" .
+
+uniprot:263995 a sils:Species ;
+rdfs:label "Acorus americanus" .
+
+uniprot:4465 a sils:Species ;
+rdfs:label "Acorus calamus" .
+
+uniprot:63632 a sils:Species ;
+rdfs:label "Agrostis stolonifera" .
+
+uniprot:280810 a sils:Species ;
+rdfs:label "Aneura mirabilis" .
+
+uniprot:13825 a sils:Species ;
+rdfs:label "Angiopteris evecta" .
+
+uniprot:227086 a sils:Species ;
+rdfs:label "Bigelowiella natans" .
+
+uniprot:3129 a sils:Species ;
+rdfs:label "Bryopsis maxima" .
+
+uniprot:96477 a sils:Species ;
+rdfs:label "Chaetosphaeridium globosum" .
+
+uniprot:55564 a sils:Species ;
+rdfs:label "Chara vulgaris" .
+
+uniprot:3144 a sils:Species ;
+rdfs:label "Chlorokybus atmophyticus" .
+
+uniprot:476139 a sils:Species ;
+rdfs:label "Cuscuta exaltata" .
+
+uniprot:437280 a sils:Species ;
+rdfs:label "Cuscuta obtusiflora" .
+
+uniprot:54799 a sils:Species ;
+rdfs:label "Cycas taitungensis" .
+
+uniprot:33153 a sils:Species ;
+rdfs:label "Gnetum parvifolium" .
+
+uniprot:37429 a sils:Species ;
+rdfs:label "Huperzia lucidula" .
+
+uniprot:126431 a sils:Species ;
+rdfs:label "Jasminum nudiflorum" .
+
+uniprot:4522 a sils:Species ;
+rdfs:label "Lolium perenne" .
+
+uniprot:3983 a sils:Species ;
+rdfs:label "Manihot esculenta" .
+
+uniprot:31312 a sils:Species ;
+rdfs:label "Nephroselmis olivacea" .
+
+uniprot:35137 a sils:Species ;
+rdfs:label "Ochrosphaera neapolitana." .
+
+uniprot:3940 a sils:Species ;
+rdfs:label "Oenothera argillicola" .
+
+uniprot:482428 a sils:Species ;
+rdfs:label "Oenothera glazioviana" .
+
+uniprot:482429 a sils:Species ;
+rdfs:label "Oenothera parviflora" .
+
+uniprot:51324 a sils:Species ;
+rdfs:label "Oltmannsiellopsis viridis" .
+
+uniprot:4536 a sils:Species ;
+rdfs:label "Oryza nivara" .
+
+uniprot:70448 a sils:Species ;
+rdfs:label "Ostreococcus tauri." .
+
+uniprot:4031 a sils:Species ;
+rdfs:label "Pelargonium hortorum" .
+
+uniprot:34116 a sils:Species ;
+rdfs:label "Pleurastrum terricola" .
+
+uniprot:3111 a sils:Species ;
+rdfs:label "Prototheca wickerhamii." .
+
+uniprot:3240 a sils:Species ;
+rdfs:label "Psilotum nudum" .
+
+uniprot:52970 a sils:Species ;
+rdfs:label "Rhodomonas salina" .
+
+uniprot:15819 a sils:Species ;
+rdfs:label "Saccharum hybrid" .
+
+uniprot:4547 a sils:Species ;
+rdfs:label "Saccharum officinarum" .
+
+uniprot:307165 a sils:Species ;
+rdfs:label "Selaginella uncinata" .
+
+uniprot:37657 a sils:Species ;
+rdfs:label "Silene latifolia" .
+
+uniprot:102822 a sils:Species ;
+rdfs:label "Staurastrum punctulatum" .
+
+uniprot:55999 a sils:Species ;
+rdfs:label "Stigeoclonium helveticum" .
+
+uniprot:3088 a sils:Species ;
+rdfs:label "Tetradesmus obliquus" .
+
+uniprot:160070 a sils:Species ;
+rdfs:label "Tupiella akineta" .
+
+uniprot:3377 a sils:Species ;
+rdfs:label "Welwitschia mirabilis" .
+
+uniprot:35869 a sils:Species ;
+rdfs:label "Zygnema circumcarinatum" .
+
+uniprot:3604 a sils:Species ;
+rdfs:label "Vitis sp." .
+
+uniprot:169987 a sils:Species ;
+rdfs:label "Acrocomia aculeata" .
+
+uniprot:32168 a sils:Species ;
+rdfs:label "Adiantum raddianum" .
+
+uniprot:4493 a sils:Species ;
+rdfs:label "Aegilops columnaris" .
+
+uniprot:4481 a sils:Species ;
+rdfs:label "Aegilops crassa" .
+
+uniprot:51501 a sils:Species ;
+rdfs:label "Agapanthus africanus" .
+
+uniprot:82047 a sils:Species ;
+rdfs:label "Albuca bracteata" .
+
+uniprot:12949 a sils:Species ;
+rdfs:label "Aristolochia macrophylla" .
+
+uniprot:28498 a sils:Species ;
+rdfs:label "Asarum canadense" .
+
+uniprot:39526 a sils:Species ;
+rdfs:label "Aspidistra elatior" .
+
+uniprot:29642 a sils:Species ;
+rdfs:label "Asplenium nidus" .
+
+uniprot:115448 a sils:Species ;
+rdfs:label "Balaka seemannii." .
+
+uniprot:49652 a sils:Species ;
+rdfs:label "Barnardia japonica" .
+
+uniprot:39519 a sils:Species ;
+rdfs:label "Beaucarnea recurvata" .
+
+uniprot:32073 a sils:Species ;
+rdfs:label "Blechnum occidentale" .
+
+uniprot:44987 a sils:Species ;
+rdfs:label "Bowiea volubilis" .
+
+uniprot:4424 a sils:Species ;
+rdfs:label "Brasenia schreberi" .
+
+uniprot:81741 a sils:Species ;
+rdfs:label "Brimeura amethystina" .
+
+uniprot:3429 a sils:Species ;
+rdfs:label "Calycanthus floridus" .
+
+uniprot:47519 a sils:Species ;
+rdfs:label "Calystegia sepium" .
+
+uniprot:4712 a sils:Species ;
+rdfs:label "Calamus usitatus" .
+
+uniprot:3426 a sils:Species ;
+rdfs:label "Canella winterana" .
+
+uniprot:4714 a sils:Species ;
+rdfs:label "Caryota mitis" .
+
+uniprot:21020 a sils:Species ;
+rdfs:label "Castanea sativa" .
+
+uniprot:54446 a sils:Species ;
+rdfs:label "Chamaerops humilis" .
+
+uniprot:859642 a sils:Species ;
+rdfs:label "Chattonella marina var. antiqua" .
+
+uniprot:77339 a sils:Species ;
+rdfs:label "Chamaedorea seifrizii" .
+
+uniprot:13429 a sils:Species ;
+rdfs:label "Cinnamomum camphora" .
+
+uniprot:4123 a sils:Species ;
+rdfs:label "Convolvulus arvensis" .
+
+uniprot:32189 a sils:Species ;
+rdfs:label "Convallaria majalis" .
+
+uniprot:197373 a sils:Species ;
+rdfs:label "Cressa truxillensis" .
+
+uniprot:81913 a sils:Species ;
+rdfs:label "Cuscuta japonica" .
+
+uniprot:112407 a sils:Species ;
+rdfs:label "Cuscuta pentagona" .
+
+uniprot:197374 a sils:Species ;
+rdfs:label "Cuscuta sandwichiana" .
+
+uniprot:32088 a sils:Species ;
+rdfs:label "Dennstaedtia punctilobula" .
+
+uniprot:3271 a sils:Species ;
+rdfs:label "Dicksonia antarctica" .
+
+uniprot:2876 a sils:Species ;
+rdfs:label "Dictyota dichotoma." .
+
+uniprot:80265 a sils:Species ;
+rdfs:label "Elaeis oleifera" .
+
+uniprot:3258 a sils:Species ;
+rdfs:label "Equisetum arvense" .
+
+uniprot:208119 a sils:Species ;
+rdfs:label "Eucomis bicolor" .
+
+uniprot:208120 a sils:Species ;
+rdfs:label "Eucomis montana" .
+
+uniprot:13535 a sils:Species ;
+rdfs:label "Galbulimima belgraveana" .
+
+uniprot:81762 a sils:Species ;
+rdfs:label "Hyacinthoides non-scripta" .
+
+uniprot:82025 a sils:Species ;
+rdfs:label "Hyacinthus orientalis" .
+
+uniprot:115475 a sils:Species ;
+rdfs:label "Hyophorbe lagenicaulis" .
+
+uniprot:145693 a sils:Species ;
+rdfs:label "Hyphaene coriacea" .
+
+uniprot:58521 a sils:Species ;
+rdfs:label "Hypolepis hostilis." .
+
+uniprot:13573 a sils:Species ;
+rdfs:label "Idiospermum australiense" .
+
+uniprot:89636 a sils:Species ;
+rdfs:label "Ipomoea aquatica" .
+
+uniprot:28523 a sils:Species ;
+rdfs:label "Ipomoea coccinea" .
+
+uniprot:89652 a sils:Species ;
+rdfs:label "Ipomoea obscura" .
+
+uniprot:89660 a sils:Species ;
+rdfs:label "Ipomoea quamoclit" .
+
+uniprot:89662 a sils:Species ;
+rdfs:label "Ipomoea setosa" .
+
+uniprot:89666 a sils:Species ;
+rdfs:label "Ipomoea wrightii" .
+
+uniprot:208124 a sils:Species ;
+rdfs:label "Lachenalia pusilla" .
+
+uniprot:145694 a sils:Species ;
+rdfs:label "Licuala grandis" .
+
+uniprot:32095 a sils:Species ;
+rdfs:label "Lonchitis hirsuta" .
+
+uniprot:44926 a sils:Species ;
+rdfs:label "Magnolia tripetala." .
+
+uniprot:37213 a sils:Species ;
+rdfs:label "Microlepia platyphylla" .
+
+uniprot:37214 a sils:Species ;
+rdfs:label "Microlepia szechuanica" .
+
+uniprot:23084 a sils:Species ;
+rdfs:label "Montinia caryophyllacea" .
+
+uniprot:51089 a sils:Species ;
+rdfs:label "Myristica fragrans" .
+
+uniprot:4088 a sils:Species ;
+rdfs:label "Nicotiana bigelovii" .
+
+uniprot:4093 a sils:Species ;
+rdfs:label "Nicotiana rustica" .
+
+uniprot:4094 a sils:Species ;
+rdfs:label "Nicotiana sp." .
+
+uniprot:4419 a sils:Species ;
+rdfs:label "Nymphaea odorata" .
+
+uniprot:4718 a sils:Species ;
+rdfs:label "Nypa fruticans" .
+
+uniprot:3284 a sils:Species ;
+rdfs:label "Osmundastrum cinnamomeum" .
+
+uniprot:42345 a sils:Species ;
+rdfs:label "Phoenix dactylifera" .
+
+uniprot:51475 a sils:Species ;
+rdfs:label "Phormium tenax" .
+
+uniprot:3693 a sils:Species ;
+rdfs:label "Populus tremuloides" .
+
+uniprot:81790 a sils:Species ;
+rdfs:label "Pseudogaltonia clavata" .
+
+uniprot:32101 a sils:Species ;
+rdfs:label "Pteridium aquilinum" .
+
+uniprot:32102 a sils:Species ;
+rdfs:label "Pteridium esculentum" .
+
+uniprot:145709 a sils:Species ;
+rdfs:label "Roystonea regia" .
+
+uniprot:145711 a sils:Species ;
+rdfs:label "Salacca zalacca" .
+
+uniprot:13258 a sils:Species ;
+rdfs:label "Saruma henryi" .
+
+uniprot:13674 a sils:Species ;
+rdfs:label "Schisandra sphenanthera" .
+
+uniprot:82043 a sils:Species ;
+rdfs:label "Scilla messeniaca" .
+
+uniprot:4702 a sils:Species ;
+rdfs:label "Scilla siberica" .
+
+uniprot:14027 a sils:Species ;
+rdfs:label "Trachycarpus fortunei" .
+
+uniprot:4407 a sils:Species ;
+rdfs:label "Trochodendron aralioides" .
+
+uniprot:29621 a sils:Species ;
+rdfs:label "Vandenboschia davallioides" .
+
+uniprot:59074 a sils:Species ;
+rdfs:label "Whiteheadia bifolia" .
+
+uniprot:536047 a sils:Species ;
+rdfs:label "Heterosigma akashiwo" .
+
+uniprot:536046 a sils:Species ;
+rdfs:label "Heterosigma akashiwo" .
+
+uniprot:39717 a sils:Species ;
+rdfs:label "Paulinella chromatophora." .
+
+uniprot:109269 a sils:Species ;
+rdfs:label "Vaucheria litorea" .
+
+uniprot:15368 a sils:Species ;
+rdfs:label "Brachypodium distachyon" .
+
+uniprot:55995 a sils:Species ;
+rdfs:label "Oedogonium cardiacum" .
+
+uniprot:2850 a sils:Species ;
+rdfs:label "Phaeodactylum tricornutum" .
+
+uniprot:28494 a sils:Species ;
+rdfs:label "Trachelium caeruleum" .
+
+uniprot:751871 a sils:Species ;
+rdfs:label "Thymus caespititius" .
+
+uniprot:272952 a sils:Species ;
+rdfs:label "Hyaloperonospora arabidopsidis" .
+
+uniprot:67593 a sils:Species ;
+rdfs:label "Phytophthora sojae" .
+
+uniprot:1094619 a sils:Species ;
+rdfs:label "Phytophthora sojae" .
+
+uniprot:4498 a sils:Species ;
+rdfs:label "Avena sativa" .
+
+uniprot:129356 a sils:Species ;
+rdfs:label "Phytophthora mirabilis." .
+
+uniprot:39350 a sils:Species ;
+rdfs:label "Ocimum basilicum" .
+
+uniprot:28502 a sils:Species ;
+rdfs:label "Amaranthus hypochondriacus" .
+
+uniprot:34272 a sils:Species ;
+rdfs:label "Atriplex hortensis" .
+
+uniprot:298683 a sils:Species ;
+rdfs:label "Dalbergia nigrescens" .
+
+uniprot:65409 a sils:Species ;
+rdfs:label "Scutellaria baicalensis" .
+
+uniprot:74613 a sils:Species ;
+rdfs:label "Glycyrrhiza uralensis" .
+
+uniprot:78630 a sils:Species ;
+rdfs:label "Betula platyphylla" .
+
+uniprot:49827 a sils:Species ;
+rdfs:label "Glycyrrhiza glabra" .
+
+uniprot:99806 a sils:Species ;
+rdfs:label "Taxus cuspidata" .
+
+uniprot:228393 a sils:Species ;
+rdfs:label "Kalopanax septemlobus" .
+
+uniprot:39984 a sils:Species ;
+rdfs:label "Bruguiera gymnorhiza" .
+
+uniprot:137221 a sils:Species ;
+rdfs:label "Rheum palmatum" .
+
+uniprot:166014 a sils:Species ;
+rdfs:label "Bauhinia bauhinioides" .
+
+uniprot:63629 a sils:Species ;
+rdfs:label "Oryza minuta." .
+
+uniprot:36900 a sils:Species ;
+rdfs:label "Phalaenopsis sp." .
+
+uniprot:3486 a sils:Species ;
+rdfs:label "Humulus lupulus" .
+
+uniprot:39352 a sils:Species ;
+rdfs:label "Origanum vulgare" .
+
+uniprot:38851 a sils:Species ;
+rdfs:label "Gentiana lutea" .
+
+uniprot:44745 a sils:Species ;
+rdfs:label "Haematococcus lacustris" .
+
+uniprot:141207 a sils:Species ;
+rdfs:label "Oncidium hybrid cultivar" .
+
+uniprot:38868 a sils:Species ;
+rdfs:label "Salvia officinalis" .
+
+uniprot:1196215 a sils:Species ;
+rdfs:label "Lavandula x intermedia" .
+
+uniprot:36903 a sils:Species ;
+rdfs:label "Clarkia breweri" .
+
+uniprot:3673 a sils:Species ;
+rdfs:label "Momordica charantia" .
+
+uniprot:36599 a sils:Species ;
+rdfs:label "Sorbus aucuparia" .
+
+uniprot:13451 a sils:Species ;
+rdfs:label "Corylus avellana" .
+
+uniprot:94328 a sils:Species ;
+rdfs:label "Zingiber officinale" .
+
+uniprot:44656 a sils:Species ;
+rdfs:label "Protosiphon botryoides" .
+
+uniprot:4779 a sils:Species ;
+rdfs:label "Bremia lactucae" .
+
+uniprot:48026 a sils:Species ;
+rdfs:label "Ammi majus" .
+
+uniprot:48119 a sils:Species ;
+rdfs:label "Glehnia littoralis" .
+
+uniprot:312531 a sils:Species ;
+rdfs:label "Kitagawia praeruptora" .
+
+uniprot:102211 a sils:Species ;
+rdfs:label "Benincasa hispida" .
+
+uniprot:38881 a sils:Species ;
+rdfs:label "Botryococcus braunii" .
+
+uniprot:39450 a sils:Species ;
+rdfs:label "Prorocentrum triestinum" .
+
+uniprot:3589 a sils:Species ;
+rdfs:label "Basella alba" .
+
+uniprot:4082 a sils:Species ;
+rdfs:label "Solanum peruvianum" .
+
+uniprot:3696 a sils:Species ;
+rdfs:label "Populus deltoides" .
+
+uniprot:613112 a sils:Species ;
+rdfs:label "Boswellia serrata" .
+
+uniprot:3467 a sils:Species ;
+rdfs:label "Eschscholzia californica" .
+
+uniprot:13216 a sils:Species ;
+rdfs:label "Piper nigrum" .
+
+uniprot:35933 a sils:Species ;
+rdfs:label "Podophyllum peltatum" .
+
+uniprot:54796 a sils:Species ;
+rdfs:label "Argemone mexicana" .
+
+uniprot:127999 a sils:Species ;
+rdfs:label "Tanacetum parthenium" .
+
+uniprot:311405 a sils:Species ;
+rdfs:label "Zingiber zerumbet" .
+
+uniprot:4111 a sils:Species ;
+rdfs:label "Solanum melongena" .
+
+uniprot:28542 a sils:Species ;
+rdfs:label "Gelsemium sempervirens" .
+
+uniprot:54731 a sils:Species ;
+rdfs:label "Nepeta racemosa" .
+
+uniprot:34256 a sils:Species ;
+rdfs:label "Mentha piperita" .
+
+uniprot:13288 a sils:Species ;
+rdfs:label "Thlaspi arvense" .
+
+uniprot:396869 a sils:Species ;
+rdfs:label "Salvia pomifera" .
+
+uniprot:4108 a sils:Species ;
+rdfs:label "Solanum chacoense" .
+
+uniprot:241069 a sils:Species ;
+rdfs:label "Mentha gracilis" .
+
+uniprot:29719 a sils:Species ;
+rdfs:label "Mentha spicata" .
+
+uniprot:35935 a sils:Species ;
+rdfs:label "Parthenium argentatum" .
+
+uniprot:52518 a sils:Species ;
+rdfs:label "Eustoma exaltatum subsp. russellianum" .
+
+uniprot:56154 a sils:Species ;
+rdfs:label "Campanula medium" .
+
+uniprot:4233 a sils:Species ;
+rdfs:label "Helianthus tuberosus" .
+
+uniprot:373122 a sils:Species ;
+rdfs:label "Arnebia euchroma" .
+
+uniprot:137888 a sils:Species ;
+rdfs:label "Swertia mussotii" .
+
+uniprot:39367 a sils:Species ;
+rdfs:label "Rosmarinus officinalis" .
+
+uniprot:268906 a sils:Species ;
+rdfs:label "Salvia fruticosa" .
+
+uniprot:226208 a sils:Species ;
+rdfs:label "Salvia miltiorrhiza" .
+
+uniprot:3347 a sils:Species ;
+rdfs:label "Pinus radiata" .
+
+uniprot:94286 a sils:Species ;
+rdfs:label "Platycodon grandiflorus" .
+
+uniprot:992730 a sils:Species ;
+rdfs:label "Maesa lanceolata" .
+
+uniprot:13427 a sils:Species ;
+rdfs:label "Cichorium intybus" .
+
+uniprot:1805964 a sils:Species ;
+rdfs:label "Inula hupehensis" .
+
+uniprot:35626 a sils:Species ;
+rdfs:label "Hyoscyamus muticus" .
+
+uniprot:33814 a sils:Species ;
+rdfs:label "Berberis stolonifera" .
+
+uniprot:46348 a sils:Species ;
+rdfs:label "Glycyrrhiza echinata" .
+
+uniprot:300843 a sils:Species ;
+rdfs:label "Sesamum radiatum" .
+
+uniprot:3908 a sils:Species ;
+rdfs:label "Vicia sativa" .
+
+uniprot:1540222 a sils:Species ;
+rdfs:label "Narcissus aff. pseudonarcissus MK-2014" .
+
+uniprot:173492 a sils:Species ;
+rdfs:label "Prasiola crispa" .
+
+uniprot:29746 a sils:Species ;
+rdfs:label "Aralia cordata" .
+
+uniprot:3933 a sils:Species ;
+rdfs:label "Eucalyptus gunnii" .
+
+uniprot:33130 a sils:Species ;
+rdfs:label "Eucalyptus botryoides" .
+
+uniprot:34317 a sils:Species ;
+rdfs:label "Eucalyptus globulus" .
+
+uniprot:39329 a sils:Species ;
+rdfs:label "Lavandula angustifolia" .
+
+uniprot:187461 a sils:Species ;
+rdfs:label "Chamaecyparis formosensis" .
+
+uniprot:4225 a sils:Species ;
+rdfs:label "Flaveria linearis" .
+
+uniprot:4224 a sils:Species ;
+rdfs:label "Flaveria bidentis" .
+
+uniprot:33111 a sils:Species ;
+rdfs:label "Flaveria brownii" .
+
+uniprot:4226 a sils:Species ;
+rdfs:label "Flaveria pringlei." .
+
+uniprot:3046 a sils:Species ;
+rdfs:label "Dunaliella salina" .
+
+uniprot:4066 a sils:Species ;
+rdfs:label "Calotropis gigantea" .
+
+uniprot:4767 a sils:Species ;
+rdfs:label "Achlya klebsiana." .
+
+uniprot:2932 a sils:Species ;
+rdfs:label "Alexandrium fundyense" .
+
+uniprot:3652 a sils:Species ;
+rdfs:label "Bryonia dioica" .
+
+uniprot:28930 a sils:Species ;
+rdfs:label "Fagus sylvatica" .
+
+uniprot:82926 a sils:Species ;
+rdfs:label "Globisporangium splendens" .
+
+uniprot:66468 a sils:Species ;
+rdfs:label "Heterocapsa triquetra" .
+
+uniprot:407301 a sils:Species ;
+rdfs:label "Karlodinium veneficum" .
+
+uniprot:35122 a sils:Species ;
+rdfs:label "Macrocystis pyrifera" .
+
+uniprot:13158 a sils:Species ;
+rdfs:label "Mougeotia scalaris" .
+
+uniprot:71001 a sils:Species ;
+rdfs:label "Pfiesteria piscicida" .
+
+uniprot:39449 a sils:Species ;
+rdfs:label "Prorocentrum minimum" .
+
+uniprot:88149 a sils:Species ;
+rdfs:label "Saccharina japonica" .
+
+uniprot:51350 a sils:Species ;
+rdfs:label "Brassica rapa subsp. rapa" .
+
+uniprot:109792 a sils:Species ;
+rdfs:label "Citrus natsudaidai" .
+
+uniprot:34292 a sils:Species ;
+rdfs:label "Populus kitakamiensis" .
+
+uniprot:19744 a sils:Species ;
+rdfs:label "Stellaria longipes" .
+
+uniprot:34245 a sils:Species ;
+rdfs:label "Zinnia violacea" .
+
+uniprot:3823 a sils:Species ;
+rdfs:label "Canavalia ensiformis" .
+
+uniprot:3824 a sils:Species ;
+rdfs:label "Canavalia gladiata" .
+
+uniprot:4227 a sils:Species ;
+rdfs:label "Flaveria trinervia" .
+
+uniprot:4265 a sils:Species ;
+rdfs:label "Cynara cardunculus" .
+
+uniprot:3670 a sils:Species ;
+rdfs:label "Luffa aegyptiaca" .
+
+uniprot:59895 a sils:Species ;
+rdfs:label "Cynara cardunculus var. scolymus" .
+
+uniprot:4155 a sils:Species ;
+rdfs:label "Erythranthe guttata" .
+
+uniprot:75948 a sils:Species ;
+rdfs:label "Lactuca saligna" .
+
+uniprot:4529 a sils:Species ;
+rdfs:label "Oryza rufipogon" .
+
+uniprot:38727 a sils:Species ;
+rdfs:label "Panicum virgatum" .
+
+uniprot:109996 a sils:Species ;
+rdfs:label "Raphanus raphanistrum" .
+
+uniprot:50514 a sils:Species ;
+rdfs:label "Solanum demissum" .
+
+uniprot:4170 a sils:Species ;
+rdfs:label "Striga asiatica" .
+
+uniprot:68872 a sils:Species ;
+rdfs:label "Striga hermonthica" .
+
+uniprot:333970 a sils:Species ;
+rdfs:label "Taraxacum kok-saghyz" .
+
+uniprot:188295 a sils:Species ;
+rdfs:label "Triphysaria pusilla" .
+
+uniprot:23013 a sils:Species ;
+rdfs:label "Kalanchoe daigremontiana" .
+
+uniprot:90345 a sils:Species ;
+rdfs:label "Abies balsamea" .
+
+uniprot:82927 a sils:Species ;
+rdfs:label "Avicennia marina" .
+
+uniprot:66308 a sils:Species ;
+rdfs:label "Soldanella alpina" .
+
+uniprot:3553 a sils:Species ;
+rdfs:label "Atriplex nummularia" .
+
+uniprot:3192 a sils:Species ;
+rdfs:label "Spermatozopsis similis" .
+
+uniprot:3165 a sils:Species ;
+rdfs:label "Tetraselmis striata" .
+
+uniprot:4470 a sils:Species ;
+rdfs:label "Lemna gibba" .
+
+uniprot:52853 a sils:Species ;
+rdfs:label "Silene latifolia subsp. alba" .
+
+uniprot:3349 a sils:Species ;
+rdfs:label "Pinus sylvestris" .
+
+uniprot:3279 a sils:Species ;
+rdfs:label "Polystichum munitum" .
+
+uniprot:3767 a sils:Species ;
+rdfs:label "Pyrus pyrifolia" .
+
+uniprot:3054 a sils:Species ;
+rdfs:label "Chlamydomonas moewusii" .
+
+uniprot:3047 a sils:Species ;
+rdfs:label "Dunaliella tertiolecta" .
+
+uniprot:23110 a sils:Species ;
+rdfs:label "Hydrangea macrophylla" .
+
+uniprot:3972 a sils:Species ;
+rdfs:label "Viscum album" .
+
+uniprot:3735 a sils:Species ;
+rdfs:label "Moringa oleifera" .
+
+uniprot:2961 a sils:Species ;
+rdfs:label "Amphidinium carterae" .
+
+uniprot:82528 a sils:Species ;
+rdfs:label "Crocus sativus" .
+
+uniprot:36902 a sils:Species ;
+rdfs:label "Medicago sativa subsp. varia" .
+
+uniprot:3918 a sils:Species ;
+rdfs:label "Vigna aconitifolia" .
+
+uniprot:66018 a sils:Species ;
+rdfs:label "Digitaria ciliaris" .
+
+uniprot:227868 a sils:Species ;
+rdfs:label "Echinochloa crus-galli subsp. caudata" .
+
+uniprot:62337 a sils:Species ;
+rdfs:label "Miscanthus sinensis" .
+
+uniprot:4460 a sils:Species ;
+rdfs:label "Colocasia esculenta" .
+
+uniprot:372551 a sils:Species ;
+rdfs:label "Paubrasilia echinata" .
+
+uniprot:4212 a sils:Species ;
+rdfs:label "Ambrosia artemisiifolia" .
+
+uniprot:41568 a sils:Species ;
+rdfs:label "Chrysanthemum morifolium" .
+
+uniprot:59691 a sils:Species ;
+rdfs:label "Arabidopsis lyrata subsp. petraea" .
+
+uniprot:13379 a sils:Species ;
+rdfs:label "Callistephus chinensis" .
+
+uniprot:4442 a sils:Species ;
+rdfs:label "Camellia sinensis" .
+
+uniprot:341692 a sils:Species ;
+rdfs:label "Canna generalis" .
+
+uniprot:43366 a sils:Species ;
+rdfs:label "Clitoria ternatea" .
+
+uniprot:43233 a sils:Species ;
+rdfs:label "Elaeagnus umbellata" .
+
+uniprot:3893 a sils:Species ;
+rdfs:label "Pueraria montana var. lobata" .
+
+uniprot:23211 a sils:Species ;
+rdfs:label "Pyrus communis" .
+
+uniprot:137893 a sils:Species ;
+rdfs:label "Saussurea medusa" .
+
+uniprot:2708 a sils:Species ;
+rdfs:label "Citrus limon" .
+
+uniprot:3034 a sils:Species ;
+rdfs:label "Pyrenomonas salina." .
+
+uniprot:3559 a sils:Species ;
+rdfs:label "Chenopodium album" .
+
+uniprot:25629 a sils:Species ;
+rdfs:label "Taxus baccata" .
+
+uniprot:4083 a sils:Species ;
+rdfs:label "Solanum chilense" .
+
+uniprot:110455 a sils:Species ;
+rdfs:label "Tulipa saxatilis subsp. bakeri" .
+
+uniprot:4673 a sils:Species ;
+rdfs:label "Dioscorea japonica" .
+
+uniprot:22663 a sils:Species ;
+rdfs:label "Punica granatum" .
+
+uniprot:1521447 a sils:Species ;
+rdfs:label "Triplochiton scleroxylon" .
+
+uniprot:157914 a sils:Species ;
+rdfs:label "Ziziphus mauritiana" .
+
+uniprot:34341 a sils:Species ;
+rdfs:label "Araucaria heterophylla" .
+
+uniprot:3075 a sils:Species ;
+rdfs:label "Auxenochlorella protothecoides" .
+
+uniprot:13808 a sils:Species ;
+rdfs:label "Bazzania trilobata" .
+
+uniprot:35704 a sils:Species ;
+rdfs:label "Chlamydomonas applanata" .
+
+uniprot:3061 a sils:Species ;
+rdfs:label "Chlamydomonas pitschmannii." .
+
+uniprot:38493 a sils:Species ;
+rdfs:label "Cibotium schiedei" .
+
+uniprot:29589 a sils:Species ;
+rdfs:label "Claytosmunda claytoniana" .
+
+uniprot:34168 a sils:Species ;
+rdfs:label "Diphasiastrum complanatum" .
+
+uniprot:3391 a sils:Species ;
+rdfs:label "Ephedra altissima" .
+
+uniprot:3261 a sils:Species ;
+rdfs:label "Equisetum scirpoides" .
+
+uniprot:38494 a sils:Species ;
+rdfs:label "Isoetes echinospora" .
+
+uniprot:3371 a sils:Species ;
+rdfs:label "Metasequoia glyptostroboides" .
+
+uniprot:34165 a sils:Species ;
+rdfs:label "Nephrolepis exaltata" .
+
+uniprot:3335 a sils:Species ;
+rdfs:label "Picea mariana" .
+
+uniprot:34163 a sils:Species ;
+rdfs:label "Pleurozium schreberi" .
+
+uniprot:3213 a sils:Species ;
+rdfs:label "Polytrichum commune" .
+
+uniprot:34166 a sils:Species ;
+rdfs:label "Salvinia auriculata" .
+
+uniprot:34167 a sils:Species ;
+rdfs:label "Selaginella mollis" .
+
+uniprot:49500 a sils:Species ;
+rdfs:label "Sphaeropteris cooperi" .
+
+uniprot:13840 a sils:Species ;
+rdfs:label "Spinulum annotinum" .
+
+uniprot:34343 a sils:Species ;
+rdfs:label "Stangeria eriopus" .
+
+uniprot:34342 a sils:Species ;
+rdfs:label "Zamia fischeri" .
+
+uniprot:83000 a sils:Species ;
+rdfs:label "Olisthodiscus luteus" .
+
+uniprot:71402 a sils:Species ;
+rdfs:label "Larix decidua" .
+
+uniprot:28470 a sils:Species ;
+rdfs:label "Polystichum acrostichoides" .
+
+uniprot:3607 a sils:Species ;
+rdfs:label "Parthenocissus quinquefolia" .
+
+uniprot:29722 a sils:Species ;
+rdfs:label "Amaranthus tricolor" .
+
+uniprot:235357 a sils:Species ;
+rdfs:label "Artemisia spiciformis" .
+
+uniprot:3900 a sils:Species ;
+rdfs:label "Trifolium subterraneum" .
+
+uniprot:41205 a sils:Species ;
+rdfs:label "Bromheadia finlaysoniana" .
+
+uniprot:35882 a sils:Species ;
+rdfs:label "Ipomoea cordatotriloba" .
+
+uniprot:35881 a sils:Species ;
+rdfs:label "Ipomoea platensis" .
+
+uniprot:35884 a sils:Species ;
+rdfs:label "Ipomoea trifida" .
+
+uniprot:35885 a sils:Species ;
+rdfs:label "Ipomoea triloba" .
+
+uniprot:50452 a sils:Species ;
+rdfs:label "Arabis alpina" .
+
+uniprot:50461 a sils:Species ;
+rdfs:label "Cardamine amara" .
+
+uniprot:36749 a sils:Species ;
+rdfs:label "Chrysosplenium americanum" .
+
+uniprot:129769 a sils:Species ;
+rdfs:label "Dianthus monspessulanus." .
+
+uniprot:140968 a sils:Species ;
+rdfs:label "Hypericum androsaemum" .
+
+uniprot:3724 a sils:Species ;
+rdfs:label "Matthiola incana" .
+
+uniprot:3882 a sils:Species ;
+rdfs:label "Onobrychis viciifolia" .
+
+uniprot:37553 a sils:Species ;
+rdfs:label "Saprolegnia monoica." .
+
+uniprot:56992 a sils:Species ;
+rdfs:label "Araucaria angustifolia" .
+
+uniprot:200320 a sils:Species ;
+rdfs:label "Nicotiana suaveolens" .
+
+uniprot:510798 a sils:Species ;
+rdfs:label "Chassalia chartacea." .
+
+uniprot:58431 a sils:Species ;
+rdfs:label "Chassalia parviflora." .
+
+uniprot:37334 a sils:Species ;
+rdfs:label "Citrus maxima" .
+
+uniprot:4100 a sils:Species ;
+rdfs:label "Nicotiana benthamiana" .
+
+uniprot:261999 a sils:Species ;
+rdfs:label "Camellia sinensis var. assamica" .
+
+uniprot:38869 a sils:Species ;
+rdfs:label "Salvia sclarea" .
+
+uniprot:483148 a sils:Species ;
+rdfs:label "Cistus creticus subsp. creticus" .
+
+uniprot:55184 a sils:Species ;
+rdfs:label "Acorus gramineus" .
+
+uniprot:13469 a sils:Species ;
+rdfs:label "Cupressus sempervirens" .
+
+uniprot:13101 a sils:Species ;
+rdfs:label "Juniperus ashei" .
+
+uniprot:49390 a sils:Species ;
+rdfs:label "Coffea canephora" .
+
+uniprot:74649 a sils:Species ;
+rdfs:label "Rosa chinensis" .
+
+uniprot:61861 a sils:Species ;
+rdfs:label "Canavalia brasiliensis" .
+
+uniprot:28958 a sils:Species ;
+rdfs:label "Canavalia cathartica" .
+
+uniprot:28957 a sils:Species ;
+rdfs:label "Canavalia lineata" .
+
+uniprot:3825 a sils:Species ;
+rdfs:label "Canavalia rosea" .
+
+uniprot:46385 a sils:Species ;
+rdfs:label "Eleutherococcus trifoliatus" .
+
+uniprot:98038 a sils:Species ;
+rdfs:label "Eutrema halophilum" .
+
+uniprot:34344 a sils:Species ;
+rdfs:label "Ephedra major" .
+
+uniprot:49992 a sils:Species ;
+rdfs:label "Thymus vulgaris" .
+
+uniprot:268884 a sils:Species ;
+rdfs:label "Origanum majorana" .
+
+uniprot:662907 a sils:Species ;
+rdfs:label "Isodon eriocalyx" .
+
+uniprot:425908 a sils:Species ;
+rdfs:label "Isodon japonicus" .
+
+uniprot:587669 a sils:Species ;
+rdfs:label "Isodon rubescens" .
+
+uniprot:41230 a sils:Species ;
+rdfs:label "Marrubium vulgare" .
+
+uniprot:3721 a sils:Species ;
+rdfs:label "Crambe hispanica subsp. abyssinica" .
+
+uniprot:3993 a sils:Species ;
+rdfs:label "Euphorbia esula" .
+
+uniprot:4784 a sils:Species ;
+rdfs:label "Phytophthora capsici." .
+
+uniprot:350892 a sils:Species ;
+rdfs:label "Beta vulgaris subsp. maritima" .
+
+uniprot:296587 a sils:Species ;
+rdfs:label "Micromonas commoda" .
+
+uniprot:564608 a sils:Species ;
+rdfs:label "Micromonas pusilla" .
+
+uniprot:90694 a sils:Species ;
+rdfs:label "Osmunda lancea" .
+
+uniprot:104588 a sils:Species ;
+rdfs:label "Pteridium aquilinum subsp. aquilinum" .
+
+uniprot:88036 a sils:Species ;
+rdfs:label "Selaginella moellendorffii" .
+
+uniprot:4676 a sils:Species ;
+rdfs:label "Molineria latifolia" .
+
+uniprot:136217 a sils:Species ;
+rdfs:label "Curcuma longa" .
+
+uniprot:49495 a sils:Species ;
+rdfs:label "Ceratopteris richardii" .
+
+uniprot:1577725 a sils:Species ;
+rdfs:label "Thalassiosira weissflogii" .
+
+uniprot:13363 a sils:Species ;
+rdfs:label "Borago officinalis" .
+
+uniprot:107036 a sils:Species ;
+rdfs:label "Amphidinium operculatum" .
+
+uniprot:3124 a sils:Species ;
+rdfs:label "Coleochaete orbicularis" .
+
+uniprot:201239 a sils:Species ;
+rdfs:label "Klebsormidium bilatum" .
+
+uniprot:2843 a sils:Species ;
+rdfs:label "Skeletonema costatum" .
+
+uniprot:3180 a sils:Species ;
+rdfs:label "Spirogyra maxima" .
+
+uniprot:54477 a sils:Species ;
+rdfs:label "Vitex agnus-castus" .
+
+uniprot:16922 a sils:Species ;
+rdfs:label "Camptotheca acuminata" .
+
+uniprot:2889 a sils:Species ;
+rdfs:label "Alaria esculenta" .
+
+uniprot:2835 a sils:Species ;
+rdfs:label "Bumilleriopsis filiformis" .
+
+uniprot:34112 a sils:Species ;
+rdfs:label "Chlorolobion braunii" .
+
+uniprot:162068 a sils:Species ;
+rdfs:label "Cladophora glomerata." .
+
+uniprot:3040 a sils:Species ;
+rdfs:label "Euglena viridis" .
+
+uniprot:2785 a sils:Species ;
+rdfs:label "Neopyropia tenera" .
+
+uniprot:2893 a sils:Species ;
+rdfs:label "Petalonia fascia" .
+
+uniprot:102600 a sils:Species ;
+rdfs:label "Antirrhinum cirrhigerum" .
+
+uniprot:102601 a sils:Species ;
+rdfs:label "Antirrhinum linkianum" .
+
+uniprot:49314 a sils:Species ;
+rdfs:label "Annona cherimola" .
+
+uniprot:3631 a sils:Species ;
+rdfs:label "Abutilon theophrasti" .
+
+uniprot:4023 a sils:Species ;
+rdfs:label "Acer negundo" .
+
+uniprot:4681 a sils:Species ;
+rdfs:label "Allium porrum" .
+
+uniprot:4458 a sils:Species ;
+rdfs:label "Arum maculatum" .
+
+uniprot:3444 a sils:Species ;
+rdfs:label "Nigella damascena" .
+
+uniprot:4202 a sils:Species ;
+rdfs:label "Sambucus nigra" .
+
+uniprot:4020 a sils:Species ;
+rdfs:label "Tropaeolum majus" .
+
+uniprot:3116 a sils:Species ;
+rdfs:label "Ulva intestinalis" .
+
+uniprot:163303 a sils:Species ;
+rdfs:label "Chlamydomonas subcaudata." .
+
+uniprot:685569 a sils:Species ;
+rdfs:label "Gloeospermum pauciflorum." .
+
+uniprot:180952 a sils:Species ;
+rdfs:label "Viola hederacea" .
+
+uniprot:212266 a sils:Species ;
+rdfs:label "Afrohybanthus enneaspermus" .
+
+uniprot:41680 a sils:Species ;
+rdfs:label "Psychotria longipes." .
+
+uniprot:1977830 a sils:Species ;
+rdfs:label "Leonia triandra." .
+
+uniprot:316498 a sils:Species ;
+rdfs:label "Melicytus ramiflorus" .
+
+uniprot:450841 a sils:Species ;
+rdfs:label "Melicytus obovatus" .
+
+uniprot:453349 a sils:Species ;
+rdfs:label "Melicytus chathamicus" .
+
+uniprot:491106 a sils:Species ;
+rdfs:label "Melicytus dentatus" .
+
+uniprot:212268 a sils:Species ;
+rdfs:label "Melicytus latifolius" .
+
+uniprot:491104 a sils:Species ;
+rdfs:label "Melicytus angustifolius" .
+
+uniprot:28909 a sils:Species ;
+rdfs:label "Cynodon dactylon" .
+
+uniprot:97441 a sils:Species ;
+rdfs:label "Viola odorata" .
+
+uniprot:97415 a sils:Species ;
+rdfs:label "Viola arvensis" .
+
+uniprot:980682 a sils:Species ;
+rdfs:label "Psychotria brachyceras." .
+
+uniprot:214529 a sils:Species ;
+rdfs:label "Viola biflora" .
+
+uniprot:59596 a sils:Species ;
+rdfs:label "Palicourea guianensis" .
+
+uniprot:2022332 a sils:Species ;
+rdfs:label "Psychotria leiocarpa." .
+
+uniprot:323200 a sils:Species ;
+rdfs:label "Unspecified eudicot DB-1992." .
+
+uniprot:35926 a sils:Species ;
+rdfs:label "Vasconcellea cundinamarcensis" .
+
+uniprot:29711 a sils:Species ;
+rdfs:label "Hemerocallis sp." .
+
+uniprot:3922 a sils:Species ;
+rdfs:label "Wisteria floribunda" .
+
+uniprot:341676 a sils:Species ;
+rdfs:label "Leonia cymosa" .
+
+uniprot:341256 a sils:Species ;
+rdfs:label "Viola cotyledon" .
+
+uniprot:591085 a sils:Species ;
+rdfs:label "Viola diffusa." .
+
+uniprot:591090 a sils:Species ;
+rdfs:label "Viola inconspicua." .
+
+uniprot:97445 a sils:Species ;
+rdfs:label "Viola pubescens" .
+
+uniprot:145168 a sils:Species ;
+rdfs:label "Thraustochytrium sp." .
+
+uniprot:37319 a sils:Species ;
+rdfs:label "Pseudo-nitzschia multiseries" .
+
+uniprot:4505 a sils:Species ;
+rdfs:label "Coix lacryma-jobi" .
+
+uniprot:55575 a sils:Species ;
+rdfs:label "Dioscorea polystachya" .
+
+uniprot:88032 a sils:Species ;
+rdfs:label "Taxus canadensis" .
+
+uniprot:79200 a sils:Species ;
+rdfs:label "Daucus carota subsp. sativus" .
+
+uniprot:4076 a sils:Species ;
+rdfs:label "Datura stramonium" .
+
+uniprot:15565 a sils:Species ;
+rdfs:label "Hordeum chilense" .
+
+uniprot:97234 a sils:Species ;
+rdfs:label "Dryopteris crassirhizoma" .
+
+uniprot:29729 a sils:Species ;
+rdfs:label "Gossypium arboreum" .
+
+uniprot:142759 a sils:Species ;
+rdfs:label "Solanum cheesmaniae" .
+
+uniprot:4568 a sils:Species ;
+rdfs:label "Triticum monococcum" .
+
+uniprot:43364 a sils:Species ;
+rdfs:label "Aesculus hippocastanum" .
+
+uniprot:43367 a sils:Species ;
+rdfs:label "Dahlia merckii" .
+
+uniprot:43368 a sils:Species ;
+rdfs:label "Heuchera sanguinea" .
+
+uniprot:62141 a sils:Species ;
+rdfs:label "Nicotiana paniculata." .
+
+uniprot:555479 a sils:Species ;
+rdfs:label "Nigella sativa" .
+
+uniprot:59324 a sils:Species ;
+rdfs:label "Gymnadenia conopsea" .
+
+uniprot:362247 a sils:Species ;
+rdfs:label "Lens culinaris subsp. culinaris" .
+
+uniprot:4432 a sils:Species ;
+rdfs:label "Nelumbo nucifera" .
+
+uniprot:4087 a sils:Species ;
+rdfs:label "Nicotiana alata" .
+
+uniprot:43545 a sils:Species ;
+rdfs:label "Pentadiplandra brazzeana." .
+
+uniprot:4103 a sils:Species ;
+rdfs:label "Petunia integrifolia" .
+
+uniprot:3886 a sils:Species ;
+rdfs:label "Phaseolus coccineus" .
+
+uniprot:138955 a sils:Species ;
+rdfs:label "Vigna unguiculata subsp. sesquipedalis" .
+
+uniprot:78632 a sils:Species ;
+rdfs:label "Corylus americana" .
+
+uniprot:223751 a sils:Species ;
+rdfs:label "Aquilaria crassna" .
+
+uniprot:3076 a sils:Species ;
+rdfs:label "Chlorella sorokiniana" .
+
+uniprot:93496 a sils:Species ;
+rdfs:label "Senecio vernalis" .
+
+uniprot:3583 a sils:Species ;
+rdfs:label "Portulaca grandiflora" .
+
+uniprot:46901 a sils:Species ;
+rdfs:label "Persicaria hydropiper" .
+
+uniprot:72433 a sils:Species ;
+rdfs:label "Delonix regia" .
+
+uniprot:2853 a sils:Species ;
+rdfs:label "Cylindrotheca fusiformis" .
+
+uniprot:19953 a sils:Species ;
+rdfs:label "Valeriana officinalis" .
+
+uniprot:173654 a sils:Species ;
+rdfs:label "Hematodinium sp." .
+
+uniprot:103349 a sils:Species ;
+rdfs:label "Vitis rotundifolia" .
+
+uniprot:4392 a sils:Species ;
+rdfs:label "Eucommia ulmoides" .
+
+uniprot:2880 a sils:Species ;
+rdfs:label "Ectocarpus siliculosus" .
+
+uniprot:12968 a sils:Species ;
+rdfs:label "Blastocystis hominis." .
+
+uniprot:45043 a sils:Species ;
+rdfs:label "Spuriopimpinella brachycarpa" .
+
+uniprot:42229 a sils:Species ;
+rdfs:label "Prunus avium" .
+
+uniprot:3130 a sils:Species ;
+rdfs:label "Bryopsis plumosa" .
+
+uniprot:13779 a sils:Species ;
+rdfs:label "Chara connivens" .
+
+uniprot:3133 a sils:Species ;
+rdfs:label "Codium fragile" .
+
+uniprot:33107 a sils:Species ;
+rdfs:label "Derbesia marina." .
+
+uniprot:3037 a sils:Species ;
+rdfs:label "Euglena longa" .
+
+uniprot:33097 a sils:Species ;
+rdfs:label "Gonium pectorale" .
+
+uniprot:2782 a sils:Species ;
+rdfs:label "Gracilariopsis lemaneiformis" .
+
+uniprot:67809 a sils:Species ;
+rdfs:label "Gymnochlora stellata." .
+
+uniprot:13608 a sils:Species ;
+rdfs:label "Mantoniella squamata" .
+
+uniprot:33099 a sils:Species ;
+rdfs:label "Pandorina morum" .
+
+uniprot:29205 a sils:Species ;
+rdfs:label "Stephanocyclus meneghinianus" .
+
+uniprot:64884 a sils:Species ;
+rdfs:label "Citrus jambhiri" .
+
+uniprot:37690 a sils:Species ;
+rdfs:label "Poncirus trifoliata" .
+
+uniprot:907947 a sils:Species ;
+rdfs:label "Phytopythium vexans" .
+
+uniprot:41045 a sils:Species ;
+rdfs:label "Pythium oligandrum" .
+
+uniprot:4786 a sils:Species ;
+rdfs:label "Phytophthora cryptogea." .
+
+uniprot:4794 a sils:Species ;
+rdfs:label "Phytophthora drechsleri." .
+
+uniprot:175300 a sils:Species ;
+rdfs:label "Phytophthora hibernalis." .
+
+uniprot:67594 a sils:Species ;
+rdfs:label "Phytophthora syringae" .
+
+uniprot:4785 a sils:Species ;
+rdfs:label "Phytophthora cinnamomi" .
+
+uniprot:4792 a sils:Species ;
+rdfs:label "Phytophthora parasitica" .
+
+uniprot:57918 a sils:Species ;
+rdfs:label "Fragaria vesca" .
+
+uniprot:80369 a sils:Species ;
+rdfs:label "Imperata cylindrica" .
+
+uniprot:55671 a sils:Species ;
+rdfs:label "Enterolobium contortisiliquum" .
+
+uniprot:52861 a sils:Species ;
+rdfs:label "Tabernaemontana divaricata" .
+
+uniprot:4588 a sils:Species ;
+rdfs:label "Thinopyrum elongatum" .
+
+uniprot:3658 a sils:Species ;
+rdfs:label "Cucumis melo var. cantalupensis" .
+
+uniprot:147272 a sils:Species ;
+rdfs:label "Paspalum notatum" .
+
+uniprot:77588 a sils:Species ;
+rdfs:label "Oryza coarctata" .
+
+uniprot:49577 a sils:Species ;
+rdfs:label "Hellenia speciosa" .
+
+uniprot:119830 a sils:Species ;
+rdfs:label "Solanum torvum" .
+
+uniprot:321363 a sils:Species ;
+rdfs:label "Rhododendron delavayi" .
+
+uniprot:4228 a sils:Species ;
+rdfs:label "Flaveria chlorifolia" .
+
+uniprot:35942 a sils:Species ;
+rdfs:label "Cuphea wrightii" .
+
+uniprot:41496 a sils:Species ;
+rdfs:label "Calendula officinalis" .
+
+uniprot:72610 a sils:Species ;
+rdfs:label "Crepis alpina" .
+
+uniprot:3677 a sils:Species ;
+rdfs:label "Trichosanthes kirilowii" .
+
+uniprot:112408 a sils:Species ;
+rdfs:label "Dimorphotheca sinuata" .
+
+uniprot:73154 a sils:Species ;
+rdfs:label "Vernicia fordii" .
+
+uniprot:554065 a sils:Species ;
+rdfs:label "Chlorella variabilis" .
+
+uniprot:135197 a sils:Species ;
+rdfs:label "Citrus junos" .
+
+uniprot:4576 a sils:Species ;
+rdfs:label "Zea diploperennis" .
+
+uniprot:112001 a sils:Species ;
+rdfs:label "Zea mays subsp. huehuetenangensis" .
+
+uniprot:4579 a sils:Species ;
+rdfs:label "Zea mays subsp. mexicana" .
+
+uniprot:4580 a sils:Species ;
+rdfs:label "Zea perennis" .
+
+uniprot:3999 a sils:Species ;
+rdfs:label "Simmondsia chinensis" .
+
+uniprot:4047 a sils:Species ;
+rdfs:label "Coriandrum sativum" .
+
+uniprot:857185 a sils:Species ;
+rdfs:label "Cuphea viscosissima" .
+
+uniprot:36775 a sils:Species ;
+rdfs:label "Cuphea hookeriana" .
+
+uniprot:3438 a sils:Species ;
+rdfs:label "Umbellularia californica" .
+
+uniprot:37099 a sils:Species ;
+rdfs:label "Isochrysis galbana" .
+
+uniprot:1343917 a sils:Species ;
+rdfs:label "Lavandula pedunculata subsp. lusitanica" .
+
+uniprot:39333 a sils:Species ;
+rdfs:label "Lavandula stoechas" .
+
+uniprot:1343918 a sils:Species ;
+rdfs:label "Lavandula viridis" .
+
+uniprot:3260 a sils:Species ;
+rdfs:label "Equisetum telmateia" .
+
+uniprot:4079 a sils:Species ;
+rdfs:label "Hyoscyamus niger" .
+
+uniprot:3527 a sils:Species ;
+rdfs:label "Phytolacca americana" .
+
+uniprot:3528 a sils:Species ;
+rdfs:label "Phytolacca acinosa" .
+
+uniprot:4456 a sils:Species ;
+rdfs:label "Alocasia macrorrhizos" .
+
+uniprot:221454 a sils:Species ;
+rdfs:label "Alkekengi officinarum var. franchetii" .
+
+uniprot:4217 a sils:Species ;
+rdfs:label "Arctium lappa" .
+
+uniprot:41689 a sils:Species ;
+rdfs:label "Brugmansia arborea" .
+
+uniprot:4075 a sils:Species ;
+rdfs:label "Datura inoxia" .
+
+uniprot:35625 a sils:Species ;
+rdfs:label "Datura metel" .
+
+uniprot:45451 a sils:Species ;
+rdfs:label "Datura quercifolia" .
+
+uniprot:3274 a sils:Species ;
+rdfs:label "Gleichenia japonica" .
+
+uniprot:3866 a sils:Species ;
+rdfs:label "Leucaena leucocephala" .
+
+uniprot:112883 a sils:Species ;
+rdfs:label "Lycium chinense" .
+
+uniprot:2822 a sils:Species ;
+rdfs:label "Palmaria palmata" .
+
+uniprot:2868 a sils:Species ;
+rdfs:label "Peridinium bipes" .
+
+uniprot:2792 a sils:Species ;
+rdfs:label "Porphyridium aerugineum" .
+
+uniprot:35688 a sils:Species ;
+rdfs:label "Porphyridium purpureum" .
+
+uniprot:3073 a sils:Species ;
+rdfs:label "Scenedesmus fuscus" .
+
+uniprot:3089 a sils:Species ;
+rdfs:label "Scenedesmus quadricauda" .
+
+uniprot:221162 a sils:Species ;
+rdfs:label "Scopolia japonica" .
+
+uniprot:45831 a sils:Species ;
+rdfs:label "Solanum abutiloides" .
+
+uniprot:227722 a sils:Species ;
+rdfs:label "Solanum lasiocarpum" .
+
+uniprot:230192 a sils:Species ;
+rdfs:label "Solanum lyratum" .
+
+uniprot:4112 a sils:Species ;
+rdfs:label "Solanum nigrum" .
+
+uniprot:180498 a sils:Species ;
+rdfs:label "Jatropha curcas" .
+
+uniprot:35936 a sils:Species ;
+rdfs:label "Lablab purpureus" .
+
+uniprot:141206 a sils:Species ;
+rdfs:label "Malus baccata var. xiaojinensis" .
+
+uniprot:237940 a sils:Species ;
+rdfs:label "Viburnum furcatum" .
+
+uniprot:77546 a sils:Species ;
+rdfs:label "Scenedesmus vacuolatus" .
+
+uniprot:3403 a sils:Species ;
+rdfs:label "Magnolia liliiflora" .
+
+uniprot:3447 a sils:Species ;
+rdfs:label "Ranunculus acris" .
+
+uniprot:50280 a sils:Species ;
+rdfs:label "Clarkia arcuata." .
+
+uniprot:49040 a sils:Species ;
+rdfs:label "Clarkia concinna" .
+
+uniprot:49755 a sils:Species ;
+rdfs:label "Clarkia franciscana." .
+
+uniprot:3936 a sils:Species ;
+rdfs:label "Clarkia lewisii" .
+
+uniprot:49756 a sils:Species ;
+rdfs:label "Clarkia mildrediae." .
+
+uniprot:49041 a sils:Species ;
+rdfs:label "Clarkia rostrata." .
+
+uniprot:49757 a sils:Species ;
+rdfs:label "Clarkia williamsonii." .
+
+uniprot:3938 a sils:Species ;
+rdfs:label "Clarkia xantiana" .
+
+uniprot:63677 a sils:Species ;
+rdfs:label "Arabidopsis halleri subsp. gemmifera" .
+
+uniprot:49758 a sils:Species ;
+rdfs:label "Oenothera sinuata var. hirsuta" .
+
+uniprot:171760 a sils:Species ;
+rdfs:label "Barnadesia spinosa" .
+
+uniprot:324593 a sils:Species ;
+rdfs:label "Saussurea costus" .
+
+uniprot:40337 a sils:Species ;
+rdfs:label "Mucuna pruriens var. utilis" .
+
+uniprot:35877 a sils:Species ;
+rdfs:label "Flaveria anomala" .
+
+uniprot:35880 a sils:Species ;
+rdfs:label "Flaveria pubescens" .
+
+uniprot:192326 a sils:Species ;
+rdfs:label "Cinnamomum tenuipile" .
+
+uniprot:98588 a sils:Species ;
+rdfs:label "Rhizophora stylosa" .
+
+uniprot:694369 a sils:Species ;
+rdfs:label "Leucosceptrum canum" .
+
+uniprot:3382 a sils:Species ;
+rdfs:label "Gnetum gnemon" .
+
+uniprot:38942 a sils:Species ;
+rdfs:label "Quercus robur" .
+
+uniprot:13415 a sils:Species ;
+rdfs:label "Chamaecyparis obtusa" .
+
+uniprot:59689 a sils:Species ;
+rdfs:label "Arabidopsis lyrata" .
+
+uniprot:231512 a sils:Species ;
+rdfs:label "Vitis pseudoreticulata" .
+
+uniprot:3498 a sils:Species ;
+rdfs:label "Morus alba" .
+
+uniprot:38596 a sils:Species ;
+rdfs:label "Ajuga reptans" .
+
+uniprot:373036 a sils:Species ;
+rdfs:label "Griffithsia sp." .
+
+uniprot:608512 a sils:Species ;
+rdfs:label "Perilla frutescens var. hirtella" .
+
+uniprot:52152 a sils:Species ;
+rdfs:label "Elymus repens" .
+
+uniprot:120290 a sils:Species ;
+rdfs:label "Psidium guajava" .
+
+uniprot:3878 a sils:Species ;
+rdfs:label "Medicago sativa subsp. falcata" .
+
+uniprot:42043 a sils:Species ;
+rdfs:label "Silene vulgaris" .
+
+uniprot:267265 a sils:Species ;
+rdfs:label "Solanum aculeatissimum" .
+
+uniprot:4068 a sils:Species ;
+rdfs:label "Gymnema sylvestre" .
+
+uniprot:85571 a sils:Species ;
+rdfs:label "Citrus reticulata" .
+
+uniprot:3697 a sils:Species ;
+rdfs:label "Populus sp." .
+
+uniprot:66097 a sils:Species ;
+rdfs:label "Gymnocladus chinensis" .
+
+uniprot:28526 a sils:Species ;
+rdfs:label "Solanum pennellii" .
+
+uniprot:3300 a sils:Species ;
+rdfs:label "Encephalartos altensteinii" .
+
+uniprot:4521 a sils:Species ;
+rdfs:label "Lolium multiflorum" .
+
+uniprot:34176 a sils:Species ;
+rdfs:label "Lolium temulentum" .
+
+uniprot:83288 a sils:Species ;
+rdfs:label "Griffithsia japonica" .
+
+uniprot:71251 a sils:Species ;
+rdfs:label "Chelidonium majus" .
+
+uniprot:3480 a sils:Species ;
+rdfs:label "Trema tomentosa" .
+
+uniprot:76912 a sils:Species ;
+rdfs:label "Zea mays subsp. parviglumis" .
+
+uniprot:3476 a sils:Species ;
+rdfs:label "Parasponia andersonii" .
+
+uniprot:3477 a sils:Species ;
+rdfs:label "Parasponia rigida." .
+
+uniprot:2866 a sils:Species ;
+rdfs:label "Crypthecodinium cohnii" .
+
+uniprot:64040 a sils:Species ;
+rdfs:label "Actaea racemosa" .
+
+uniprot:3247 a sils:Species ;
+rdfs:label "Selaginella martensii" .
+
+uniprot:3716 a sils:Species ;
+rdfs:label "Brassica oleracea var. capitata" .
+
+uniprot:2801 a sils:Species ;
+rdfs:label "Rhodella violacea" .
+
+uniprot:203015 a sils:Species ;
+rdfs:label "Rhodiola rosea" .
+
+uniprot:4142 a sils:Species ;
+rdfs:label "Plectranthus scutellarioides" .
+
+uniprot:88730 a sils:Species ;
+rdfs:label "Pinus massoniana" .
+
+uniprot:3874 a sils:Species ;
+rdfs:label "Lupinus polyphyllus" .
+
+uniprot:76276 a sils:Species ;
+rdfs:label "Senecio vulgaris" .
+
+uniprot:695850 a sils:Species ;
+rdfs:label "Saprolegnia parasitica" .
+
+uniprot:343459 a sils:Species ;
+rdfs:label "Hybanthus floribundus" .
+
+uniprot:179672 a sils:Species ;
+rdfs:label "Pombalia parviflor" .
+
+uniprot:4511 a sils:Species ;
+rdfs:label "Eleusine coracana" .
+
+uniprot:187148 a sils:Species ;
+rdfs:label "Amburana acreana" .
+
+uniprot:124593 a sils:Species ;
+rdfs:label "Dioclea glabra." .
+
+uniprot:149628 a sils:Species ;
+rdfs:label "Amburana cearensis" .
+
+uniprot:4555 a sils:Species ;
+rdfs:label "Setaria italica" .
+
+uniprot:3876 a sils:Species ;
+rdfs:label "Macrotyloma axillare" .
+
+uniprot:3926 a sils:Species ;
+rdfs:label "Philenoptera violacea" .
+
+uniprot:3845 a sils:Species ;
+rdfs:label "Erythrina variegata" .
+
+uniprot:36901 a sils:Species ;
+rdfs:label "Medicago scutellata" .
+
+uniprot:33129 a sils:Species ;
+rdfs:label "Phaseolus acutifolius" .
+
+uniprot:3884 a sils:Species ;
+rdfs:label "Phaseolus lunatus" .
+
+uniprot:3909 a sils:Species ;
+rdfs:label "Vicia sativa subsp. nigra" .
+
+uniprot:3840 a sils:Species ;
+rdfs:label "Vigna unguiculata subsp. cylindrica" .
+
+uniprot:28973 a sils:Species ;
+rdfs:label "Limnanthes douglasii" .
+
+uniprot:153142 a sils:Species ;
+rdfs:label "Camellia irrawadiensis" .
+
+uniprot:3811 a sils:Species ;
+rdfs:label "Adenanthera pavonina" .
+
+uniprot:13230 a sils:Species ;
+rdfs:label "Prosopis juliflora" .
+
+uniprot:3842 a sils:Species ;
+rdfs:label "Erythrina caffra" .
+
+uniprot:3843 a sils:Species ;
+rdfs:label "Erythrina corallodendron" .
+
+uniprot:3844 a sils:Species ;
+rdfs:label "Erythrina latissima" .
+
+uniprot:390785 a sils:Species ;
+rdfs:label "Bauhinia rufa" .
+
+uniprot:39394 a sils:Species ;
+rdfs:label "Brexia madagascariensis." .
+
+uniprot:4426 a sils:Species ;
+rdfs:label "Cabomba caroliniana" .
+
+uniprot:13413 a sils:Species ;
+rdfs:label "Cercidiphyllum japonicum" .
+
+uniprot:4285 a sils:Species ;
+rdfs:label "Cornus mas" .
+
+uniprot:13533 a sils:Species ;
+rdfs:label "Fouquieria splendens" .
+
+uniprot:4288 a sils:Species ;
+rdfs:label "Garrya elliptica" .
+
+uniprot:4052 a sils:Species ;
+rdfs:label "Hedera helix" .
+
+uniprot:13099 a sils:Species ;
+rdfs:label "Illicium parviflorum" .
+
+uniprot:53164 a sils:Species ;
+rdfs:label "Lamium purpureum" .
+
+uniprot:86643 a sils:Species ;
+rdfs:label "Leucophyllum frutescens" .
+
+uniprot:57008 a sils:Species ;
+rdfs:label "Sambucus canadensis" .
+
+uniprot:61887 a sils:Species ;
+rdfs:label "Cucumis zeyherii" .
+
+uniprot:3758 a sils:Species ;
+rdfs:label "Prunus domestica" .
+
+uniprot:62890 a sils:Species ;
+rdfs:label "Solanum habrochaites" .
+
+uniprot:200525 a sils:Species ;
+rdfs:label "Solanum etuberosum" .
+
+uniprot:4090 a sils:Species ;
+rdfs:label "Nicotiana glauca" .
+
+uniprot:231278 a sils:Species ;
+rdfs:label "Bauhinia ungulata" .
+
+uniprot:35876 a sils:Species ;
+rdfs:label "Iris hollandica" .
+
+uniprot:2358373 a sils:Species ;
+rdfs:label "Cnidoscolus quercifolius." .
+
+uniprot:37656 a sils:Species ;
+rdfs:label "Citrus paradisi" .
+
+uniprot:29656 a sils:Species ;
+rdfs:label "Spirodela polyrhiza" .
+
+uniprot:4451 a sils:Species ;
+rdfs:label "Sagittaria sagittifolia" .
+
+uniprot:2986 a sils:Species ;
+rdfs:label "Ochromonas danica" .
+
+uniprot:80863 a sils:Species ;
+rdfs:label "Populus canescens" .
+
+uniprot:39347 a sils:Species ;
+rdfs:label "Nepeta cataria" .
+
+uniprot:3668 a sils:Species ;
+rdfs:label "Lagenaria siceraria" .
+
+uniprot:3555 a sils:Species ;
+rdfs:label "Beta vulgaris subsp. vulgaris" .
+
+uniprot:3674 a sils:Species ;
+rdfs:label "Momordica cochinchinensis" .
+
+uniprot:3675 a sils:Species ;
+rdfs:label "Momordica repens." .
+
+uniprot:3679 a sils:Species ;
+rdfs:label "Ecballium elaterium" .
+
+uniprot:393608 a sils:Species ;
+rdfs:label "Opuntia streptacantha" .
+
+uniprot:184140 a sils:Species ;
+rdfs:label "Sechium edule" .
+
+uniprot:198836 a sils:Species ;
+rdfs:label "Cyclanthera pedata" .
+
+uniprot:3813 a sils:Species ;
+rdfs:label "Albizia julibrissin" .
+
+uniprot:199156 a sils:Species ;
+rdfs:label "Albizia kalkora" .
+
+uniprot:3809 a sils:Species ;
+rdfs:label "Acacia confusa" .
+
+uniprot:392766 a sils:Species ;
+rdfs:label "Archidendron ellipticum" .
+
+uniprot:167791 a sils:Species ;
+rdfs:label "Bauhinia variegata" .
+
+uniprot:1884235 a sils:Species ;
+rdfs:label "Cassia leiandra" .
+
+uniprot:29728 a sils:Species ;
+rdfs:label "Sinapis arvensis" .
+
+uniprot:35922 a sils:Species ;
+rdfs:label "Atriplex canescens" .
+
+uniprot:16719 a sils:Species ;
+rdfs:label "Juglans nigra" .
+
+uniprot:60225 a sils:Species ;
+rdfs:label "Oldenlandia affinis." .
+
+uniprot:945030 a sils:Species ;
+rdfs:label "Digenea simplex" .
+
+uniprot:4617 a sils:Species ;
+rdfs:label "Bromelia plumieri" .
+
+uniprot:39955 a sils:Species ;
+rdfs:label "Selenastrum minutum." .
+
+uniprot:28513 a sils:Species ;
+rdfs:label "Salvia divinorum" .
+
+uniprot:55670 a sils:Species ;
+rdfs:label "Stevia rebaudiana" .
+
+uniprot:486092 a sils:Species ;
+rdfs:label "Inga vera" .
+
+uniprot:1125938 a sils:Species ;
+rdfs:label "Selenicereus costaricensis" .
+
+uniprot:176265 a sils:Species ;
+rdfs:label "Selenicereus undatus" .
+
+uniprot:28478 a sils:Species ;
+rdfs:label "Xanthosoma sagittifolium" .
+
+uniprot:3996 a sils:Species ;
+rdfs:label "Jatropha multifida" .
+
+uniprot:66636 a sils:Species ;
+rdfs:label "Larrea tridentata" .
+
+uniprot:225101 a sils:Species ;
+rdfs:label "Desmodium uncinatum" .
+
+uniprot:866613 a sils:Species ;
+rdfs:label "Eugenia dysenterica" .
+
+uniprot:85232 a sils:Species ;
+rdfs:label "Morus nigra" .
+
+uniprot:3252 a sils:Species ;
+rdfs:label "Lycopodium clavatum" .
+
+uniprot:35938 a sils:Species ;
+rdfs:label "Robinia pseudoacacia" .
+
+uniprot:34254 a sils:Species ;
+rdfs:label "Lithospermum erythrorhizon" .
+
+uniprot:38412 a sils:Species ;
+rdfs:label "Cladrastis kentukea" .
+
+uniprot:252530 a sils:Species ;
+rdfs:label "Cratylia mollis" .
+
+uniprot:87752 a sils:Species ;
+rdfs:label "Crocus vernus" .
+
+uniprot:3834 a sils:Species ;
+rdfs:label "Cytisophyllum sessilifolium" .
+
+uniprot:38516 a sils:Species ;
+rdfs:label "Eucheuma serra" .
+
+uniprot:387623 a sils:Species ;
+rdfs:label "Hypnea cervicornis" .
+
+uniprot:31429 a sils:Species ;
+rdfs:label "Hypnea musciformis" .
+
+uniprot:3852 a sils:Species ;
+rdfs:label "Laburnum alpinum" .
+
+uniprot:3858 a sils:Species ;
+rdfs:label "Lathyrus ochrus" .
+
+uniprot:189456 a sils:Species ;
+rdfs:label "Remusatia vivipara" .
+
+uniprot:31449 a sils:Species ;
+rdfs:label "Solieria filiformis" .
+
+uniprot:3902 a sils:Species ;
+rdfs:label "Ulex europaeus" .
+
+uniprot:202239 a sils:Species ;
+rdfs:label "Cymbosema roseum" .
+
+uniprot:3835 a sils:Species ;
+rdfs:label "Cytisus scoparius" .
+
+uniprot:3850 a sils:Species ;
+rdfs:label "Griffonia simplicifolia" .
+
+uniprot:3890 a sils:Species ;
+rdfs:label "Psophocarpus scandens" .
+
+uniprot:105606 a sils:Species ;
+rdfs:label "Hypnea japonica" .
+
+uniprot:3490 a sils:Species ;
+rdfs:label "Artocarpus integer" .
+
+uniprot:3492 a sils:Species ;
+rdfs:label "Artocarpus tonkinensis." .
+
+uniprot:232302 a sils:Species ;
+rdfs:label "Bionia pedicellata" .
+
+uniprot:232300 a sils:Species ;
+rdfs:label "Canavalia boliviana." .
+
+uniprot:192414 a sils:Species ;
+rdfs:label "Canavalia bonariensis." .
+
+uniprot:232301 a sils:Species ;
+rdfs:label "Canavalia grandiflora" .
+
+uniprot:103480 a sils:Species ;
+rdfs:label "Castanea crenata" .
+
+uniprot:83131 a sils:Species ;
+rdfs:label "Cratylia argentea" .
+
+uniprot:3837 a sils:Species ;
+rdfs:label "Dioclea grandiflora" .
+
+uniprot:99571 a sils:Species ;
+rdfs:label "Dioclea guianensis." .
+
+uniprot:1457464 a sils:Species ;
+rdfs:label "Dioclea lasiophylla." .
+
+uniprot:1176036 a sils:Species ;
+rdfs:label "Dioclea sclerocarpa" .
+
+uniprot:167618 a sils:Species ;
+rdfs:label "Dioclea virgata." .
+
+uniprot:192415 a sils:Species ;
+rdfs:label "Dioclea violacea." .
+
+uniprot:3854 a sils:Species ;
+rdfs:label "Lathyrus aphaca" .
+
+uniprot:3856 a sils:Species ;
+rdfs:label "Lathyrus cicera" .
+
+uniprot:3855 a sils:Species ;
+rdfs:label "Lathyrus clymenum" .
+
+uniprot:3857 a sils:Species ;
+rdfs:label "Lathyrus hirsutus" .
+
+uniprot:3859 a sils:Species ;
+rdfs:label "Lathyrus odoratus" .
+
+uniprot:3862 a sils:Species ;
+rdfs:label "Lathyrus tingitanus" .
+
+uniprot:232299 a sils:Species ;
+rdfs:label "Macropsychanthus bicolor" .
+
+uniprot:2986840 a sils:Species ;
+rdfs:label "Macropsychanthus comosus" .
+
+uniprot:3496 a sils:Species ;
+rdfs:label "Maclura pomifera" .
+
+uniprot:763456 a sils:Species ;
+rdfs:label "Macropsychanthus wilsonii" .
+
+uniprot:132465 a sils:Species ;
+rdfs:label "Spatholobus parviflorus" .
+
+uniprot:3905 a sils:Species ;
+rdfs:label "Vicia cracca" .
+
+uniprot:202635 a sils:Species ;
+rdfs:label "Crateva tapia" .
+
+uniprot:3897 a sils:Species ;
+rdfs:label "Styphnolobium japonicum" .
+
+uniprot:500177 a sils:Species ;
+rdfs:label "Centrolobium microchaete" .
+
+uniprot:500182 a sils:Species ;
+rdfs:label "Centrolobium tomentosum" .
+
+uniprot:948959 a sils:Species ;
+rdfs:label "Vatairea guianensis" .
+
+uniprot:77050 a sils:Species ;
+rdfs:label "Vatairea macrocarpa." .
+
+uniprot:413686 a sils:Species ;
+rdfs:label "Bauhinia forficata" .
+
+uniprot:387127 a sils:Species ;
+rdfs:label "Coccinia grandis" .
+
+uniprot:45385 a sils:Species ;
+rdfs:label "Aloe arborescens" .
+
+uniprot:3806 a sils:Species ;
+rdfs:label "Bauhinia purpurea" .
+
+uniprot:3829 a sils:Species ;
+rdfs:label "Crotalaria juncea" .
+
+uniprot:3830 a sils:Species ;
+rdfs:label "Crotalaria pallida" .
+
+uniprot:179355 a sils:Species ;
+rdfs:label "Dendrobium findlayanum" .
+
+uniprot:49817 a sils:Species ;
+rdfs:label "Erythrina crista-galli" .
+
+uniprot:4670 a sils:Species ;
+rdfs:label "Galanthus nivalis" .
+
+uniprot:3861 a sils:Species ;
+rdfs:label "Lathyrus sphaericus" .
+
+uniprot:129392 a sils:Species ;
+rdfs:label "Lens culinaris subsp. orientalis" .
+
+uniprot:175770 a sils:Species ;
+rdfs:label "Lens culinaris subsp. tomentosus" .
+
+uniprot:28956 a sils:Species ;
+rdfs:label "Leucomphalos mildbraedii" .
+
+uniprot:3868 a sils:Species ;
+rdfs:label "Lotus tetragonolobus" .
+
+uniprot:56866 a sils:Species ;
+rdfs:label "Luffa acutangula" .
+
+uniprot:54860 a sils:Species ;
+rdfs:label "Narcissus tazetta" .
+
+uniprot:185447 a sils:Species ;
+rdfs:label "Parkia platycephala." .
+
+uniprot:1905032 a sils:Species ;
+rdfs:label "Parkia pendula" .
+
+uniprot:3120 a sils:Species ;
+rdfs:label "Ulva pertusa" .
+
+uniprot:72368 a sils:Species ;
+rdfs:label "Vachellia farnesiana" .
+
+uniprot:3911 a sils:Species ;
+rdfs:label "Vicia villosa" .
+
+uniprot:3895 a sils:Species ;
+rdfs:label "Sesbania rostrata." .
+
+uniprot:178616 a sils:Species ;
+rdfs:label "Brassica oleracea var. gemmifera" .
+
+uniprot:13597 a sils:Species ;
+rdfs:label "Ligustrum vulgare" .
+
+uniprot:190902 a sils:Species ;
+rdfs:label "Mentha aquatica" .
+
+uniprot:160621 a sils:Species ;
+rdfs:label "Lingulodinium polyedra" .
+
+uniprot:4689 a sils:Species ;
+rdfs:label "Lilium henryi" .
+
+uniprot:37501 a sils:Species ;
+rdfs:label "Maackia amurensis" .
+
+uniprot:397392 a sils:Species ;
+rdfs:label "Malania oleifera." .
+
+uniprot:66168 a sils:Species ;
+rdfs:label "Abies bracteata" .
+
+uniprot:78260 a sils:Species ;
+rdfs:label "Abies firma" .
+
+uniprot:97168 a sils:Species ;
+rdfs:label "Abies holophylla" .
+
+uniprot:66205 a sils:Species ;
+rdfs:label "Acer campestre" .
+
+uniprot:168566 a sils:Species ;
+rdfs:label "Acer monspessulanum" .
+
+uniprot:168567 a sils:Species ;
+rdfs:label "Acer opalus" .
+
+uniprot:4025 a sils:Species ;
+rdfs:label "Acer platanoides" .
+
+uniprot:66201 a sils:Species ;
+rdfs:label "Acer palmatum" .
+
+uniprot:4026 a sils:Species ;
+rdfs:label "Acer pseudoplatanus" .
+
+uniprot:100151 a sils:Species ;
+rdfs:label "Acmispon americanus" .
+
+uniprot:3625 a sils:Species ;
+rdfs:label "Actinidia chinensis" .
+
+uniprot:199376 a sils:Species ;
+rdfs:label "Actinodium cunninghamii" .
+
+uniprot:69109 a sils:Species ;
+rdfs:label "Adansonia digitata" .
+
+uniprot:140993 a sils:Species ;
+rdfs:label "Adenostoma fasciculatum" .
+
+uniprot:104308 a sils:Species ;
+rdfs:label "Adesmia lanata." .
+
+uniprot:43872 a sils:Species ;
+rdfs:label "Aesculus pavia" .
+
+uniprot:106026 a sils:Species ;
+rdfs:label "Agonis flexuosa" .
+
+uniprot:120010 a sils:Species ;
+rdfs:label "Alisma canaliculatum" .
+
+uniprot:52818 a sils:Species ;
+rdfs:label "Allamanda cathartica" .
+
+uniprot:126270 a sils:Species ;
+rdfs:label "Alliaria petiolata" .
+
+uniprot:199618 a sils:Species ;
+rdfs:label "Alpinia calcarata" .
+
+uniprot:97723 a sils:Species ;
+rdfs:label "Alpinia zerumbet" .
+
+uniprot:240022 a sils:Species ;
+rdfs:label "Amaranthus greggii" .
+
+uniprot:25625 a sils:Species ;
+rdfs:label "Amentotaxus argotaenia" .
+
+uniprot:175716 a sils:Species ;
+rdfs:label "Amorphophallus abyssinicus" .
+
+uniprot:174187 a sils:Species ;
+rdfs:label "Amorphophallus paeoniifolius" .
+
+uniprot:175755 a sils:Species ;
+rdfs:label "Amorphophallus titanum" .
+
+uniprot:45679 a sils:Species ;
+rdfs:label "Amphicarpaea bracteata" .
+
+uniprot:28473 a sils:Species ;
+rdfs:label "Anchomanes difformis" .
+
+uniprot:95630 a sils:Species ;
+rdfs:label "Andromeda polifolia" .
+
+uniprot:13337 a sils:Species ;
+rdfs:label "Annona muricata" .
+
+uniprot:38684 a sils:Species ;
+rdfs:label "Anomochloa marantoidea" .
+
+uniprot:195717 a sils:Species ;
+rdfs:label "Anthocercis angustifolia" .
+
+uniprot:51434 a sils:Species ;
+rdfs:label "Anthericum liliago" .
+
+uniprot:33112 a sils:Species ;
+rdfs:label "Anthocercis viscosa" .
+
+uniprot:48537 a sils:Species ;
+rdfs:label "Aphyllon fasciculatum" .
+
+uniprot:61254 a sils:Species ;
+rdfs:label "Apocynum androsaemifolium" .
+
+uniprot:81973 a sils:Species ;
+rdfs:label "Arabis blepharophylla" .
+
+uniprot:81970 a sils:Species ;
+rdfs:label "Arabidopsis halleri." .
+
+uniprot:78176 a sils:Species ;
+rdfs:label "Arabidopsis korshinskyi" .
+
+uniprot:84009 a sils:Species ;
+rdfs:label "Arctostaphylos uva-ursi" .
+
+uniprot:61253 a sils:Species ;
+rdfs:label "Aristea glauca." .
+
+uniprot:175759 a sils:Species ;
+rdfs:label "Arisaema tortuosum" .
+
+uniprot:38181 a sils:Species ;
+rdfs:label "Arpophyllum giganteum" .
+
+uniprot:303133 a sils:Species ;
+rdfs:label "Artanema fimbriatum." .
+
+uniprot:32220 a sils:Species ;
+rdfs:label "Aruncus dioicus" .
+
+uniprot:35708 a sils:Species ;
+rdfs:label "Arundo donax" .
+
+uniprot:12953 a sils:Species ;
+rdfs:label "Asimina triloba" .
+
+uniprot:49696 a sils:Species ;
+rdfs:label "Asphodeline lutea" .
+
+uniprot:66004 a sils:Species ;
+rdfs:label "Astrebla lappacea" .
+
+uniprot:47065 a sils:Species ;
+rdfs:label "Astragalus sinicus" .
+
+uniprot:41486 a sils:Species ;
+rdfs:label "Atractylodes lancea" .
+
+uniprot:16901 a sils:Species ;
+rdfs:label "Aucuba japonica" .
+
+uniprot:53833 a sils:Species ;
+rdfs:label "Austrosteenisia blackii" .
+
+uniprot:154406 a sils:Species ;
+rdfs:label "Austrocylindropuntia vestita" .
+
+uniprot:41378 a sils:Species ;
+rdfs:label "Avicennia germinans" .
+
+uniprot:39976 a sils:Species ;
+rdfs:label "Backhousia citriodora" .
+
+uniprot:178105 a sils:Species ;
+rdfs:label "Backhousia myrtifolia" .
+
+uniprot:178123 a sils:Species ;
+rdfs:label "Backhousia subargentea" .
+
+uniprot:83699 a sils:Species ;
+rdfs:label "Banksia cuneata" .
+
+uniprot:46052 a sils:Species ;
+rdfs:label "Bartsia alpina" .
+
+uniprot:4412 a sils:Species ;
+rdfs:label "Barclaya longifolia" .
+
+uniprot:4436 a sils:Species ;
+rdfs:label "Batis maritima" .
+
+uniprot:28530 a sils:Species ;
+rdfs:label "Berzelia lanuginosa" .
+
+uniprot:3507 a sils:Species ;
+rdfs:label "Betula papyrifera" .
+
+uniprot:122298 a sils:Species ;
+rdfs:label "Blitum bonus-henricus" .
+
+uniprot:66654 a sils:Species ;
+rdfs:label "Bombax buonopozense" .
+
+uniprot:29664 a sils:Species ;
+rdfs:label "Brachypodium sylvaticum" .
+
+uniprot:153842 a sils:Species ;
+rdfs:label "Browningia hertlingiana" .
+
+uniprot:15371 a sils:Species ;
+rdfs:label "Bromus inermis" .
+
+uniprot:3770 a sils:Species ;
+rdfs:label "Byblis liniflora" .
+
+uniprot:13387 a sils:Species ;
+rdfs:label "Calocedrus decurrens" .
+
+uniprot:3430 a sils:Species ;
+rdfs:label "Calycanthus occidentalis" .
+
+uniprot:2890917 a sils:Species ;
+rdfs:label "Caldesia oligococca" .
+
+uniprot:178121 a sils:Species ;
+rdfs:label "Calyptranthes pallens" .
+
+uniprot:73732 a sils:Species ;
+rdfs:label "Callistemon polandii" .
+
+uniprot:13385 a sils:Species ;
+rdfs:label "Calluna vulgaris" .
+
+uniprot:83937 a sils:Species ;
+rdfs:label "Campsis radicans" .
+
+uniprot:182300 a sils:Species ;
+rdfs:label "Camellia sasanqua" .
+
+uniprot:13393 a sils:Species ;
+rdfs:label "Cananga odorata" .
+
+uniprot:20484 a sils:Species ;
+rdfs:label "Caragana arborescens" .
+
+uniprot:12990 a sils:Species ;
+rdfs:label "Carpinus betulus" .
+
+uniprot:175951 a sils:Species ;
+rdfs:label "Carpinus orientalis" .
+
+uniprot:46037 a sils:Species ;
+rdfs:label "Castilleja linariifolia" .
+
+uniprot:123597 a sils:Species ;
+rdfs:label "Cedrus atlantica" .
+
+uniprot:3322 a sils:Species ;
+rdfs:label "Cedrus deodara" .
+
+uniprot:66169 a sils:Species ;
+rdfs:label "Cephalotaxus fortunei" .
+
+uniprot:140994 a sils:Species ;
+rdfs:label "Cercocarpus betuloides" .
+
+uniprot:41994 a sils:Species ;
+rdfs:label "Ceratozamia mexicana" .
+
+uniprot:20340 a sils:Species ;
+rdfs:label "Ceratonia siliqua" .
+
+uniprot:103475 a sils:Species ;
+rdfs:label "Cestrum elegans" .
+
+uniprot:53854 a sils:Species ;
+rdfs:label "Chamaecrista fasciculata" .
+
+uniprot:69338 a sils:Species ;
+rdfs:label "Chara globularis" .
+
+uniprot:58030 a sils:Species ;
+rdfs:label "Chamaecyparis lawsoniana" .
+
+uniprot:28527 a sils:Species ;
+rdfs:label "Chiococca alba" .
+
+uniprot:93815 a sils:Species ;
+rdfs:label "Chimaphila umbellata" .
+
+uniprot:231648 a sils:Species ;
+rdfs:label "Clematis florida" .
+
+uniprot:231652 a sils:Species ;
+rdfs:label "Clematis lasiantha" .
+
+uniprot:3454 a sils:Species ;
+rdfs:label "Clematis ligusticifolia" .
+
+uniprot:231663 a sils:Species ;
+rdfs:label "Clematis terniflora" .
+
+uniprot:37490 a sils:Species ;
+rdfs:label "Clematis vitalba" .
+
+uniprot:69908 a sils:Species ;
+rdfs:label "Collinsia heterophylla" .
+
+uniprot:13445 a sils:Species ;
+rdfs:label "Colchicum speciosum" .
+
+uniprot:53861 a sils:Species ;
+rdfs:label "Securigera varia" .
+
+uniprot:140997 a sils:Species ;
+rdfs:label "Crataegus monogyna" .
+
+uniprot:60141 a sils:Species ;
+rdfs:label "Cubanola domingensis." .
+
+uniprot:28977 a sils:Species ;
+rdfs:label "Cunninghamia lanceolata" .
+
+uniprot:13467 a sils:Species ;
+rdfs:label "Cupaniopsis anacardioides" .
+
+uniprot:123604 a sils:Species ;
+rdfs:label "Cycas panzhihuaensis" .
+
+uniprot:1465296 a sils:Species ;
+rdfs:label "Cynophalla hastata" .
+
+uniprot:53038 a sils:Species ;
+rdfs:label "Cypripedium calceolus" .
+
+uniprot:4341 a sils:Species ;
+rdfs:label "Cyrilla racemiflora" .
+
+uniprot:248511 a sils:Species ;
+rdfs:label "Dalea purpurea" .
+
+uniprot:248515 a sils:Species ;
+rdfs:label "Dalea wrightii" .
+
+uniprot:42048 a sils:Species ;
+rdfs:label "Danthonia spicata" .
+
+uniprot:13485 a sils:Species ;
+rdfs:label "Dianella ensifolia" .
+
+uniprot:58033 a sils:Species ;
+rdfs:label "Dioon edule" .
+
+uniprot:115877 a sils:Species ;
+rdfs:label "Dioon spinulosum" .
+
+uniprot:13493 a sils:Species ;
+rdfs:label "Diospyros virginiana" .
+
+uniprot:68869 a sils:Species ;
+rdfs:label "Diplacus aurantiacus" .
+
+uniprot:34188 a sils:Species ;
+rdfs:label "Disporum sessile" .
+
+uniprot:125397 a sils:Species ;
+rdfs:label "Dracula chimaera." .
+
+uniprot:4373 a sils:Species ;
+rdfs:label "Drosophyllum lusitanicum" .
+
+uniprot:99303 a sils:Species ;
+rdfs:label "Ehretia anacua" .
+
+uniprot:44947 a sils:Species ;
+rdfs:label "Eichhornia crassipes" .
+
+uniprot:29674 a sils:Species ;
+rdfs:label "Eleusine indica" .
+
+uniprot:191066 a sils:Species ;
+rdfs:label "Empetrum nigrum" .
+
+uniprot:101617 a sils:Species ;
+rdfs:label "Ensete lasiocarpum" .
+
+uniprot:33152 a sils:Species ;
+rdfs:label "Ephedra sinica" .
+
+uniprot:49144 a sils:Species ;
+rdfs:label "Erica tetralix" .
+
+uniprot:202130 a sils:Species ;
+rdfs:label "Erythronium grandiflorum" .
+
+uniprot:202152 a sils:Species ;
+rdfs:label "Erythronium revolutum" .
+
+uniprot:4414 a sils:Species ;
+rdfs:label "Euryale ferox" .
+
+uniprot:28929 a sils:Species ;
+rdfs:label "Fagus crenata" .
+
+uniprot:133895 a sils:Species ;
+rdfs:label "Fagus hayatae" .
+
+uniprot:63422 a sils:Species ;
+rdfs:label "Fagus japonica" .
+
+uniprot:3494 a sils:Species ;
+rdfs:label "Ficus carica" .
+
+uniprot:175761 a sils:Species ;
+rdfs:label "Filarum manserichense." .
+
+uniprot:93767 a sils:Species ;
+rdfs:label "Fremontodendron californicum" .
+
+uniprot:46114 a sils:Species ;
+rdfs:label "Froelichia floridana" .
+
+uniprot:82209 a sils:Species ;
+rdfs:label "Gagea lutea" .
+
+uniprot:82232 a sils:Species ;
+rdfs:label "Galanthus elwesii" .
+
+uniprot:157519 a sils:Species ;
+rdfs:label "Gaultheria procumbens" .
+
+uniprot:58995 a sils:Species ;
+rdfs:label "Gladiolus papilio" .
+
+uniprot:54874 a sils:Species ;
+rdfs:label "Gleditsia triacanthos" .
+
+uniprot:240061 a sils:Species ;
+rdfs:label "Gomphrena haageana" .
+
+uniprot:270119 a sils:Species ;
+rdfs:label "Gomphrena pulchella" .
+
+uniprot:182306 a sils:Species ;
+rdfs:label "Gordonia lasianthus" .
+
+uniprot:34282 a sils:Species ;
+rdfs:label "Gossypium gossypioides" .
+
+uniprot:34291 a sils:Species ;
+rdfs:label "Gossypium schwendimanii" .
+
+uniprot:34284 a sils:Species ;
+rdfs:label "Gossypium turneri" .
+
+uniprot:107618 a sils:Species ;
+rdfs:label "Grahamia bracteata." .
+
+uniprot:204382 a sils:Species ;
+rdfs:label "Gratiola officinalis" .
+
+uniprot:53883 a sils:Species ;
+rdfs:label "Gymnocladus dioicus" .
+
+uniprot:63355 a sils:Species ;
+rdfs:label "Hamamelis japonica" .
+
+uniprot:4396 a sils:Species ;
+rdfs:label "Hamamelis mollis" .
+
+uniprot:4397 a sils:Species ;
+rdfs:label "Hamamelis virginiana" .
+
+uniprot:50364 a sils:Species ;
+rdfs:label "Helonias bullata" .
+
+uniprot:4516 a sils:Species ;
+rdfs:label "Hordeum bulbosum" .
+
+uniprot:4517 a sils:Species ;
+rdfs:label "Hordeum jubatum" .
+
+uniprot:38856 a sils:Species ;
+rdfs:label "Hordeum lechleri" .
+
+uniprot:98112 a sils:Species ;
+rdfs:label "Hordeum murinum subsp. leporinum" .
+
+uniprot:118676 a sils:Species ;
+rdfs:label "Hordeum secalinum" .
+
+uniprot:175037 a sils:Species ;
+rdfs:label "Hottonia palustris" .
+
+uniprot:193478 a sils:Species ;
+rdfs:label "Huidobria chilensis" .
+
+uniprot:60124 a sils:Species ;
+rdfs:label "Hydrangea quercifolia" .
+
+uniprot:204345 a sils:Species ;
+rdfs:label "Ibicella lutea" .
+
+uniprot:55378 a sils:Species ;
+rdfs:label "Impatiens capensis" .
+
+uniprot:292531 a sils:Species ;
+rdfs:label "Iris cristata" .
+
+uniprot:292523 a sils:Species ;
+rdfs:label "Iris danfordiae" .
+
+uniprot:58944 a sils:Species ;
+rdfs:label "Iris domestica" .
+
+uniprot:93025 a sils:Species ;
+rdfs:label "Iris orientalis" .
+
+uniprot:82213 a sils:Species ;
+rdfs:label "Iris pseudacorus" .
+
+uniprot:198824 a sils:Species ;
+rdfs:label "Iris sanguinea" .
+
+uniprot:198825 a sils:Species ;
+rdfs:label "Iris setosa" .
+
+uniprot:34216 a sils:Species ;
+rdfs:label "Iris tenax" .
+
+uniprot:185774 a sils:Species ;
+rdfs:label "Jacaranda mimosifolia" .
+
+uniprot:13579 a sils:Species ;
+rdfs:label "Juncus effusus" .
+
+uniprot:127018 a sils:Species ;
+rdfs:label "Jurinea cyanoides." .
+
+uniprot:13585 a sils:Species ;
+rdfs:label "Kalmia buxifolia" .
+
+uniprot:45912 a sils:Species ;
+rdfs:label "Kalmia procumbens" .
+
+uniprot:151250 a sils:Species ;
+rdfs:label "Kali turgidum" .
+
+uniprot:155435 a sils:Species ;
+rdfs:label "Keckiella cordifolia" .
+
+uniprot:3324 a sils:Species ;
+rdfs:label "Keteleeria davidiana" .
+
+uniprot:70070 a sils:Species ;
+rdfs:label "Kigelia africana" .
+
+uniprot:49724 a sils:Species ;
+rdfs:label "Kniphofia uvaria" .
+
+uniprot:43168 a sils:Species ;
+rdfs:label "Koelreuteria paniculata" .
+
+uniprot:47617 a sils:Species ;
+rdfs:label "Kokia drynarioides" .
+
+uniprot:106042 a sils:Species ;
+rdfs:label "Kunzea baxteri" .
+
+uniprot:106043 a sils:Species ;
+rdfs:label "Kunzea capitata" .
+
+uniprot:106044 a sils:Species ;
+rdfs:label "Kunzea ericoides" .
+
+uniprot:106046 a sils:Species ;
+rdfs:label "Kunzea pulchella" .
+
+uniprot:22303 a sils:Species ;
+rdfs:label "Lactoris fernandeziana." .
+
+uniprot:3326 a sils:Species ;
+rdfs:label "Larix laricina" .
+
+uniprot:41911 a sils:Species ;
+rdfs:label "Lathraea clandestina" .
+
+uniprot:200950 a sils:Species ;
+rdfs:label "Lathyrus vestitus" .
+
+uniprot:89585 a sils:Species ;
+rdfs:label "Lemna aequinoctialis" .
+
+uniprot:161101 a sils:Species ;
+rdfs:label "Lemna minuta" .
+
+uniprot:161105 a sils:Species ;
+rdfs:label "Lemna trisulca" .
+
+uniprot:41257 a sils:Species ;
+rdfs:label "Lens ervoides" .
+
+uniprot:65351 a sils:Species ;
+rdfs:label "Lepidium campestre" .
+
+uniprot:133430 a sils:Species ;
+rdfs:label "Lepidozamia peroffskyana" .
+
+uniprot:54835 a sils:Species ;
+rdfs:label "Leucojum aestivum" .
+
+uniprot:84045 a sils:Species ;
+rdfs:label "Lilium canadense" .
+
+uniprot:84049 a sils:Species ;
+rdfs:label "Lilium michiganense" .
+
+uniprot:82328 a sils:Species ;
+rdfs:label "Lilium regale" .
+
+uniprot:4692 a sils:Species ;
+rdfs:label "Lilium superbum" .
+
+uniprot:82331 a sils:Species ;
+rdfs:label "Lilium tsingtauense" .
+
+uniprot:55958 a sils:Species ;
+rdfs:label "Lindera benzoin" .
+
+uniprot:35941 a sils:Species ;
+rdfs:label "Linum perenne" .
+
+uniprot:63359 a sils:Species ;
+rdfs:label "Liquidambar formosana" .
+
+uniprot:63360 a sils:Species ;
+rdfs:label "Liquidambar orientalis" .
+
+uniprot:4400 a sils:Species ;
+rdfs:label "Liquidambar styraciflua" .
+
+uniprot:3414 a sils:Species ;
+rdfs:label "Liriodendron chinense" .
+
+uniprot:39529 a sils:Species ;
+rdfs:label "Liriope muscari" .
+
+uniprot:53216 a sils:Species ;
+rdfs:label "Lupinus argenteus" .
+
+uniprot:53222 a sils:Species ;
+rdfs:label "Lupinus cosentinii" .
+
+uniprot:49150 a sils:Species ;
+rdfs:label "Lyonia ferruginea" .
+
+uniprot:49151 a sils:Species ;
+rdfs:label "Lyonia ligustrina" .
+
+uniprot:49152 a sils:Species ;
+rdfs:label "Lyonia lucida" .
+
+uniprot:114456 a sils:Species ;
+rdfs:label "Macrozamia communis" .
+
+uniprot:114509 a sils:Species ;
+rdfs:label "Magnolia alba" .
+
+uniprot:86757 a sils:Species ;
+rdfs:label "Magnolia champaca" .
+
+uniprot:13612 a sils:Species ;
+rdfs:label "Magnolia figo" .
+
+uniprot:34193 a sils:Species ;
+rdfs:label "Maianthemum dilatatum" .
+
+uniprot:106974 a sils:Species ;
+rdfs:label "Maihuenia poeppigii" .
+
+uniprot:130144 a sils:Species ;
+rdfs:label "Mammillaria haageana" .
+
+uniprot:33117 a sils:Species ;
+rdfs:label "Mandragora officinarum" .
+
+uniprot:3741 a sils:Species ;
+rdfs:label "Manilkara zapota" .
+
+uniprot:116737 a sils:Species ;
+rdfs:label "Marathrum schiedeanum." .
+
+uniprot:4694 a sils:Species ;
+rdfs:label "Medeola virginiana" .
+
+uniprot:47082 a sils:Species ;
+rdfs:label "Melilotus albus" .
+
+uniprot:29685 a sils:Species ;
+rdfs:label "Melica altissima" .
+
+uniprot:200951 a sils:Species ;
+rdfs:label "Melilotus indicus" .
+
+uniprot:178106 a sils:Species ;
+rdfs:label "Memecylon elaeagni." .
+
+uniprot:193489 a sils:Species ;
+rdfs:label "Mentzelia laevicaulis" .
+
+uniprot:86878 a sils:Species ;
+rdfs:label "Mentzelia lindleyi" .
+
+uniprot:3799 a sils:Species ;
+rdfs:label "Micranthes integrifolia" .
+
+uniprot:58962 a sils:Species ;
+rdfs:label "Micranthus junceus" .
+
+uniprot:29772 a sils:Species ;
+rdfs:label "Micranthes punctata" .
+
+uniprot:76306 a sils:Species ;
+rdfs:label "Mimosa pudica" .
+
+uniprot:38689 a sils:Species ;
+rdfs:label "Molinia caerulea" .
+
+uniprot:29687 a sils:Species ;
+rdfs:label "Nardus stricta" .
+
+uniprot:4376 a sils:Species ;
+rdfs:label "Nepenthes alata" .
+
+uniprot:122309 a sils:Species ;
+rdfs:label "Nepenthes distillatoria" .
+
+uniprot:150966 a sils:Species ;
+rdfs:label "Nepenthes gracilis" .
+
+uniprot:150983 a sils:Species ;
+rdfs:label "Nepenthes mirabilis" .
+
+uniprot:4086 a sils:Species ;
+rdfs:label "Nicotiana acuminata" .
+
+uniprot:81866 a sils:Species ;
+rdfs:label "Nicotiana clevelandii" .
+
+uniprot:4089 a sils:Species ;
+rdfs:label "Nicotiana debneyi" .
+
+uniprot:35889 a sils:Species ;
+rdfs:label "Nicotiana glutinosa" .
+
+uniprot:4091 a sils:Species ;
+rdfs:label "Nicotiana otophora" .
+
+uniprot:4416 a sils:Species ;
+rdfs:label "Nuphar variegata" .
+
+uniprot:66662 a sils:Species ;
+rdfs:label "Ochroma pyramidale" .
+
+uniprot:154407 a sils:Species ;
+rdfs:label "Opuntia quimilo" .
+
+uniprot:303132 a sils:Species ;
+rdfs:label "Otacanthus azureus" .
+
+uniprot:83865 a sils:Species ;
+rdfs:label "Oxytropis pilosa" .
+
+uniprot:69118 a sils:Species ;
+rdfs:label "Pachira aquatica" .
+
+uniprot:40704 a sils:Species ;
+rdfs:label "Paeonia cambessedesii" .
+
+uniprot:35924 a sils:Species ;
+rdfs:label "Paeonia lactiflora" .
+
+uniprot:40719 a sils:Species ;
+rdfs:label "Paeonia mascula subsp. russoi" .
+
+uniprot:69717 a sils:Species ;
+rdfs:label "Paeonia officinalis" .
+
+uniprot:40717 a sils:Species ;
+rdfs:label "Paeonia peregrina" .
+
+uniprot:45171 a sils:Species ;
+rdfs:label "Paeonia suffruticosa" .
+
+uniprot:13626 a sils:Species ;
+rdfs:label "Paeonia tenuifolia" .
+
+uniprot:73621 a sils:Species ;
+rdfs:label "Palhinhaea cernua" .
+
+uniprot:33109 a sils:Species ;
+rdfs:label "Panicum capillare" .
+
+uniprot:44588 a sils:Species ;
+rdfs:label "Panax quinquefolius" .
+
+uniprot:58886 a sils:Species ;
+rdfs:label "Parkinsonia aculeata" .
+
+uniprot:49670 a sils:Species ;
+rdfs:label "Paris tetraphylla." .
+
+uniprot:39353 a sils:Species ;
+rdfs:label "Paulownia tomentosa" .
+
+uniprot:82418 a sils:Species ;
+rdfs:label "Pentaplaris doroteae." .
+
+uniprot:160372 a sils:Species ;
+rdfs:label "Penstemon heterophyllus" .
+
+uniprot:3597 a sils:Species ;
+rdfs:label "Pereskia aculeata" .
+
+uniprot:96050 a sils:Species ;
+rdfs:label "Phalaris arundinacea" .
+
+uniprot:111597 a sils:Species ;
+rdfs:label "Phalaenopsis japonica" .
+
+uniprot:3600 a sils:Species ;
+rdfs:label "Phaulothamnus spinescens" .
+
+uniprot:120015 a sils:Species ;
+rdfs:label "Phaius tancarvilleae" .
+
+uniprot:15957 a sils:Species ;
+rdfs:label "Phleum pratense" .
+
+uniprot:29695 a sils:Species ;
+rdfs:label "Phragmites australis" .
+
+uniprot:49155 a sils:Species ;
+rdfs:label "Phyllodoce caerulea" .
+
+uniprot:45910 a sils:Species ;
+rdfs:label "Phyllodoce empetriformis" .
+
+uniprot:3334 a sils:Species ;
+rdfs:label "Picea engelmannii" .
+
+uniprot:39833 a sils:Species ;
+rdfs:label "Picea mexicana" .
+
+uniprot:3331 a sils:Species ;
+rdfs:label "Picea pungens" .
+
+uniprot:3333 a sils:Species ;
+rdfs:label "Picea rubens" .
+
+uniprot:58971 a sils:Species ;
+rdfs:label "Pillansia templemannii." .
+
+uniprot:88733 a sils:Species ;
+rdfs:label "Pinus armandii" .
+
+uniprot:71624 a sils:Species ;
+rdfs:label "Pinus attenuata" .
+
+uniprot:58041 a sils:Species ;
+rdfs:label "Pinus cembra" .
+
+uniprot:261911 a sils:Species ;
+rdfs:label "Pinus clausa" .
+
+uniprot:3351 a sils:Species ;
+rdfs:label "Pinus coulteri" .
+
+uniprot:77912 a sils:Species ;
+rdfs:label "Pinus densiflora" .
+
+uniprot:71631 a sils:Species ;
+rdfs:label "Pinus echinata" .
+
+uniprot:55060 a sils:Species ;
+rdfs:label "Pinus engelmannii" .
+
+uniprot:42064 a sils:Species ;
+rdfs:label "Pinus elliottii" .
+
+uniprot:71638 a sils:Species ;
+rdfs:label "Pinus leiophylla" .
+
+uniprot:29805 a sils:Species ;
+rdfs:label "Pinus luchuensis" .
+
+uniprot:28528 a sils:Species ;
+rdfs:label "Pinus mugo" .
+
+uniprot:46836 a sils:Species ;
+rdfs:label "Pinus palustris" .
+
+uniprot:3346 a sils:Species ;
+rdfs:label "Pinus pinea" .
+
+uniprot:164241 a sils:Species ;
+rdfs:label "Pinus pungens" .
+
+uniprot:55062 a sils:Species ;
+rdfs:label "Pinus ponderosa" .
+
+uniprot:71644 a sils:Species ;
+rdfs:label "Pinus parviflora" .
+
+uniprot:71645 a sils:Species ;
+rdfs:label "Pinus patula" .
+
+uniprot:71649 a sils:Species ;
+rdfs:label "Pinus pumila" .
+
+uniprot:54921 a sils:Species ;
+rdfs:label "Pinus resinosa" .
+
+uniprot:164242 a sils:Species ;
+rdfs:label "Pinus rigida" .
+
+uniprot:71650 a sils:Species ;
+rdfs:label "Pinus roxburghii" .
+
+uniprot:62752 a sils:Species ;
+rdfs:label "Pinus sibirica" .
+
+uniprot:88731 a sils:Species ;
+rdfs:label "Pinus tabuliformis" .
+
+uniprot:38864 a sils:Species ;
+rdfs:label "Pinus uncinata" .
+
+uniprot:71654 a sils:Species ;
+rdfs:label "Pinus virginiana" .
+
+uniprot:88732 a sils:Species ;
+rdfs:label "Pinus yunnanensis" .
+
+uniprot:4477 a sils:Species ;
+rdfs:label "Pistia stratiotes" .
+
+uniprot:185776 a sils:Species ;
+rdfs:label "Plantago argentea" .
+
+uniprot:289743 a sils:Species ;
+rdfs:label "Pleiogynium timoriense" .
+
+uniprot:4545 a sils:Species ;
+rdfs:label "Poa pratensis" .
+
+uniprot:3691 a sils:Species ;
+rdfs:label "Populus nigra" .
+
+uniprot:86303 a sils:Species ;
+rdfs:label "Portulacaria afra" .
+
+uniprot:46147 a sils:Species ;
+rdfs:label "Portulaca oleracea" .
+
+uniprot:57926 a sils:Species ;
+rdfs:label "Potentilla anserina" .
+
+uniprot:55259 a sils:Species ;
+rdfs:label "Prionotes cerinthoides" .
+
+uniprot:170927 a sils:Species ;
+rdfs:label "Primula veris" .
+
+uniprot:9786 a sils:Species ;
+rdfs:label "Proboscidea louisiana" .
+
+uniprot:32242 a sils:Species ;
+rdfs:label "Prunus laurocerasus" .
+
+uniprot:4586 a sils:Species ;
+rdfs:label "Psathyrostachys juncea" .
+
+uniprot:81982 a sils:Species ;
+rdfs:label "Pseudoturritis turrita" .
+
+uniprot:32243 a sils:Species ;
+rdfs:label "Purshia tridentata" .
+
+uniprot:39468 a sils:Species ;
+rdfs:label "Quercus cerris" .
+
+uniprot:58335 a sils:Species ;
+rdfs:label "Quercus coccifera" .
+
+uniprot:252765 a sils:Species ;
+rdfs:label "Quercus gemelliflora" .
+
+uniprot:58334 a sils:Species ;
+rdfs:label "Quercus ilex" .
+
+uniprot:252766 a sils:Species ;
+rdfs:label "Quercus lyrata" .
+
+uniprot:73152 a sils:Species ;
+rdfs:label "Quercus palustris" .
+
+uniprot:38865 a sils:Species ;
+rdfs:label "Quercus petraea" .
+
+uniprot:3512 a sils:Species ;
+rdfs:label "Quercus rubra" .
+
+uniprot:58331 a sils:Species ;
+rdfs:label "Quercus suber" .
+
+uniprot:235900 a sils:Species ;
+rdfs:label "Ranunculus glacialis" .
+
+uniprot:105186 a sils:Species ;
+rdfs:label "Ranunculus lingua" .
+
+uniprot:137665 a sils:Species ;
+rdfs:label "Ranunculus repens" .
+
+uniprot:22903 a sils:Species ;
+rdfs:label "Ranunculus trichophyllus" .
+
+uniprot:3610 a sils:Species ;
+rdfs:label "Rhamnus cathartica" .
+
+uniprot:49622 a sils:Species ;
+rdfs:label "Rhododendron ferrugineum" .
+
+uniprot:4347 a sils:Species ;
+rdfs:label "Rhododendron hippophaeoides" .
+
+uniprot:32245 a sils:Species ;
+rdfs:label "Rhodotypos scandens" .
+
+uniprot:49170 a sils:Species ;
+rdfs:label "Rhododendron tomentosum" .
+
+uniprot:46249 a sils:Species ;
+rdfs:label "Rhododendron tsusiophyllum" .
+
+uniprot:3533 a sils:Species ;
+rdfs:label "Rivina humilis" .
+
+uniprot:65951 a sils:Species ;
+rdfs:label "Rorippa amphibia" .
+
+uniprot:50498 a sils:Species ;
+rdfs:label "Rorippa palustris" .
+
+uniprot:117260 a sils:Species ;
+rdfs:label "Rosa acicularis" .
+
+uniprot:74638 a sils:Species ;
+rdfs:label "Rosa carolina" .
+
+uniprot:74641 a sils:Species ;
+rdfs:label "Rosa californica" .
+
+uniprot:74635 a sils:Species ;
+rdfs:label "Rosa canina" .
+
+uniprot:74629 a sils:Species ;
+rdfs:label "Rosa foetida" .
+
+uniprot:74650 a sils:Species ;
+rdfs:label "Rosa gigantea" .
+
+uniprot:74647 a sils:Species ;
+rdfs:label "Rosa multiflora" .
+
+uniprot:74645 a sils:Species ;
+rdfs:label "Rosa rugosa" .
+
+uniprot:74655 a sils:Species ;
+rdfs:label "Rosa stellata" .
+
+uniprot:75100 a sils:Species ;
+rdfs:label "Rubus ursinus" .
+
+uniprot:59067 a sils:Species ;
+rdfs:label "Ruscus aculeatus" .
+
+uniprot:171222 a sils:Species ;
+rdfs:label "Sapindus saponaria" .
+
+uniprot:29769 a sils:Species ;
+rdfs:label "Saxifraga cernua" .
+
+uniprot:29770 a sils:Species ;
+rdfs:label "Saxifraga mertensiana" .
+
+uniprot:29771 a sils:Species ;
+rdfs:label "Saxifraga oppositifolia" .
+
+uniprot:58958 a sils:Species ;
+rdfs:label "Schizorhiza neglecta" .
+
+uniprot:3595 a sils:Species ;
+rdfs:label "Schlumbergera truncata" .
+
+uniprot:28979 a sils:Species ;
+rdfs:label "Sciadopitys verticillata" .
+
+uniprot:28980 a sils:Species ;
+rdfs:label "Sequoia sempervirens" .
+
+uniprot:42039 a sils:Species ;
+rdfs:label "Silene otites" .
+
+uniprot:3730 a sils:Species ;
+rdfs:label "Sisymbrium irio" .
+
+uniprot:49843 a sils:Species ;
+rdfs:label "Spartium junceum" .
+
+uniprot:141007 a sils:Species ;
+rdfs:label "Spiraea cantoniensis" .
+
+uniprot:51605 a sils:Species ;
+rdfs:label "Spirodela intermedia" .
+
+uniprot:38731 a sils:Species ;
+rdfs:label "Sporobolus indicus" .
+
+uniprot:65991 a sils:Species ;
+rdfs:label "Sporobolus michauxianus" .
+
+uniprot:72662 a sils:Species ;
+rdfs:label "Stanleya pinnata" .
+
+uniprot:59679 a sils:Species ;
+rdfs:label "Stewartia pseudocamellia" .
+
+uniprot:37660 a sils:Species ;
+rdfs:label "Stylosanthes hamata" .
+
+uniprot:23271 a sils:Species ;
+rdfs:label "Sullivantia sullivantii" .
+
+uniprot:178109 a sils:Species ;
+rdfs:label "Syzygium anisatum" .
+
+uniprot:178175 a sils:Species ;
+rdfs:label "Syzygium australe" .
+
+uniprot:260142 a sils:Species ;
+rdfs:label "Syzygium cumini" .
+
+uniprot:260143 a sils:Species ;
+rdfs:label "Syzygium samarangense" .
+
+uniprot:106071 a sils:Species ;
+rdfs:label "Thryptomene saxicola" .
+
+uniprot:13727 a sils:Species ;
+rdfs:label "Thujopsis dolabrata" .
+
+uniprot:3317 a sils:Species ;
+rdfs:label "Thuja occidentalis" .
+
+uniprot:3316 a sils:Species ;
+rdfs:label "Thuja plicata" .
+
+uniprot:152754 a sils:Species ;
+rdfs:label "Tigridia pavonia" .
+
+uniprot:66669 a sils:Species ;
+rdfs:label "Tilia americana" .
+
+uniprot:89482 a sils:Species ;
+rdfs:label "Torreya californica" .
+
+uniprot:74502 a sils:Species ;
+rdfs:label "Trifolium albopurpureum" .
+
+uniprot:247906 a sils:Species ;
+rdfs:label "Trifolium beckwithii" .
+
+uniprot:74508 a sils:Species ;
+rdfs:label "Trifolium burchellianum" .
+
+uniprot:82476 a sils:Species ;
+rdfs:label "Trillium cernuum" .
+
+uniprot:82475 a sils:Species ;
+rdfs:label "Trillium catesbaei" .
+
+uniprot:50545 a sils:Species ;
+rdfs:label "Trillium erectum" .
+
+uniprot:82483 a sils:Species ;
+rdfs:label "Trillium flexipes" .
+
+uniprot:97023 a sils:Species ;
+rdfs:label "Trifolium fragiferum" .
+
+uniprot:74515 a sils:Species ;
+rdfs:label "Trifolium gracilentum" .
+
+uniprot:55186 a sils:Species ;
+rdfs:label "Trillium grandiflorum" .
+
+uniprot:60915 a sils:Species ;
+rdfs:label "Trifolium hirtum" .
+
+uniprot:74517 a sils:Species ;
+rdfs:label "Trifolium hybridum" .
+
+uniprot:60916 a sils:Species ;
+rdfs:label "Trifolium incarnatum" .
+
+uniprot:74519 a sils:Species ;
+rdfs:label "Trifolium lupinaster" .
+
+uniprot:82489 a sils:Species ;
+rdfs:label "Trillium luteum" .
+
+uniprot:82490 a sils:Species ;
+rdfs:label "Trillium maculatum" .
+
+uniprot:200957 a sils:Species ;
+rdfs:label "Trifolium microcephalum" .
+
+uniprot:82494 a sils:Species ;
+rdfs:label "Trillium pusillum" .
+
+uniprot:97036 a sils:Species ;
+rdfs:label "Trifolium resupinatum" .
+
+uniprot:74529 a sils:Species ;
+rdfs:label "Trifolium semipilosum" .
+
+uniprot:97041 a sils:Species ;
+rdfs:label "Trifolium spumosum" .
+
+uniprot:97043 a sils:Species ;
+rdfs:label "Trifolium striatum" .
+
+uniprot:74531 a sils:Species ;
+rdfs:label "Trifolium thalii" .
+
+uniprot:82504 a sils:Species ;
+rdfs:label "Trillium undulatum" .
+
+uniprot:200959 a sils:Species ;
+rdfs:label "Trifolium willdenovii" .
+
+uniprot:200960 a sils:Species ;
+rdfs:label "Trifolium wormskioldii" .
+
+uniprot:66173 a sils:Species ;
+rdfs:label "Tsuga canadensis" .
+
+uniprot:63678 a sils:Species ;
+rdfs:label "Turritis glabra" .
+
+uniprot:59011 a sils:Species ;
+rdfs:label "Typha angustifolia" .
+
+uniprot:4733 a sils:Species ;
+rdfs:label "Typha latifolia" .
+
+uniprot:63058 a sils:Species ;
+rdfs:label "Ulmus parvifolia" .
+
+uniprot:4184 a sils:Species ;
+rdfs:label "Uncarina grandidieri" .
+
+uniprot:180772 a sils:Species ;
+rdfs:label "Vaccinium vitis-idaea" .
+
+uniprot:36600 a sils:Species ;
+rdfs:label "Vauquelinia californica" .
+
+uniprot:46032 a sils:Species ;
+rdfs:label "Veronica arvensis" .
+
+uniprot:185780 a sils:Species ;
+rdfs:label "Verbena rigida" .
+
+uniprot:39388 a sils:Species ;
+rdfs:label "Verbascum thapsus" .
+
+uniprot:115715 a sils:Species ;
+rdfs:label "Vigna subterranea" .
+
+uniprot:58981 a sils:Species ;
+rdfs:label "Watsonia angusta." .
+
+uniprot:47096 a sils:Species ;
+rdfs:label "Wisteria frutescens" .
+
+uniprot:161111 a sils:Species ;
+rdfs:label "Wolffia arrhiza" .
+
+uniprot:101473 a sils:Species ;
+rdfs:label "Wollastonia biflora" .
+
+uniprot:161124 a sils:Species ;
+rdfs:label "Wolffiella gladiata" .
+
+uniprot:3305 a sils:Species ;
+rdfs:label "Zamia integrifolia" .
+
+uniprot:69721 a sils:Species ;
+rdfs:label "Zantedeschia aethiopica" .
+
+uniprot:136225 a sils:Species ;
+rdfs:label "Zingiber mioga" .
+
+uniprot:2858 a sils:Species ;
+rdfs:label "Nitzschia alba" .
+
+uniprot:203992 a sils:Species ;
+rdfs:label "Ananas macrodontes" .
+
+uniprot:2969 a sils:Species ;
+rdfs:label "Oxyrrhis marina" .
+
+uniprot:289672 a sils:Species ;
+rdfs:label "Erythroxylum coca" .
+
+uniprot:126914 a sils:Species ;
+rdfs:label "Suaeda salsa" .
+
+uniprot:151069 a sils:Species ;
+rdfs:label "Litchi chinensis" .
+
+uniprot:4115 a sils:Species ;
+rdfs:label "Solanum palustre" .
+
+uniprot:309130 a sils:Species ;
+rdfs:label "Jacaratia mexicana" .
+
+uniprot:54672 a sils:Species ;
+rdfs:label "Euphorbia lagascae." .
+
+uniprot:81971 a sils:Species ;
+rdfs:label "Arabidopsis halleri subsp. halleri" .
+
+uniprot:3743 a sils:Species ;
+rdfs:label "Synsepalum dulcificum" .
+
+uniprot:3457 a sils:Species ;
+rdfs:label "Dioscoreophyllum cumminsii" .
+
+uniprot:28479 a sils:Species ;
+rdfs:label "Phalaris aquatica" .
+
+uniprot:29715 a sils:Species ;
+rdfs:label "Ambrosia psilostachya" .
+
+uniprot:4215 a sils:Species ;
+rdfs:label "Ambrosia artemisiifolia var. elatior" .
+
+uniprot:4509 a sils:Species ;
+rdfs:label "Dactylis glomerata" .
+
+uniprot:29679 a sils:Species ;
+rdfs:label "Holcus lanatus" .
+
+uniprot:39584 a sils:Species ;
+rdfs:label "Juniperus virginiana" .
+
+uniprot:4214 a sils:Species ;
+rdfs:label "Ambrosia trifida" .
+
+uniprot:52153 a sils:Species ;
+rdfs:label "Festuca rubra" .
+
+uniprot:35628 a sils:Species ;
+rdfs:label "Stylosanthes humilis" .
+
+uniprot:35974 a sils:Species ;
+rdfs:label "Santalum album" .
+
+uniprot:157652 a sils:Species ;
+rdfs:label "Mucuna pruriens" .
+
+uniprot:49840 a sils:Species ;
+rdfs:label "Sophora flavescens" .
+
+uniprot:4567 a sils:Species ;
+rdfs:label "Triticum turgidum subsp. durum" .
+
+uniprot:85692 a sils:Species ;
+rdfs:label "Triticum dicoccoides" .
+
+uniprot:4768 a sils:Species ;
+rdfs:label "Achlya ambisexualis" .
+
+uniprot:4606 a sils:Species ;
+rdfs:label "Festuca arundinacea" .
+
+uniprot:185140 a sils:Species ;
+rdfs:label "Acanthospermum australe" .
+
+uniprot:217838 a sils:Species ;
+rdfs:label "Acmella radicans" .
+
+uniprot:183005 a sils:Species ;
+rdfs:label "Aphanactis jamesoniana." .
+
+uniprot:149409 a sils:Species ;
+rdfs:label "Arnica dealbata" .
+
+uniprot:4247 a sils:Species ;
+rdfs:label "Arnica mollis" .
+
+uniprot:183107 a sils:Species ;
+rdfs:label "Athroisma gracile subsp. psyllioides." .
+
+uniprot:144192 a sils:Species ;
+rdfs:label "Bahiopsis tomentosa" .
+
+uniprot:183007 a sils:Species ;
+rdfs:label "Bebbia juncea" .
+
+uniprot:41494 a sils:Species ;
+rdfs:label "Blepharispermum zanguebaricum." .
+
+uniprot:183009 a sils:Species ;
+rdfs:label "Calea megacephala." .
+
+uniprot:53717 a sils:Species ;
+rdfs:label "Calyptocarpus vialis" .
+
+uniprot:169567 a sils:Species ;
+rdfs:label "Chaetymenia peduncularis" .
+
+uniprot:176524 a sils:Species ;
+rdfs:label "Chamaechaenactis scaposa" .
+
+uniprot:176522 a sils:Species ;
+rdfs:label "Chaenactis santolinoides" .
+
+uniprot:176600 a sils:Species ;
+rdfs:label "Chromolepis heterophylla." .
+
+uniprot:183011 a sils:Species ;
+rdfs:label "Clibadium alatum" .
+
+uniprot:149418 a sils:Species ;
+rdfs:label "Constancea nevinii" .
+
+uniprot:217840 a sils:Species ;
+rdfs:label "Coreopsis petrophiloides" .
+
+uniprot:183016 a sils:Species ;
+rdfs:label "Cymophora venezuelensis." .
+
+uniprot:41563 a sils:Species ;
+rdfs:label "Dahlia coccinea" .
+
+uniprot:183018 a sils:Species ;
+rdfs:label "Damnxanthodium calvum" .
+
+uniprot:183020 a sils:Species ;
+rdfs:label "Delilia biflora" .
+
+uniprot:217841 a sils:Species ;
+rdfs:label "Desmanthodium fruticosum." .
+
+uniprot:176528 a sils:Species ;
+rdfs:label "Dimeresia howellii" .
+
+uniprot:183306 a sils:Species ;
+rdfs:label "Dimerostemma vestitum." .
+
+uniprot:121910 a sils:Species ;
+rdfs:label "Dugesia mexicana." .
+
+uniprot:183024 a sils:Species ;
+rdfs:label "Dyscritothamnus mirandae." .
+
+uniprot:149422 a sils:Species ;
+rdfs:label "Eatonella nivea" .
+
+uniprot:53719 a sils:Species ;
+rdfs:label "Eclipta prostrata" .
+
+uniprot:183026 a sils:Species ;
+rdfs:label "Encelia californica" .
+
+uniprot:183029 a sils:Species ;
+rdfs:label "Enydra sessilis" .
+
+uniprot:149424 a sils:Species ;
+rdfs:label "Eriophyllum congdonii" .
+
+uniprot:149426 a sils:Species ;
+rdfs:label "Eriophyllum staechadifolium" .
+
+uniprot:183013 a sils:Species ;
+rdfs:label "Espeletia timotensis" .
+
+uniprot:176532 a sils:Species ;
+rdfs:label "Eutetras palmeri." .
+
+uniprot:41578 a sils:Species ;
+rdfs:label "Flaveria ramosissima" .
+
+uniprot:183106 a sils:Species ;
+rdfs:label "Florestina pedata" .
+
+uniprot:176537 a sils:Species ;
+rdfs:label "Galeana pratensis." .
+
+uniprot:183030 a sils:Species ;
+rdfs:label "Galinsoga quadriradiata" .
+
+uniprot:183032 a sils:Species ;
+rdfs:label "Greenmaniella resinosa" .
+
+uniprot:176604 a sils:Species ;
+rdfs:label "Guardiola tulocarpus." .
+
+uniprot:128739 a sils:Species ;
+rdfs:label "Helenium bigelovii" .
+
+uniprot:217844 a sils:Species ;
+rdfs:label "Hofmeisteria fasciculata" .
+
+uniprot:4252 a sils:Species ;
+rdfs:label "Hulsea algida" .
+
+uniprot:176542 a sils:Species ;
+rdfs:label "Hymenopappus filifolius var. filifolius" .
+
+uniprot:128718 a sils:Species ;
+rdfs:label "Hymenoxys lemmonii" .
+
+uniprot:185166 a sils:Species ;
+rdfs:label "Ichthyothere terminalis." .
+
+uniprot:166980 a sils:Species ;
+rdfs:label "Idiopappus quitensis." .
+
+uniprot:183035 a sils:Species ;
+rdfs:label "Jaegeria hirta" .
+
+uniprot:41592 a sils:Species ;
+rdfs:label "Jaumea carnosa" .
+
+uniprot:183037 a sils:Species ;
+rdfs:label "Kingianthus paradoxus." .
+
+uniprot:149437 a sils:Species ;
+rdfs:label "Lagophylla ramosissima" .
+
+uniprot:183039 a sils:Species ;
+rdfs:label "Lasianthaea macrocephala" .
+
+uniprot:149443 a sils:Species ;
+rdfs:label "Layia heterotricha" .
+
+uniprot:176551 a sils:Species ;
+rdfs:label "Loxothysanus sinuatus." .
+
+uniprot:183047 a sils:Species ;
+rdfs:label "Lundellianthus jaliscensis" .
+
+uniprot:149445 a sils:Species ;
+rdfs:label "Madia sativa" .
+
+uniprot:41604 a sils:Species ;
+rdfs:label "Marshallia caespitosa" .
+
+uniprot:2596874 a sils:Species ;
+rdfs:label "Melanthera integrifolia" .
+
+uniprot:183048 a sils:Species ;
+rdfs:label "Melampodium leucanthum" .
+
+uniprot:183050 a sils:Species ;
+rdfs:label "Melanthera nivea" .
+
+uniprot:183052 a sils:Species ;
+rdfs:label "Milleria quinqueflora" .
+
+uniprot:149447 a sils:Species ;
+rdfs:label "Monolopia congdonii" .
+
+uniprot:149448 a sils:Species ;
+rdfs:label "Monolopia gracilens" .
+
+uniprot:183054 a sils:Species ;
+rdfs:label "Monactis pallatangensis." .
+
+uniprot:167004 a sils:Species ;
+rdfs:label "Montanoa revealii." .
+
+uniprot:183056 a sils:Species ;
+rdfs:label "Neurolaena lobata" .
+
+uniprot:183058 a sils:Species ;
+rdfs:label "Oblivia mikanioides" .
+
+uniprot:183060 a sils:Species ;
+rdfs:label "Oteiza scandens." .
+
+uniprot:176555 a sils:Species ;
+rdfs:label "Oxypappus scaber." .
+
+uniprot:41620 a sils:Species ;
+rdfs:label "Palafoxia arida" .
+
+uniprot:183063 a sils:Species ;
+rdfs:label "Parthenium hysterophorus" .
+
+uniprot:119176 a sils:Species ;
+rdfs:label "Pentanema britannicum" .
+
+uniprot:176559 a sils:Species ;
+rdfs:label "Pericome caudata" .
+
+uniprot:217845 a sils:Species ;
+rdfs:label "Perityle lindheimeri" .
+
+uniprot:183067 a sils:Species ;
+rdfs:label "Perymenium macrocephalum." .
+
+uniprot:183065 a sils:Species ;
+rdfs:label "Perymeniopsis ovalifolia." .
+
+uniprot:176567 a sils:Species ;
+rdfs:label "Peucephyllum schottii" .
+
+uniprot:109582 a sils:Species ;
+rdfs:label "Phaneroglossa bolusii" .
+
+uniprot:183068 a sils:Species ;
+rdfs:label "Philactis zinnioides." .
+
+uniprot:41490 a sils:Species ;
+rdfs:label "Picradeniopsis absinthifolia" .
+
+uniprot:121888 a sils:Species ;
+rdfs:label "Podachaenium eminens" .
+
+uniprot:183070 a sils:Species ;
+rdfs:label "Polymnia canadensis" .
+
+uniprot:128726 a sils:Species ;
+rdfs:label "Psathyrotes annua" .
+
+uniprot:176575 a sils:Species ;
+rdfs:label "Pseudoclappia arenaria" .
+
+uniprot:41626 a sils:Species ;
+rdfs:label "Psilostrophe gnaphalodes" .
+
+uniprot:149453 a sils:Species ;
+rdfs:label "Raillardella argentea" .
+
+uniprot:53728 a sils:Species ;
+rdfs:label "Ratibida columnifera" .
+
+uniprot:183072 a sils:Species ;
+rdfs:label "Rensonia salvadorica." .
+
+uniprot:183302 a sils:Species ;
+rdfs:label "Riencourtia oblongifolia." .
+
+uniprot:121890 a sils:Species ;
+rdfs:label "Rojasianthe superba" .
+
+uniprot:52299 a sils:Species ;
+rdfs:label "Rudbeckia hirta" .
+
+uniprot:183074 a sils:Species ;
+rdfs:label "Rumfordia penninervis" .
+
+uniprot:183076 a sils:Species ;
+rdfs:label "Sigesbeckia blakei." .
+
+uniprot:53588 a sils:Species ;
+rdfs:label "Silphium perfoliatum" .
+
+uniprot:183077 a sils:Species ;
+rdfs:label "Smallanthus microcephalus" .
+
+uniprot:53737 a sils:Species ;
+rdfs:label "Sphagneticola trilobata" .
+
+uniprot:183081 a sils:Species ;
+rdfs:label "Spilanthes urens" .
+
+uniprot:121904 a sils:Species ;
+rdfs:label "Squamopappus skutchii" .
+
+uniprot:183083 a sils:Species ;
+rdfs:label "Steiractinia sodiroi." .
+
+uniprot:183085 a sils:Species ;
+rdfs:label "Synedrella nodiflora" .
+
+uniprot:13708 a sils:Species ;
+rdfs:label "Tagetes erecta" .
+
+uniprot:183087 a sils:Species ;
+rdfs:label "Tetrachyron orizabensis" .
+
+uniprot:183089 a sils:Species ;
+rdfs:label "Tetragonotheca repanda" .
+
+uniprot:169611 a sils:Species ;
+rdfs:label "Thymophylla tenuiloba" .
+
+uniprot:183091 a sils:Species ;
+rdfs:label "Tilesia baccata" .
+
+uniprot:183093 a sils:Species ;
+rdfs:label "Tridax balbisioides" .
+
+uniprot:183095 a sils:Species ;
+rdfs:label "Trigonospermum melampodioides." .
+
+uniprot:102792 a sils:Species ;
+rdfs:label "Trilisa paniculata" .
+
+uniprot:176586 a sils:Species ;
+rdfs:label "Varilla mexicana" .
+
+uniprot:41659 a sils:Species ;
+rdfs:label "Venegasia carpesioides" .
+
+uniprot:217846 a sils:Species ;
+rdfs:label "Verbesina jacksonii." .
+
+uniprot:176589 a sils:Species ;
+rdfs:label "Villanova achilleoides" .
+
+uniprot:183098 a sils:Species ;
+rdfs:label "Wedelia tegetis." .
+
+uniprot:183102 a sils:Species ;
+rdfs:label "Zaluzania megacephala." .
+
+uniprot:183104 a sils:Species ;
+rdfs:label "Zexmenia serrata." .
+
+uniprot:217847 a sils:Species ;
+rdfs:label "Zinnia juniperifolia." .
+
+uniprot:640484 a sils:Species ;
+rdfs:label "Populus jackii" .
+
+uniprot:33653 a sils:Species ;
+rdfs:label "Cafeteria roenbergensis" .
+
+uniprot:19769 a sils:Species ;
+rdfs:label "Beta trigyna" .
+
+uniprot:35923 a sils:Species ;
+rdfs:label "Patellifolia webbiana" .
+
+uniprot:519296 a sils:Species ;
+rdfs:label "Nesocodon mauritianus" .
+
+uniprot:164110 a sils:Species ;
+rdfs:label "Nicotiana langsdorffii x Nicotiana sanderae" .
+
+uniprot:1744888 a sils:Species ;
+rdfs:label "Nepenthes x ventrata" .
+
+uniprot:3117 a sils:Species ;
+rdfs:label "Ulva prolifera" .
+
+uniprot:334690 a sils:Species ;
+rdfs:label "Euphorbia nivulia" .
+
+uniprot:143451 a sils:Species ;
+rdfs:label "Plasmopara viticola" .
+
+uniprot:33127 a sils:Species ;
+rdfs:label "Parietaria judaica" .
+
+uniprot:2849586 a sils:Species ;
+rdfs:label "Foeniculum vulgare" .
+
+uniprot:52570 a sils:Species ;
+rdfs:label "Trachyspermum ammi" .
+
+uniprot:278110 a sils:Species ;
+rdfs:label "Apium graveolens var. rapaceum" .
+
+uniprot:40922 a sils:Species ;
+rdfs:label "Anethum graveolens" .
+
+uniprot:112863 a sils:Species ;
+rdfs:label "Lycium barbarum" .
+
+uniprot:43522 a sils:Species ;
+rdfs:label "Morinda citrifolia" .
+
+uniprot:43879 a sils:Species ;
+rdfs:label "Peganum harmala" .
+
+uniprot:106556 a sils:Species ;
+rdfs:label "Malus hupehensis" .
+
+uniprot:647263 a sils:Species ;
+rdfs:label "Dendrocnide excelsa" .
+
+uniprot:1842752 a sils:Species ;
+rdfs:label "Dendrocnide moroides" .
+
+uniprot:207935 a sils:Species ;
+rdfs:label "Allium textile" .
+
+uniprot:38221 a sils:Species ;
+rdfs:label "Coelogyne cristata" .
+
+uniprot:4639 a sils:Species ;
+rdfs:label "Ensete ventricosum" .
+
+uniprot:81770 a sils:Species ;
+rdfs:label "Leopoldia comosa" .
+
+uniprot:39530 a sils:Species ;
+rdfs:label "Maianthemum racemosum" .
+
+uniprot:51461 a sils:Species ;
+rdfs:label "Muilla maritima" .
+
+uniprot:54847 a sils:Species ;
+rdfs:label "Narcissus elegans" .
+
+uniprot:207934 a sils:Species ;
+rdfs:label "Sisyrinchium montanum" .
+
+uniprot:207936 a sils:Species ;
+rdfs:label "Yucca glauca" .
+
+uniprot:3161 a sils:Species ;
+rdfs:label "Tetraselmis subcordiformis" .
+
+uniprot:41468 a sils:Species ;
+rdfs:label "Adenocaulon himalaicum" .
+
+uniprot:41474 a sils:Species ;
+rdfs:label "Anisothrix integra." .
+
+uniprot:41482 a sils:Species ;
+rdfs:label "Athroisma gracile." .
+
+uniprot:4499 a sils:Species ;
+rdfs:label "Avena fatua" .
+
+uniprot:29663 a sils:Species ;
+rdfs:label "Brachypodium pinnatum" .
+
+uniprot:33114 a sils:Species ;
+rdfs:label "Capsicum baccatum" .
+
+uniprot:23101 a sils:Species ;
+rdfs:label "Carpenteria californica" .
+
+uniprot:4222 a sils:Species ;
+rdfs:label "Carthamus tinctorius" .
+
+uniprot:41565 a sils:Species ;
+rdfs:label "Dampiera diversifolia" .
+
+uniprot:38791 a sils:Species ;
+rdfs:label "Digitalis grandiflora" .
+
+uniprot:13547 a sils:Species ;
+rdfs:label "Gerbera jamesonii" .
+
+uniprot:93788 a sils:Species ;
+rdfs:label "Malvaviscus arboreus" .
+
+uniprot:41608 a sils:Species ;
+rdfs:label "Mutisia acuminata." .
+
+uniprot:41480 a sils:Species ;
+rdfs:label "Symphyotrichum cordifolium" .
+
+uniprot:69904 a sils:Species ;
+rdfs:label "Tecoma stans" .
+
+uniprot:4502 a sils:Species ;
+rdfs:label "Bromus secalinus" .
+
+uniprot:141467 a sils:Species ;
+rdfs:label "Calotropis procera" .
+
+uniprot:96266 a sils:Species ;
+rdfs:label "Palicourea rigida." .
+
+uniprot:152095 a sils:Species ;
+rdfs:label "Fritillaria unibracteata" .
+
+uniprot:32247 a sils:Species ;
+rdfs:label "Rubus idaeus" .
+
+uniprot:32198 a sils:Species ;
+rdfs:label "Thunbergia alata" .
+
+uniprot:272141 a sils:Species ;
+rdfs:label "Palicourea condensata" .
+
+uniprot:4073 a sils:Species ;
+rdfs:label "Capsicum frutescens" .
+
+uniprot:29808 a sils:Species ;
+rdfs:label "Taxus wallichiana var. chinensis" .
+
+uniprot:160510 a sils:Species ;
+rdfs:label "Solanum cardiophyllum" .
+
+uniprot:37563 a sils:Species ;
+rdfs:label "Urochloa panicoides" .
+
+uniprot:2928 a sils:Species ;
+rdfs:label "Alexandrium cohorticula" .
+
+uniprot:2950 a sils:Species ;
+rdfs:label "Symbiodinium sp." .
+
+uniprot:319931 a sils:Species ;
+rdfs:label "Camellia ptilophylla" .
+
+uniprot:34297 a sils:Species ;
+rdfs:label "Datisca glomerata" .
+
+uniprot:33119 a sils:Species ;
+rdfs:label "Petunia axillaris" .
+
+uniprot:3704 a sils:Species ;
+rdfs:label "Armoracia rusticana" .
+
+uniprot:34199 a sils:Species ;
+rdfs:label "Aloe vera" .
+
+uniprot:114260 a sils:Species ;
+rdfs:label "Sedum lineare" .
+
+uniprot:35845 a sils:Species ;
+rdfs:label "Acetabularia acetabulum" .
+
+uniprot:78261 a sils:Species ;
+rdfs:label "Abies homolepis" .
+
+uniprot:117272 a sils:Species ;
+rdfs:label "Amaranthus cruentus" .
+
+uniprot:125587 a sils:Species ;
+rdfs:label "Bistorta officinalis" .
+
+uniprot:54733 a sils:Species ;
+rdfs:label "Magnolia stellata" .
+
+uniprot:152679 a sils:Species ;
+rdfs:label "Saccharum barberi" .
+
+uniprot:280846 a sils:Species ;
+rdfs:label "Saccharum edule" .
+
+uniprot:62334 a sils:Species ;
+rdfs:label "Saccharum robustum" .
+
+uniprot:154766 a sils:Species ;
+rdfs:label "Saccharum sinense" .
+
+uniprot:62335 a sils:Species ;
+rdfs:label "Saccharum spontaneum" .
+
+uniprot:39875 a sils:Species ;
+rdfs:label "Silene conica" .
+
+uniprot:39414 a sils:Species ;
+rdfs:label "Plantago lanceolata" .
+
+uniprot:672127 a sils:Species ;
+rdfs:label "Thraustochytrium sp." .
+
+uniprot:153248 a sils:Species ;
+rdfs:label "Ptilota filicina" .
+
+uniprot:140101 a sils:Species ;
+rdfs:label "Platanus acerifolia" .
+
+uniprot:3945 a sils:Species ;
+rdfs:label "Oenothera organensis" .
+
+uniprot:113636 a sils:Species ;
+rdfs:label "Populus tremula" .
+
+uniprot:65404 a sils:Species ;
+rdfs:label "Polysiphonia urceolata" .
+
+uniprot:79257 a sils:Species ;
+rdfs:label "Rhodomonas sp." .
+
+uniprot:354589 a sils:Species ;
+rdfs:label "Chroomonas sp." .
+
+uniprot:3029 a sils:Species ;
+rdfs:label "Chroomonas sp." .
+
+uniprot:464988 a sils:Species ;
+rdfs:label "Hemiselmis andersenii" .
+
+uniprot:77927 a sils:Species ;
+rdfs:label "Hemiselmis virescens." .
+
+uniprot:2510777 a sils:Species ;
+rdfs:label "Agarophyton chilensis" .
+
+uniprot:42003 a sils:Species ;
+rdfs:label "Griffithsia monilis" .
+
+uniprot:2805 a sils:Species ;
+rdfs:label "Polysiphonia hemisphaerica var. boldii" .
+
+uniprot:28024 a sils:Species ;
+rdfs:label "Porphyridium sordidum" .
+
+uniprot:2773 a sils:Species ;
+rdfs:label "Gastroclonium coulteri" .
+
+uniprot:35170 a sils:Species ;
+rdfs:label "Corallina officinalis" .
+
+uniprot:126767 a sils:Species ;
+rdfs:label "Philibertia gilliesii" .
+
+uniprot:55183 a sils:Species ;
+rdfs:label "Forsythia intermedia" .
+
+uniprot:191219 a sils:Species ;
+rdfs:label "Linum album" .
+
+uniprot:480358 a sils:Species ;
+rdfs:label "Linum corymbulosum" .
+
+uniprot:60093 a sils:Species ;
+rdfs:label "Vinca minor" .
+
+uniprot:214687 a sils:Species ;
+rdfs:label "Musa acuminata subsp. malaccensis" .
+
+uniprot:122832 a sils:Species ;
+rdfs:label "Platanus orientalis" .
+
+uniprot:3985 a sils:Species ;
+rdfs:label "Mercurialis perennis" .
+
+uniprot:3619 a sils:Species ;
+rdfs:label "Rumex obtusifolius" .
+
+uniprot:4110 a sils:Species ;
+rdfs:label "Solanum crispum" .
+
+uniprot:159749 a sils:Species ;
+rdfs:label "Thalassiosira oceanica" .
+
+uniprot:3119 a sils:Species ;
+rdfs:label "Ulva arasakii" .
+
+uniprot:42439 a sils:Species ;
+rdfs:label "Limnanthes alba" .
+
+uniprot:49011 a sils:Species ;
+rdfs:label "Hesperocyparis arizonica" .
+
+uniprot:38272 a sils:Species ;
+rdfs:label "Dunaliella acidophila" .
+
+uniprot:204231 a sils:Species ;
+rdfs:label "Ficus pumila var. awkeotsang" .
+
+uniprot:142615 a sils:Species ;
+rdfs:label "Dendrobium officinale" .
+
+uniprot:69008 a sils:Species ;
+rdfs:label "Juniperus oxycedrus" .
+
+uniprot:34270 a sils:Species ;
+rdfs:label "Syringa vulgaris" .
+
+uniprot:56867 a sils:Species ;
+rdfs:label "Marchantia paleacea" .
+
+uniprot:3986 a sils:Species ;
+rdfs:label "Mercurialis annua" .
+
+uniprot:3389 a sils:Species ;
+rdfs:label "Ephedra distachya" .
+
+uniprot:52862 a sils:Species ;
+rdfs:label "Thevetia peruviana" .
+
+uniprot:52969 a sils:Species ;
+rdfs:label "Ascophyllum nodosum" .
+
+uniprot:78447 a sils:Species ;
+rdfs:label "Corallina pilulifera" .
+
+uniprot:42754 a sils:Species ;
+rdfs:label "Araucaria araucana" .
+
+uniprot:3419 a sils:Species ;
+rdfs:label "Drimys winteri" .
+
+uniprot:58035 a sils:Species ;
+rdfs:label "Encephalartos lebomboensis" .
+
+uniprot:3390 a sils:Species ;
+rdfs:label "Ephedra tweediana" .
+
+uniprot:113538 a sils:Species ;
+rdfs:label "Equisetum palustre" .
+
+uniprot:113539 a sils:Species ;
+rdfs:label "Marsilea botryocarpa" .
+
+uniprot:73615 a sils:Species ;
+rdfs:label "Phlegmariurus squarrosus" .
+
+uniprot:4604 a sils:Species ;
+rdfs:label "Pseudoroegneria spicata" .
+
+uniprot:38588 a sils:Species ;
+rdfs:label "Syntrichia ruralis" .
+
+uniprot:142000 a sils:Species ;
+rdfs:label "Carpobrotus chilensis" .
+
+uniprot:66845 a sils:Species ;
+rdfs:label "Euglena deses." .
+
+uniprot:69255 a sils:Species ;
+rdfs:label "Euglena granulata." .
+
+uniprot:38275 a sils:Species ;
+rdfs:label "Euglena mutabilis." .
+
+uniprot:38276 a sils:Species ;
+rdfs:label "Euglena myxocylindracea." .
+
+uniprot:130315 a sils:Species ;
+rdfs:label "Euglena sanguinea." .
+
+uniprot:66847 a sils:Species ;
+rdfs:label "Lepocinclis buetschlii." .
+
+uniprot:130316 a sils:Species ;
+rdfs:label "Phacus acuminatus." .
+
+uniprot:2926 a sils:Species ;
+rdfs:label "Alexandrium tamarense" .
+
+uniprot:3565 a sils:Species ;
+rdfs:label "Amaranthus hybridus" .
+
+uniprot:3072 a sils:Species ;
+rdfs:label "Chlorella ellipsoidea." .
+
+uniprot:41839 a sils:Species ;
+rdfs:label "Conocephalum conicum" .
+
+uniprot:134427 a sils:Species ;
+rdfs:label "Conocephalum japonicum" .
+
+uniprot:56917 a sils:Species ;
+rdfs:label "Dumortiera hirsuta" .
+
+uniprot:2829 a sils:Species ;
+rdfs:label "Heterosigma akashiwo" .
+
+uniprot:2920 a sils:Species ;
+rdfs:label "Heterocapsa niei" .
+
+uniprot:35672 a sils:Species ;
+rdfs:label "Heterocapsa pygmaea" .
+
+uniprot:89963 a sils:Species ;
+rdfs:label "Heterocapsa rotundata" .
+
+uniprot:225107 a sils:Species ;
+rdfs:label "Karenia mikimotoi" .
+
+uniprot:50518 a sils:Species ;
+rdfs:label "Landoltia punctata" .
+
+uniprot:44759 a sils:Species ;
+rdfs:label "Magnolia pyramidata." .
+
+uniprot:2945 a sils:Species ;
+rdfs:label "Prorocentrum micans" .
+
+uniprot:45372 a sils:Species ;
+rdfs:label "Abies alba" .
+
+uniprot:60854 a sils:Species ;
+rdfs:label "Agathis robusta" .
+
+uniprot:13365 a sils:Species ;
+rdfs:label "Bowenia serrulata" .
+
+uniprot:50236 a sils:Species ;
+rdfs:label "Butomus umbellatus" .
+
+uniprot:41803 a sils:Species ;
+rdfs:label "Cuscuta europaea" .
+
+uniprot:35874 a sils:Species ;
+rdfs:label "Dioscorea bulbifera" .
+
+uniprot:4307 a sils:Species ;
+rdfs:label "Euonymus alatus" .
+
+uniprot:130722 a sils:Species ;
+rdfs:label "Gunnera chilensis" .
+
+uniprot:16752 a sils:Species ;
+rdfs:label "Houttuynia cordata" .
+
+uniprot:13569 a sils:Species ;
+rdfs:label "Hydrastis canadensis" .
+
+uniprot:89634 a sils:Species ;
+rdfs:label "Ipomoea alba" .
+
+uniprot:4431 a sils:Species ;
+rdfs:label "Nelumbo lutea" .
+
+uniprot:15008 a sils:Species ;
+rdfs:label "Sagittaria latifolia" .
+
+uniprot:13260 a sils:Species ;
+rdfs:label "Saururus cernuus" .
+
+uniprot:50507 a sils:Species ;
+rdfs:label "Schisandra chinensis" .
+
+uniprot:85269 a sils:Species ;
+rdfs:label "Spathiphyllum wallisii" .
+
+uniprot:46220 a sils:Species ;
+rdfs:label "Taxus brevifolia" .
+
+uniprot:42329 a sils:Species ;
+rdfs:label "Zamia furfuracea" .
+
+uniprot:36748 a sils:Species ;
+rdfs:label "Orobanche minor" .
+
+uniprot:25593 a sils:Species ;
+rdfs:label "Pseudotsuga japonica" .
+
+uniprot:38273 a sils:Species ;
+rdfs:label "Euglena anabaena" .
+
+uniprot:38278 a sils:Species ;
+rdfs:label "Euglena stellata." .
+
+uniprot:224139 a sils:Species ;
+rdfs:label "Allenrolfea occidentalis" .
+
+uniprot:224140 a sils:Species ;
+rdfs:label "Bassia hyssopifolia" .
+
+uniprot:103981 a sils:Species ;
+rdfs:label "Exsertotheca crispa" .
+
+uniprot:65539 a sils:Species ;
+rdfs:label "Hookeria lucens" .
+
+uniprot:53007 a sils:Species ;
+rdfs:label "Hylocomium splendens" .
+
+uniprot:53011 a sils:Species ;
+rdfs:label "Hypnum cupressiforme" .
+
+uniprot:69533 a sils:Species ;
+rdfs:label "Leucodon sciuroides" .
+
+uniprot:69843 a sils:Species ;
+rdfs:label "Lopidium concinnum" .
+
+uniprot:206448 a sils:Species ;
+rdfs:label "Salicornia europaea" .
+
+uniprot:41840 a sils:Species ;
+rdfs:label "Sphagnum cuspidatum" .
+
+uniprot:224144 a sils:Species ;
+rdfs:label "Suaeda aralocaspica" .
+
+uniprot:126913 a sils:Species ;
+rdfs:label "Suaeda maritima" .
+
+uniprot:224193 a sils:Species ;
+rdfs:label "Tecticornia australasica" .
+
+uniprot:52705 a sils:Species ;
+rdfs:label "Solanum sogarandinum." .
+
+uniprot:3404 a sils:Species ;
+rdfs:label "Magnolia acuminata" .
+
+uniprot:156230 a sils:Species ;
+rdfs:label "Karenia brevis" .
+
+uniprot:3513 a sils:Species ;
+rdfs:label "Quercus alba" .
+
+uniprot:39338 a sils:Species ;
+rdfs:label "Melissa officinalis" .
+
+uniprot:3320 a sils:Species ;
+rdfs:label "Abies magnifica" .
+
+uniprot:78263 a sils:Species ;
+rdfs:label "Abies mariesii" .
+
+uniprot:78264 a sils:Species ;
+rdfs:label "Abies sachalinensis" .
+
+uniprot:78262 a sils:Species ;
+rdfs:label "Abies veitchii" .
+
+uniprot:4024 a sils:Species ;
+rdfs:label "Acer saccharum" .
+
+uniprot:29594 a sils:Species ;
+rdfs:label "Acrostichum aureum" .
+
+uniprot:69375 a sils:Species ;
+rdfs:label "Adenium obesum" .
+
+uniprot:29590 a sils:Species ;
+rdfs:label "Adiantum pedatum" .
+
+uniprot:4208 a sils:Species ;
+rdfs:label "Adoxa moschatellina" .
+
+uniprot:56897 a sils:Species ;
+rdfs:label "Afrocarpus gracilior" .
+
+uniprot:2768810 a sils:Species ;
+rdfs:label "Ailanthus altissima" .
+
+uniprot:49984 a sils:Species ;
+rdfs:label "Ajuga chamaepitys" .
+
+uniprot:19375 a sils:Species ;
+rdfs:label "Akania bidwillii" .
+
+uniprot:15000 a sils:Species ;
+rdfs:label "Alisma plantago-aquatica" .
+
+uniprot:3586 a sils:Species ;
+rdfs:label "Alluaudia procera" .
+
+uniprot:3516 a sils:Species ;
+rdfs:label "Alnus incana" .
+
+uniprot:29599 a sils:Species ;
+rdfs:label "Anemia mexicana" .
+
+uniprot:28539 a sils:Species ;
+rdfs:label "Anthocleista grandiflora" .
+
+uniprot:43444 a sils:Species ;
+rdfs:label "Anthospermum herbaceum." .
+
+uniprot:43446 a sils:Species ;
+rdfs:label "Antirhea lucida" .
+
+uniprot:29628 a sils:Species ;
+rdfs:label "Antrophyum reticulatum" .
+
+uniprot:4187 a sils:Species ;
+rdfs:label "Aphelandra sinclairiana" .
+
+uniprot:13339 a sils:Species ;
+rdfs:label "Apocynum cannabinum" .
+
+uniprot:3578 a sils:Species ;
+rdfs:label "Arenaria drummondii" .
+
+uniprot:37460 a sils:Species ;
+rdfs:label "Argyrochosma delicatula" .
+
+uniprot:40963 a sils:Species ;
+rdfs:label "Argyrochosma fendleri" .
+
+uniprot:29631 a sils:Species ;
+rdfs:label "Arthropteris beckleri" .
+
+uniprot:28506 a sils:Species ;
+rdfs:label "Asclepias exaltata" .
+
+uniprot:29781 a sils:Species ;
+rdfs:label "Asperula laevigata" .
+
+uniprot:3551 a sils:Species ;
+rdfs:label "Atriplex patula" .
+
+uniprot:3552 a sils:Species ;
+rdfs:label "Atriplex rosea" .
+
+uniprot:28974 a sils:Species ;
+rdfs:label "Averrhoa carambola" .
+
+uniprot:4582 a sils:Species ;
+rdfs:label "Bambusa multiplex" .
+
+uniprot:4238 a sils:Species ;
+rdfs:label "Barnadesia caryophylla." .
+
+uniprot:4189 a sils:Species ;
+rdfs:label "Barleria prionitis" .
+
+uniprot:13517 a sils:Species ;
+rdfs:label "Bartlettina sordida" .
+
+uniprot:23051 a sils:Species ;
+rdfs:label "Bauera rubioides" .
+
+uniprot:63464 a sils:Species ;
+rdfs:label "Beaumontia grandiflora" .
+
+uniprot:3682 a sils:Species ;
+rdfs:label "Begonia metallica x Begonia sanguinea." .
+
+uniprot:43448 a sils:Species ;
+rdfs:label "Bertiera breviflora." .
+
+uniprot:3508 a sils:Species ;
+rdfs:label "Betula nigra" .
+
+uniprot:66672 a sils:Species ;
+rdfs:label "Bixa orellana" .
+
+uniprot:29606 a sils:Species ;
+rdfs:label "Blechnopsis orientalis" .
+
+uniprot:13832 a sils:Species ;
+rdfs:label "Botrypus strictus" .
+
+uniprot:29783 a sils:Species ;
+rdfs:label "Bouvardia ternifolia" .
+
+uniprot:72381 a sils:Species ;
+rdfs:label "Brownea coccinea" .
+
+uniprot:28540 a sils:Species ;
+rdfs:label "Buddleja davidii" .
+
+uniprot:4016 a sils:Species ;
+rdfs:label "Bursera inaguensis" .
+
+uniprot:4002 a sils:Species ;
+rdfs:label "Buxus sempervirens" .
+
+uniprot:4270 a sils:Species ;
+rdfs:label "Byrsonima crassifolia" .
+
+uniprot:3821 a sils:Species ;
+rdfs:label "Cajanus cajan" .
+
+uniprot:43450 a sils:Species ;
+rdfs:label "Calycophyllum candidissimum" .
+
+uniprot:28515 a sils:Species ;
+rdfs:label "Callicarpa dichotoma" .
+
+uniprot:13381 a sils:Species ;
+rdfs:label "Callitriche heterophylla" .
+
+uniprot:3449 a sils:Species ;
+rdfs:label "Caltha palustris" .
+
+uniprot:35139 a sils:Species ;
+rdfs:label "Calyptrosphaera sphaeroidea." .
+
+uniprot:49707 a sils:Species ;
+rdfs:label "Camassia leichtlinii" .
+
+uniprot:12991 a sils:Species ;
+rdfs:label "Carpinus caroliniana" .
+
+uniprot:3523 a sils:Species ;
+rdfs:label "Casuarina equisetifolia" .
+
+uniprot:53852 a sils:Species ;
+rdfs:label "Cassia fistula" .
+
+uniprot:43452 a sils:Species ;
+rdfs:label "Catesbaea spinosa." .
+
+uniprot:3775 a sils:Species ;
+rdfs:label "Cephalotus follicularis" .
+
+uniprot:43461 a sils:Species ;
+rdfs:label "Cephalanthus occidentalis" .
+
+uniprot:3580 a sils:Species ;
+rdfs:label "Cerastium glomeratum" .
+
+uniprot:3778 a sils:Species ;
+rdfs:label "Ceratopetalum gummiferum" .
+
+uniprot:29634 a sils:Species ;
+rdfs:label "Cheiropleuria bicuspis" .
+
+uniprot:13221 a sils:Species ;
+rdfs:label "Chrysotila carterae" .
+
+uniprot:29588 a sils:Species ;
+rdfs:label "Cibotium barometz" .
+
+uniprot:3613 a sils:Species ;
+rdfs:label "Colletia armata." .
+
+uniprot:23551 a sils:Species ;
+rdfs:label "Coleonema pulchellum" .
+
+uniprot:3956 a sils:Species ;
+rdfs:label "Combretum indicum" .
+
+uniprot:4124 a sils:Species ;
+rdfs:label "Convolvulus tricolor" .
+
+uniprot:16902 a sils:Species ;
+rdfs:label "Cornus alternifolia" .
+
+uniprot:4282 a sils:Species ;
+rdfs:label "Cornus canadensis" .
+
+uniprot:13452 a sils:Species ;
+rdfs:label "Corylus cornuta" .
+
+uniprot:4283 a sils:Species ;
+rdfs:label "Cornus florida" .
+
+uniprot:28501 a sils:Species ;
+rdfs:label "Cornus kousa" .
+
+uniprot:4312 a sils:Species ;
+rdfs:label "Corynocarpus laevigatus" .
+
+uniprot:3460 a sils:Species ;
+rdfs:label "Coriaria myrtifolia" .
+
+uniprot:16904 a sils:Species ;
+rdfs:label "Cornus obliqua" .
+
+uniprot:16906 a sils:Species ;
+rdfs:label "Cornus officinalis" .
+
+uniprot:16905 a sils:Species ;
+rdfs:label "Cornus oblonga." .
+
+uniprot:66684 a sils:Species ;
+rdfs:label "Couroupita guianensis" .
+
+uniprot:2823420 a sils:Species ;
+rdfs:label "Crassula rupestris subsp. marnieriana" .
+
+uniprot:29784 a sils:Species ;
+rdfs:label "Crucianella angustifolia" .
+
+uniprot:29785 a sils:Species ;
+rdfs:label "Cruciata glabra" .
+
+uniprot:4388 a sils:Species ;
+rdfs:label "Daphniphyllum sp." .
+
+uniprot:4355 a sils:Species ;
+rdfs:label "Darlingtonia californica" .
+
+uniprot:3965 a sils:Species ;
+rdfs:label "Dendrophthora clavata" .
+
+uniprot:43474 a sils:Species ;
+rdfs:label "Deppea grandiflora." .
+
+uniprot:83371 a sils:Species ;
+rdfs:label "Detonula confervacea" .
+
+uniprot:4315 a sils:Species ;
+rdfs:label "Dichapetalum crassifolium." .
+
+uniprot:4164 a sils:Species ;
+rdfs:label "Digitalis purpurea" .
+
+uniprot:4378 a sils:Species ;
+rdfs:label "Dillenia indica" .
+
+uniprot:4362 a sils:Species ;
+rdfs:label "Dionaea muscipula" .
+
+uniprot:4364 a sils:Species ;
+rdfs:label "Drosera binata" .
+
+uniprot:4365 a sils:Species ;
+rdfs:label "Drosera burmannii" .
+
+uniprot:4366 a sils:Species ;
+rdfs:label "Drosera capensis" .
+
+uniprot:4367 a sils:Species ;
+rdfs:label "Drosera dichrosepala" .
+
+uniprot:4368 a sils:Species ;
+rdfs:label "Drosera filiformis" .
+
+uniprot:4369 a sils:Species ;
+rdfs:label "Drosera peltata" .
+
+uniprot:4370 a sils:Species ;
+rdfs:label "Drosera petiolaris" .
+
+uniprot:4371 a sils:Species ;
+rdfs:label "Drosera regia" .
+
+uniprot:4716 a sils:Species ;
+rdfs:label "Drymophloeus subdistichus" .
+
+uniprot:4344 a sils:Species ;
+rdfs:label "Epacris sp." .
+
+uniprot:41573 a sils:Species ;
+rdfs:label "Eremothamnus marlothianus." .
+
+uniprot:4132 a sils:Species ;
+rdfs:label "Eriodictyon californicum" .
+
+uniprot:3791 a sils:Species ;
+rdfs:label "Eucryphia lucida" .
+
+uniprot:38274 a sils:Species ;
+rdfs:label "Euglena geniculata." .
+
+uniprot:38277 a sils:Species ;
+rdfs:label "Euglena pisciformis." .
+
+uniprot:4309 a sils:Species ;
+rdfs:label "Euonymus maackii" .
+
+uniprot:3992 a sils:Species ;
+rdfs:label "Euphorbia dulcis" .
+
+uniprot:13525 a sils:Species ;
+rdfs:label "Exacum affine" .
+
+uniprot:43495 a sils:Species ;
+rdfs:label "Fleroya rubrostipulata" .
+
+uniprot:29787 a sils:Species ;
+rdfs:label "Galium album" .
+
+uniprot:29788 a sils:Species ;
+rdfs:label "Galium aparine" .
+
+uniprot:29789 a sils:Species ;
+rdfs:label "Galium corsicum." .
+
+uniprot:29791 a sils:Species ;
+rdfs:label "Galium elongatum" .
+
+uniprot:29792 a sils:Species ;
+rdfs:label "Galium lucidum." .
+
+uniprot:29793 a sils:Species ;
+rdfs:label "Galium palustre" .
+
+uniprot:29796 a sils:Species ;
+rdfs:label "Galium parisiense" .
+
+uniprot:29794 a sils:Species ;
+rdfs:label "Galium scabrum." .
+
+uniprot:3763 a sils:Species ;
+rdfs:label "Geum borisii" .
+
+uniprot:3762 a sils:Species ;
+rdfs:label "Geum quellyon" .
+
+uniprot:58993 a sils:Species ;
+rdfs:label "Gladiolus gueinzii" .
+
+uniprot:66627 a sils:Species ;
+rdfs:label "Gonopterodendron arboreum" .
+
+uniprot:85887 a sils:Species ;
+rdfs:label "Halesia carolina" .
+
+uniprot:35142 a sils:Species ;
+rdfs:label "Haptolina hirta" .
+
+uniprot:4357 a sils:Species ;
+rdfs:label "Heliamphora nutans" .
+
+uniprot:3795 a sils:Species ;
+rdfs:label "Heuchera micrantha" .
+
+uniprot:4318 a sils:Species ;
+rdfs:label "Hippocratea richardiana." .
+
+uniprot:4009 a sils:Species ;
+rdfs:label "Humiria balsamifera" .
+
+uniprot:29797 a sils:Species ;
+rdfs:label "Hydnophytum formicarum" .
+
+uniprot:4134 a sils:Species ;
+rdfs:label "Hydrophyllum virginianum" .
+
+uniprot:4323 a sils:Species ;
+rdfs:label "Icacina mannii." .
+
+uniprot:77057 a sils:Species ;
+rdfs:label "Idesia polycarpa" .
+
+uniprot:4298 a sils:Species ;
+rdfs:label "Ilex aquifolium" .
+
+uniprot:4299 a sils:Species ;
+rdfs:label "Ilex ciliospinosa" .
+
+uniprot:4296 a sils:Species ;
+rdfs:label "Ilex crenata" .
+
+uniprot:4300 a sils:Species ;
+rdfs:label "Ilex pernyi" .
+
+uniprot:34213 a sils:Species ;
+rdfs:label "Iris ensata" .
+
+uniprot:34205 a sils:Species ;
+rdfs:label "Iris germanica" .
+
+uniprot:49752 a sils:Species ;
+rdfs:label "Isophysis tasmanica." .
+
+uniprot:4148 a sils:Species ;
+rdfs:label "Jasminum simplicifolium subsp. suavissimum" .
+
+uniprot:4191 a sils:Species ;
+rdfs:label "Justicia odora" .
+
+uniprot:3327 a sils:Species ;
+rdfs:label "Larix occidentalis" .
+
+uniprot:39330 a sils:Species ;
+rdfs:label "Lavandula lanata" .
+
+uniprot:4383 a sils:Species ;
+rdfs:label "Lobelia sp." .
+
+uniprot:53218 a sils:Species ;
+rdfs:label "Lupinus atlanticus" .
+
+uniprot:49830 a sils:Species ;
+rdfs:label "Lupinus albifrons" .
+
+uniprot:53214 a sils:Species ;
+rdfs:label "Lupinus albescens" .
+
+uniprot:53215 a sils:Species ;
+rdfs:label "Lupinus arcticus" .
+
+uniprot:53219 a sils:Species ;
+rdfs:label "Lupinus aureonitens" .
+
+uniprot:61113 a sils:Species ;
+rdfs:label "Lupinus microcarpus var. densiflorus" .
+
+uniprot:53225 a sils:Species ;
+rdfs:label "Lupinus digitatus" .
+
+uniprot:53228 a sils:Species ;
+rdfs:label "Lupinus hispanicus" .
+
+uniprot:53229 a sils:Species ;
+rdfs:label "Lupinus latifolius" .
+
+uniprot:53230 a sils:Species ;
+rdfs:label "Lupinus micranthus" .
+
+uniprot:53231 a sils:Species ;
+rdfs:label "Lupinus microcarpus" .
+
+uniprot:53232 a sils:Species ;
+rdfs:label "Lupinus mutabilis" .
+
+uniprot:53233 a sils:Species ;
+rdfs:label "Lupinus nanus" .
+
+uniprot:53234 a sils:Species ;
+rdfs:label "Lupinus nootkatensis" .
+
+uniprot:53235 a sils:Species ;
+rdfs:label "Lupinus paraguariensis" .
+
+uniprot:53236 a sils:Species ;
+rdfs:label "Lupinus perennis" .
+
+uniprot:53237 a sils:Species ;
+rdfs:label "Lupinus pilosus" .
+
+uniprot:53239 a sils:Species ;
+rdfs:label "Lupinus princei" .
+
+uniprot:3409 a sils:Species ;
+rdfs:label "Magnolia latahensis" .
+
+uniprot:3410 a sils:Species ;
+rdfs:label "Magnolia macrophylla" .
+
+uniprot:3592 a sils:Species ;
+rdfs:label "Mollugo verticillata" .
+
+uniprot:39343 a sils:Species ;
+rdfs:label "Monarda didyma" .
+
+uniprot:3510 a sils:Species ;
+rdfs:label "Morella cerifera" .
+
+uniprot:32202 a sils:Species ;
+rdfs:label "Morus rubra" .
+
+uniprot:40555 a sils:Species ;
+rdfs:label "Myriopteris lanosa" .
+
+uniprot:4193 a sils:Species ;
+rdfs:label "Nelsonia canescens" .
+
+uniprot:4302 a sils:Species ;
+rdfs:label "Nemopanthus mucronatus" .
+
+uniprot:76160 a sils:Species ;
+rdfs:label "Neoporphyra dentata" .
+
+uniprot:76161 a sils:Species ;
+rdfs:label "Neopyropia katadae" .
+
+uniprot:4524 a sils:Species ;
+rdfs:label "Neurachne munroi." .
+
+uniprot:4525 a sils:Species ;
+rdfs:label "Neurachne tenuifolia." .
+
+uniprot:33118 a sils:Species ;
+rdfs:label "Nicandra physalodes" .
+
+uniprot:33124 a sils:Species ;
+rdfs:label "Nolana spathulata" .
+
+uniprot:36002 a sils:Species ;
+rdfs:label "Notothixos subaureus" .
+
+uniprot:16925 a sils:Species ;
+rdfs:label "Nyssa ogeche" .
+
+uniprot:3281 a sils:Species ;
+rdfs:label "Onoclea sensibilis" .
+
+uniprot:32172 a sils:Species ;
+rdfs:label "Onychium japonicum" .
+
+uniprot:13622 a sils:Species ;
+rdfs:label "Ostrya virginiana" .
+
+uniprot:4035 a sils:Species ;
+rdfs:label "Oxalis dillenii" .
+
+uniprot:83953 a sils:Species ;
+rdfs:label "Pandorea jasminoides" .
+
+uniprot:3797 a sils:Species ;
+rdfs:label "Parnassia fimbriata" .
+
+uniprot:3685 a sils:Species ;
+rdfs:label "Passiflora quadrangularis" .
+
+uniprot:37462 a sils:Species ;
+rdfs:label "Pellaea andromedifolia" .
+
+uniprot:4029 a sils:Species ;
+rdfs:label "Pelargonium grandiflorum" .
+
+uniprot:40973 a sils:Species ;
+rdfs:label "Pellaea rotundifolia" .
+
+uniprot:61509 a sils:Species ;
+rdfs:label "Persicaria senticosa" .
+
+uniprot:4304 a sils:Species ;
+rdfs:label "Phelline comosa." .
+
+uniprot:4720 a sils:Species ;
+rdfs:label "Phoenix reclinata" .
+
+uniprot:35921 a sils:Species ;
+rdfs:label "Phuopsis stylosa" .
+
+uniprot:3338 a sils:Species ;
+rdfs:label "Pinus balfouriana" .
+
+uniprot:4198 a sils:Species ;
+rdfs:label "Pinguicula caerulea" .
+
+uniprot:3340 a sils:Species ;
+rdfs:label "Pinus edulis" .
+
+uniprot:3342 a sils:Species ;
+rdfs:label "Pinus krempfii" .
+
+uniprot:3344 a sils:Species ;
+rdfs:label "Pinus longaeva" .
+
+uniprot:3341 a sils:Species ;
+rdfs:label "Pinus wallichiana" .
+
+uniprot:4273 a sils:Species ;
+rdfs:label "Platytheca verticillata." .
+
+uniprot:45172 a sils:Species ;
+rdfs:label "Plumbago auriculata" .
+
+uniprot:4276 a sils:Species ;
+rdfs:label "Polygala cruciata" .
+
+uniprot:13640 a sils:Species ;
+rdfs:label "Polemonium reptans" .
+
+uniprot:124846 a sils:Species ;
+rdfs:label "Poliothyrsis sinensis" .
+
+uniprot:1185355 a sils:Species ;
+rdfs:label "Pyropia suborbiculata" .
+
+uniprot:3355 a sils:Species ;
+rdfs:label "Pseudolarix amabilis" .
+
+uniprot:13821 a sils:Species ;
+rdfs:label "Pteris vittata" .
+
+uniprot:61565 a sils:Species ;
+rdfs:label "Ptychomitrium gardneri" .
+
+uniprot:3802 a sils:Species ;
+rdfs:label "Ribes americanum" .
+
+uniprot:3772 a sils:Species ;
+rdfs:label "Roridula gorgonias" .
+
+uniprot:3765 a sils:Species ;
+rdfs:label "Rosa damascena" .
+
+uniprot:29802 a sils:Species ;
+rdfs:label "Rubia tinctorum" .
+
+uniprot:4195 a sils:Species ;
+rdfs:label "Ruttya fruticosa" .
+
+uniprot:4326 a sils:Species ;
+rdfs:label "Salvadora persica" .
+
+uniprot:4320 a sils:Species ;
+rdfs:label "Salacia pallescens." .
+
+uniprot:3472 a sils:Species ;
+rdfs:label "Sanguinaria canadensis" .
+
+uniprot:4359 a sils:Species ;
+rdfs:label "Sarracenia flava" .
+
+uniprot:54470 a sils:Species ;
+rdfs:label "Scutellaria bolanderi" .
+
+uniprot:4278 a sils:Species ;
+rdfs:label "Securidaca diversifolia" .
+
+uniprot:3785 a sils:Species ;
+rdfs:label "Sedum rubrotinctum" .
+
+uniprot:72401 a sils:Species ;
+rdfs:label "Senna didymobotrya" .
+
+uniprot:4722 a sils:Species ;
+rdfs:label "Serenoa repens" .
+
+uniprot:76396 a sils:Species ;
+rdfs:label "Sesbania sesban" .
+
+uniprot:29803 a sils:Species ;
+rdfs:label "Sherardia arvensis" .
+
+uniprot:3575 a sils:Species ;
+rdfs:label "Silene gallica" .
+
+uniprot:33123 a sils:Species ;
+rdfs:label "Solandra grandiflora" .
+
+uniprot:28544 a sils:Species ;
+rdfs:label "Spigelia marilandica" .
+
+uniprot:3535 a sils:Species ;
+rdfs:label "Stegnosperma halimifolium." .
+
+uniprot:34197 a sils:Species ;
+rdfs:label "Streptopus lanceolatus" .
+
+uniprot:28545 a sils:Species ;
+rdfs:label "Strychnos nux-vomica" .
+
+uniprot:13702 a sils:Species ;
+rdfs:label "Symphoricarpos albus" .
+
+uniprot:39382 a sils:Species ;
+rdfs:label "Tabebuia heterophylla" .
+
+uniprot:58860 a sils:Species ;
+rdfs:label "Tamarindus indica" .
+
+uniprot:3422 a sils:Species ;
+rdfs:label "Tasmannia insipida" .
+
+uniprot:28982 a sils:Species ;
+rdfs:label "Taxodium distichum" .
+
+uniprot:83372 a sils:Species ;
+rdfs:label "Thalassiosira nordenskioeldii" .
+
+uniprot:3638 a sils:Species ;
+rdfs:label "Thespesia populnea" .
+
+uniprot:3548 a sils:Species ;
+rdfs:label "Trianthema portulacastrum" .
+
+uniprot:3359 a sils:Species ;
+rdfs:label "Tsuga heterophylla" .
+
+uniprot:24736 a sils:Species ;
+rdfs:label "Ulmus alata" .
+
+uniprot:29804 a sils:Species ;
+rdfs:label "Valantia muralis" .
+
+uniprot:29625 a sils:Species ;
+rdfs:label "Vandenboschia striata" .
+
+uniprot:28516 a sils:Species ;
+rdfs:label "Verbena bonariensis" .
+
+uniprot:4205 a sils:Species ;
+rdfs:label "Viburnum acerifolium" .
+
+uniprot:4421 a sils:Species ;
+rdfs:label "Victoria cruziana" .
+
+uniprot:3920 a sils:Species ;
+rdfs:label "Vigna unguiculata subsp. unguiculata" .
+
+uniprot:13756 a sils:Species ;
+rdfs:label "Villarsia calthifolia" .
+
+uniprot:13758 a sils:Species ;
+rdfs:label "Viola sororia" .
+
+uniprot:3605 a sils:Species ;
+rdfs:label "Vitis aestivalis" .
+
+uniprot:3780 a sils:Species ;
+rdfs:label "Weinmannia silvicola" .
+
+uniprot:78374 a sils:Species ;
+rdfs:label "Zamioculcas zamiifolia" .
+
+uniprot:102746 a sils:Species ;
+rdfs:label "Hieracium piloselloides" .
+
+uniprot:221204 a sils:Species ;
+rdfs:label "Pilosella officinarum" .
+
+uniprot:3140 a sils:Species ;
+rdfs:label "Batophora oerstedii" .
+
+uniprot:44016 a sils:Species ;
+rdfs:label "Glycine tabacina." .
+
+uniprot:44015 a sils:Species ;
+rdfs:label "Glycine tomentella" .
+
+uniprot:3751 a sils:Species ;
+rdfs:label "Malus sp." .
+
+uniprot:131071 a sils:Species ;
+rdfs:label "Cucumis ficifolius" .
+
+uniprot:182084 a sils:Species ;
+rdfs:label "Gynostemma pentaphyllum" .
+
+uniprot:39387 a sils:Species ;
+rdfs:label "Gypsophila vaccaria" .
+
+uniprot:42033 a sils:Species ;
+rdfs:label "Saponaria ocymoides" .
+
+uniprot:3572 a sils:Species ;
+rdfs:label "Saponaria officinalis" .
+
+uniprot:50544 a sils:Species ;
+rdfs:label "Trichosanthes anguina" .
+
+uniprot:3672 a sils:Species ;
+rdfs:label "Momordica balsamina" .
+
+uniprot:29725 a sils:Species ;
+rdfs:label "Phytolacca dioica" .
+
+uniprot:3979 a sils:Species ;
+rdfs:label "Suregada multiflora" .
+
+uniprot:248308 a sils:Species ;
+rdfs:label "Phytolacca heterotepala" .
+
+uniprot:39855 a sils:Species ;
+rdfs:label "Silene chalcedonica" .
+
+uniprot:45371 a sils:Species ;
+rdfs:label "Polygonatum multiflorum" .
+
+uniprot:82070 a sils:Species ;
+rdfs:label "Drimia maritima" .
+
+uniprot:3949 a sils:Species ;
+rdfs:label "Oenothera ammophila" .
+
+uniprot:3057 a sils:Species ;
+rdfs:label "Chlamydomonas sp." .
+
+uniprot:2510778 a sils:Species ;
+rdfs:label "Gracilaria tenuistipitata" .
+
+uniprot:35141 a sils:Species ;
+rdfs:label "Chrysochromulina alifera" .
+
+uniprot:35135 a sils:Species ;
+rdfs:label "Pleurochrysis haptonemofera" .
+
+uniprot:96939 a sils:Species ;
+rdfs:label "Vitis riparia" .
+
+uniprot:103365 a sils:Species ;
+rdfs:label "Chlamydomonas sp." .
+
+uniprot:3064 a sils:Species ;
+rdfs:label "Pyrobotrys stellata" .
+
+uniprot:63659 a sils:Species ;
+rdfs:label "Ulva compressa" .
+
+uniprot:4781 a sils:Species ;
+rdfs:label "Plasmopara halstedii" .
+
+uniprot:187813 a sils:Species ;
+rdfs:label "Phytophthora brassicae." .
+
+uniprot:49039 a sils:Species ;
+rdfs:label "Antirrhinum hispanicum" .
+
+uniprot:43171 a sils:Species ;
+rdfs:label "Linaria vulgaris" .
+
+uniprot:4485 a sils:Species ;
+rdfs:label "Aegilops comosa" .
+
+uniprot:4492 a sils:Species ;
+rdfs:label "Aegilops uniaristata" .
+
+uniprot:4593 a sils:Species ;
+rdfs:label "Agropyron cristatum" .
+
+uniprot:58935 a sils:Species ;
+rdfs:label "Australopyrum velutinum" .
+
+uniprot:37674 a sils:Species ;
+rdfs:label "Crithopsis delileana." .
+
+uniprot:29675 a sils:Species ;
+rdfs:label "Elymus canadensis" .
+
+uniprot:145786 a sils:Species ;
+rdfs:label "Elymus californicus" .
+
+uniprot:145781 a sils:Species ;
+rdfs:label "Elymus hystrix" .
+
+uniprot:58936 a sils:Species ;
+rdfs:label "Eremopyrum distans." .
+
+uniprot:72455 a sils:Species ;
+rdfs:label "Festucopsis festucoides." .
+
+uniprot:72456 a sils:Species ;
+rdfs:label "Festucopsis serpentini." .
+
+uniprot:37679 a sils:Species ;
+rdfs:label "Heteranthelium piliferum" .
+
+uniprot:4519 a sils:Species ;
+rdfs:label "Hordeum marinum" .
+
+uniprot:13816 a sils:Species ;
+rdfs:label "Marsilea quadrifolia" .
+
+uniprot:37729 a sils:Species ;
+rdfs:label "Psathyrostachys fragilis" .
+
+uniprot:58938 a sils:Species ;
+rdfs:label "Psathyrostachys rupestris" .
+
+uniprot:58873 a sils:Species ;
+rdfs:label "Psathyrostachys stoloniformis." .
+
+uniprot:58866 a sils:Species ;
+rdfs:label "Secale strictum" .
+
+uniprot:37687 a sils:Species ;
+rdfs:label "Taeniatherum caput-medusae" .
+
+uniprot:37425 a sils:Species ;
+rdfs:label "Takakia lepidozioides" .
+
+uniprot:4601 a sils:Species ;
+rdfs:label "Thinopyrum bessarabicum" .
+
+uniprot:4179 a sils:Species ;
+rdfs:label "Conopholis americana" .
+
+uniprot:59020 a sils:Species ;
+rdfs:label "Agave bracteosa" .
+
+uniprot:15304 a sils:Species ;
+rdfs:label "Alopecurus pratensis" .
+
+uniprot:58940 a sils:Species ;
+rdfs:label "Alophia veracruzana" .
+
+uniprot:29661 a sils:Species ;
+rdfs:label "Anthoxanthum odoratum" .
+
+uniprot:3234 a sils:Species ;
+rdfs:label "Anthoceros punctatus" .
+
+uniprot:98738 a sils:Species ;
+rdfs:label "Arbusculohypopterygium arbuscula" .
+
+uniprot:58983 a sils:Species ;
+rdfs:label "Aristea capitata." .
+
+uniprot:58984 a sils:Species ;
+rdfs:label "Aristea platycaulis." .
+
+uniprot:59019 a sils:Species ;
+rdfs:label "Asparagus maritimus" .
+
+uniprot:29672 a sils:Species ;
+rdfs:label "Avenella flexuosa" .
+
+uniprot:58942 a sils:Species ;
+rdfs:label "Babiana stricta" .
+
+uniprot:58946 a sils:Species ;
+rdfs:label "Bobartia gladiata" .
+
+uniprot:29660 a sils:Species ;
+rdfs:label "Bothriochloa ischaemum" .
+
+uniprot:29666 a sils:Species ;
+rdfs:label "Bromus erectus" .
+
+uniprot:53027 a sils:Species ;
+rdfs:label "Bucegia romanica" .
+
+uniprot:29668 a sils:Species ;
+rdfs:label "Calamagrostis epigeios" .
+
+uniprot:98735 a sils:Species ;
+rdfs:label "Canalohypopterygium tamariscinum" .
+
+uniprot:98733 a sils:Species ;
+rdfs:label "Catharomnion ciliatum" .
+
+uniprot:29669 a sils:Species ;
+rdfs:label "Cinna latifolia." .
+
+uniprot:58950 a sils:Species ;
+rdfs:label "Crocus nudiflorus" .
+
+uniprot:58948 a sils:Species ;
+rdfs:label "Crocosmia sp." .
+
+uniprot:98737 a sils:Species ;
+rdfs:label "Cyathophorum bulbosum" .
+
+uniprot:58952 a sils:Species ;
+rdfs:label "Cypella sp." .
+
+uniprot:98741 a sils:Species ;
+rdfs:label "Dendrohypopterygium filiculiforme" .
+
+uniprot:29671 a sils:Species ;
+rdfs:label "Dendrocalamus giganteus" .
+
+uniprot:58954 a sils:Species ;
+rdfs:label "Dietes grandiflora" .
+
+uniprot:58955 a sils:Species ;
+rdfs:label "Dietes robinsoniana." .
+
+uniprot:82928 a sils:Species ;
+rdfs:label "Diphyscium foliosum" .
+
+uniprot:127539 a sils:Species ;
+rdfs:label "Equisetum bogotense" .
+
+uniprot:231680 a sils:Species ;
+rdfs:label "Equisetum fluviatile" .
+
+uniprot:3259 a sils:Species ;
+rdfs:label "Equisetum giganteum" .
+
+uniprot:3262 a sils:Species ;
+rdfs:label "Equisetum hyemale" .
+
+uniprot:223814 a sils:Species ;
+rdfs:label "Equisetum laevigatum" .
+
+uniprot:231681 a sils:Species ;
+rdfs:label "Equisetum pratense" .
+
+uniprot:231679 a sils:Species ;
+rdfs:label "Equisetum sylvaticum" .
+
+uniprot:231678 a sils:Species ;
+rdfs:label "Equisetum variegatum" .
+
+uniprot:29677 a sils:Species ;
+rdfs:label "Festuca gigantea" .
+
+uniprot:4608 a sils:Species ;
+rdfs:label "Festuca pratensis" .
+
+uniprot:58989 a sils:Species ;
+rdfs:label "Freesia sp." .
+
+uniprot:29583 a sils:Species ;
+rdfs:label "Funaria hygrometrica" .
+
+uniprot:1824555 a sils:Species ;
+rdfs:label "Furcraea foetida" .
+
+uniprot:58992 a sils:Species ;
+rdfs:label "Gladiolus communis" .
+
+uniprot:58994 a sils:Species ;
+rdfs:label "Gladiolus murielae" .
+
+uniprot:37406 a sils:Species ;
+rdfs:label "Haplomitrium hookeri" .
+
+uniprot:59040 a sils:Species ;
+rdfs:label "Hymenocallis littoralis" .
+
+uniprot:98740 a sils:Species ;
+rdfs:label "Hypopterygium didictyon." .
+
+uniprot:129941 a sils:Species ;
+rdfs:label "Hypopterygium laricinum" .
+
+uniprot:58956 a sils:Species ;
+rdfs:label "Iris lutescens" .
+
+uniprot:29817 a sils:Species ;
+rdfs:label "Iris pallida" .
+
+uniprot:53015 a sils:Species ;
+rdfs:label "Jamesoniella autumnalis" .
+
+uniprot:29682 a sils:Species ;
+rdfs:label "Lamarckia aurea" .
+
+uniprot:58960 a sils:Species ;
+rdfs:label "Libertia formosa" .
+
+uniprot:69531 a sils:Species ;
+rdfs:label "Lopidium struthiopteris" .
+
+uniprot:29684 a sils:Species ;
+rdfs:label "Lygeum spartum." .
+
+uniprot:29709 a sils:Species ;
+rdfs:label "Melinis repens" .
+
+uniprot:29686 a sils:Species ;
+rdfs:label "Melica uniflora" .
+
+uniprot:93846 a sils:Species ;
+rdfs:label "Monoclea forsteri" .
+
+uniprot:58964 a sils:Species ;
+rdfs:label "Moraea spathulata" .
+
+uniprot:59032 a sils:Species ;
+rdfs:label "Narcissus odorus" .
+
+uniprot:58966 a sils:Species ;
+rdfs:label "Neomarica sp." .
+
+uniprot:59042 a sils:Species ;
+rdfs:label "Nerine bowdenii" .
+
+uniprot:58968 a sils:Species ;
+rdfs:label "Patersonia fragilis" .
+
+uniprot:58969 a sils:Species ;
+rdfs:label "Patersonia sp." .
+
+uniprot:70144 a sils:Species ;
+rdfs:label "Pellia neesiana" .
+
+uniprot:29694 a sils:Species ;
+rdfs:label "Pennisetum villosum" .
+
+uniprot:29696 a sils:Species ;
+rdfs:label "Phyllostachys flexuosa" .
+
+uniprot:53019 a sils:Species ;
+rdfs:label "Plagiochila adianthoides" .
+
+uniprot:53031 a sils:Species ;
+rdfs:label "Plagiochasma rupestre" .
+
+uniprot:29662 a sils:Species ;
+rdfs:label "Pseudosasa japonica" .
+
+uniprot:29657 a sils:Species ;
+rdfs:label "Rhapis humilis" .
+
+uniprot:53035 a sils:Species ;
+rdfs:label "Ricciocarpos natans" .
+
+uniprot:58973 a sils:Species ;
+rdfs:label "Romulea revelieri." .
+
+uniprot:99387 a sils:Species ;
+rdfs:label "Rosulabryum capillare" .
+
+uniprot:59038 a sils:Species ;
+rdfs:label "Scadoxus puniceus" .
+
+uniprot:4556 a sils:Species ;
+rdfs:label "Setaria viridis" .
+
+uniprot:59000 a sils:Species ;
+rdfs:label "Sisyrinchium sp." .
+
+uniprot:59001 a sils:Species ;
+rdfs:label "Sisyrinchium striatum" .
+
+uniprot:58975 a sils:Species ;
+rdfs:label "Sparaxis sp." .
+
+uniprot:39027 a sils:Species ;
+rdfs:label "Sphaerocarpos donnelli" .
+
+uniprot:61572 a sils:Species ;
+rdfs:label "Splachnum sphaericum" .
+
+uniprot:29707 a sils:Species ;
+rdfs:label "Stipellula capensis" .
+
+uniprot:58977 a sils:Species ;
+rdfs:label "Tigridia sp." .
+
+uniprot:29708 a sils:Species ;
+rdfs:label "Tragus racemosus" .
+
+uniprot:4563 a sils:Species ;
+rdfs:label "Tripsacum dactyloides" .
+
+uniprot:58979 a sils:Species ;
+rdfs:label "Trimezia steyermarkii" .
+
+uniprot:204638 a sils:Species ;
+rdfs:label "Woodwardia radicans" .
+
+uniprot:120732 a sils:Species ;
+rdfs:label "Woodwardia unigemmata" .
+
+uniprot:55960 a sils:Species ;
+rdfs:label "Yucca filamentosa" .
+
+uniprot:3407 a sils:Species ;
+rdfs:label "Magnolia soulangeana" .
+
+uniprot:55890 a sils:Species ;
+rdfs:label "Petunia parodii" .
+
+uniprot:159298 a sils:Species ;
+rdfs:label "Deschampsia antarctica" .
+
+uniprot:33128 a sils:Species ;
+rdfs:label "Papaver rhoeas" .
+
+uniprot:215227 a sils:Species ;
+rdfs:label "Papaver bracteatum" .
+
+uniprot:293154 a sils:Species ;
+rdfs:label "Santalum austrocaledonicum" .
+
+uniprot:588669 a sils:Species ;
+rdfs:label "Aster tataricus" .
+
+uniprot:453085 a sils:Species ;
+rdfs:label "Santalum murrayanum" .
+
+uniprot:20406 a sils:Species ;
+rdfs:label "Astragalus bisulcatus" .
+
+uniprot:59294 a sils:Species ;
+rdfs:label "Solidago canadensis var. scabra" .
+
+uniprot:70770 a sils:Species ;
+rdfs:label "Paulownia kawakamii" .
+
+uniprot:255163 a sils:Species ;
+rdfs:label "Globisporangium hypogynum" .
+
+uniprot:453088 a sils:Species ;
+rdfs:label "Santalum spicatum" .
+
+uniprot:3713 a sils:Species ;
+rdfs:label "Brassica oleracea var. viridis" .
+
+uniprot:200361 a sils:Species ;
+rdfs:label "Aegilops tauschii subsp. strangulata" .
+
+uniprot:4538 a sils:Species ;
+rdfs:label "Oryza glaberrima" .
+
+uniprot:145953 a sils:Species ;
+rdfs:label "Ophrys sphegodes" .
+
+uniprot:884019 a sils:Species ;
+rdfs:label "Ophrys arachnitiformis subsp. archipelagi" .
+
+uniprot:4013 a sils:Species ;
+rdfs:label "Toxicodendron vernicifluum" .
+
+uniprot:258211 a sils:Species ;
+rdfs:label "Berberis wilsoniae" .
+
+uniprot:79022 a sils:Species ;
+rdfs:label "Thapsia garganica" .
+
+uniprot:4062 a sils:Species ;
+rdfs:label "Rauvolfia mannii." .
+
+uniprot:478820 a sils:Species ;
+rdfs:label "Blastocystis sp. subtype 1" .
+
+uniprot:56623 a sils:Species ;
+rdfs:label "Sporobolus stapfianus" .
+
+uniprot:13306 a sils:Species ;
+rdfs:label "Tulipa gesneriana" .
+
+uniprot:12940 a sils:Species ;
+rdfs:label "Anemia phyllitidis" .
+
+uniprot:48072 a sils:Species ;
+rdfs:label "Pelvetia fastigiata" .
+
+uniprot:129195 a sils:Species ;
+rdfs:label "Oomycete-like sp." .
+
+uniprot:2881 a sils:Species ;
+rdfs:label "Ectocarpus variabilis" .
+
+uniprot:51695 a sils:Species ;
+rdfs:label "Chlamydomonas incerta." .
+
+uniprot:3050 a sils:Species ;
+rdfs:label "Polytomella agilis" .
+
+uniprot:58228 a sils:Species ;
+rdfs:label "Garcinia mangostana" .
+
+uniprot:182317 a sils:Species ;
+rdfs:label "Camellia taliensis" .
+
+uniprot:1407748 a sils:Species ;
+rdfs:label "Camellia crassicolumna" .
+
+uniprot:118700 a sils:Species ;
+rdfs:label "Nicotiana langsdorffii" .
+
+uniprot:33125 a sils:Species ;
+rdfs:label "Lepidium sativum" .
+
+uniprot:35689 a sils:Species ;
+rdfs:label "Griffithsia pacifica" .
+
+uniprot:4621 a sils:Species ;
+rdfs:label "Thaumatococcus daniellii" .
+
+uniprot:3968 a sils:Species ;
+rdfs:label "Phoradendron liga" .
+
+uniprot:171899 a sils:Species ;
+rdfs:label "Helleborus purpurascens" .
+
+uniprot:3969 a sils:Species ;
+rdfs:label "Phoradendron leucarpum subsp. tomentosum" .
+
+uniprot:3960 a sils:Species ;
+rdfs:label "Pyrularia pubera" .
+
+uniprot:202477 a sils:Species ;
+rdfs:label "Veronica hederifolia" .
+
+uniprot:99038 a sils:Species ;
+rdfs:label "Glebionis coronaria" .
+
+uniprot:279180 a sils:Species ;
+rdfs:label "Castanopsis chinensis" .
+
+uniprot:28511 a sils:Species ;
+rdfs:label "Pogostemon cablin" .
+
+uniprot:458696 a sils:Species ;
+rdfs:label "Tripterygium wilfordii" .
+
+uniprot:1840584 a sils:Species ;
+rdfs:label "Camellia hiemalis" .
+
+uniprot:296050 a sils:Species ;
+rdfs:label "Camellia brevistyla." .
+
+uniprot:155299 a sils:Species ;
+rdfs:label "Litsea cubeba" .
+
+uniprot:127986 a sils:Species ;
+rdfs:label "Matricaria chamomilla var. recutita" .
+
+uniprot:542674 a sils:Species ;
+rdfs:label "Phyla dulcis" .
+
+uniprot:443222 a sils:Species ;
+rdfs:label "Toona sinensis" .
+
+uniprot:318068 a sils:Species ;
+rdfs:label "Xanthium strumarium" .
+
+uniprot:71610 a sils:Species ;
+rdfs:label "Hedychium coronarium" .
+
+uniprot:46611 a sils:Species ;
+rdfs:label "Abies grandis" .
+
+uniprot:204129 a sils:Species ;
+rdfs:label "Mesosphaerum suaveolens" .
+
+uniprot:270110 a sils:Species ;
+rdfs:label "Cochlearia officinalis" .
+
+uniprot:265354 a sils:Species ;
+rdfs:label "Rhodiola sachalinensis" .
+
+uniprot:41492 a sils:Species ;
+rdfs:label "Bellis perennis" .
+
+uniprot:158323 a sils:Species ;
+rdfs:label "Astragalus penduliflorus" .
+
+uniprot:114476 a sils:Species ;
+rdfs:label "Gardenia jasminoides" .
+
+uniprot:28509 a sils:Species ;
+rdfs:label "Glechoma hederacea" .
+
+uniprot:55513 a sils:Species ;
+rdfs:label "Pistacia vera" .
+
+uniprot:71139 a sils:Species ;
+rdfs:label "Eucalyptus grandis" .
+
+uniprot:219186 a sils:Species ;
+rdfs:label "Adenia volkensii" .
+
+uniprot:47664 a sils:Species ;
+rdfs:label "Populus tremula x Populus tremuloides" .
+
+uniprot:3946 a sils:Species ;
+rdfs:label "Oenothera picensis" .
+
+uniprot:3941 a sils:Species ;
+rdfs:label "Oenothera villaricae" .
+
+uniprot:3078 a sils:Species ;
+rdfs:label "Auxenochlorella pyrenoidosa" .
+
+uniprot:376710 a sils:Species ;
+rdfs:label "Solanum arcanum" .

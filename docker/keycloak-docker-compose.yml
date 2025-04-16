@@ -1,0 +1,59 @@
+services:
+  metatree-keycloak-postgres:
+    image: postgres:13-alpine
+    container_name: metatree-keycloak-database
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: keycloak
+    volumes:
+      - metatree-keycloak-postgres-data:/var/lib/postgresql/data
+    networks:
+      - metatree-keycloak-db-network
+    restart: unless-stopped
+    logging:
+      driver: ${DOCKER_LOGGING_DRIVER:-journald}
+      options:
+        labels: application
+        tag: metatree-keycloak-postgres
+
+  metatree-keycloak:
+    image: jboss/keycloak:16.1.1
+    container_name: metatree-keycloak
+    environment:
+      DB_VENDOR: POSTGRES
+      DB_ADDR: metatree-keycloak-postgres
+      DB_DATABASE: keycloak
+      DB_USER: keycloak
+      DB_PASSWORD: keycloak
+      KEYCLOAK_HOSTNAME: ${KEYCLOAK_HOSTNAME:?Please configure KEYCLOAK_HOSTNAME.}
+      KEYCLOAK_HTTP_PORT: 80
+      KEYCLOAK_HTTPS_PORT: 443
+      KEYCLOAK_IMPORT: /tmp/realm-export.json
+      KEYCLOAK_REALM: ${KEYCLOAK_REALM:?Please configure KEYCLOAK_REALM}
+      KEYCLOAK_CLIENT_ID: ${KEYCLOAK_CLIENT_ID:?Please configure KEYCLOAK_CLIENT_ID}
+      PROXY_ADDRESS_FORWARDING: 'true'
+      METATREE_URL: ${METATREE_URL:?Please configure METATREE_URL.}
+    ports:
+      - ${KEYCLOAK_PORT:-8080}:8080
+    depends_on:
+      - metatree-keycloak-postgres
+    networks:
+      - metatree-keycloak-db-network
+    volumes:
+      - ./keycloak/setup-realm.sh:/opt/jboss/startup-scripts/setup-realm.sh
+      - ./keycloak/realm-template.json:/tmp/realm-template.json
+      - ./keycloak/keycloak-add-user.json:/opt/jboss/keycloak/standalone/configuration/keycloak-add-user.json
+    restart: unless-stopped
+    logging:
+      driver: ${DOCKER_LOGGING_DRIVER:-journald}
+      options:
+        labels: application
+        tag: metatree-keycloak
+
+volumes:
+  metatree-keycloak-postgres-data:
+
+networks:
+  metatree-keycloak-db-network:
+    driver: bridge

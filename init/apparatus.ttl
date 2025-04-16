@@ -1,0 +1,101 @@
+@prefix fs: <https://metatree.nl/ontology#> .
+@prefix example: <https://example.com/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix file: <http://localhost:8080/api/v1/webdav/> .
+@prefix uniprot: <https://uniprot.org/taxonomy/> .
+@prefix sils: <https://sils.uva.nl/ontology#> .
+
+sils:TOF a sils:LCMSApparatusType;
+   rdfs:label "TOF" ;
+   rdfs:description "Time Of Flight" .
+
+sils:FT a sils:LCMSApparatusType;
+   rdfs:label "FT" ;
+   rdfs:description "Fourier Transform" .
+
+sils:ORBITRAP a sils:LCMSApparatusType;
+   rdfs:label "Orbitrap" ;
+   rdfs:description "Orbitrap" .
+
+sils:QUADRUPOLE a sils:LCMSApparatusType;
+   rdfs:label "Quadrupole" ;
+   rdfs:description "Quadrupole" .
+
+sils:QP1 a sils:LCMSApparatus;
+   rdfs:label "QP Machine #1" ;
+   sils:isOfLCMSApparatusType sils:QUADRUPOLE ;
+   sils:maximumLCMSResolution 10000 ;
+   sils:LCMSBrandModel "AbSciex" ;
+   sils:LCMSIdentifier "QP_AS1" .
+
+sils:FT1 a sils:LCMSApparatus;
+   rdfs:label "FT Machine #1" ;
+   sils:isOfLCMSApparatusType sils:FT ;
+   sils:maximumLCMSResolution 80000 ;
+   sils:LCMSBrandModel "Thermo Fisher" ;
+   sils:LCMSIdentifier "FT_TF1" .
+
+sils:TOF1 a sils:LCMSApparatus;
+   rdfs:label "TOF Machine #1" ;
+   sils:isOfLCMSApparatusType sils:TOF ;
+   sils:maximumLCMSResolution 65000 ;
+   sils:LCMSBrandModel "Bruker" ;
+   sils:LCMSIdentifier "TOF_BK1" .
+
+sils:ORB1 a sils:LCMSApparatus;
+   rdfs:label "Orbitrap Machine #1" ;
+   sils:isOfLCMSApparatusType sils:ORBITRAP ;
+   sils:maximumLCMSResolution 100000 ;
+   sils:LCMSBrandModel "Bruker" ;
+   sils:LCMSIdentifier "ORB_BK1" .
+
+sils:TIMSTOF1 a sils:LCMSApparatus;
+   rdfs:label "TIMS-TOF Machine #1" ;
+   sils:isOfLCMSApparatusType sils:TOF ;
+   sils:maximumLCMSResolution 100000 ;
+   sils:LCMSBrandModel "Bruker" ;
+   sils:LCMSIdentifier "TT_BK1" .
+
+
+sils:QUADRUPOLE-ORBITRAP a sils:LCMSApparatusType;
+   rdfs:label "Quadrupole-Orbitrap" ;
+   rdfs:description "Quadrupole Orbitrap" .
+
+
+sils:QExactive a sils:LCMSApparatus;
+   rdfs:label "Q Exactive #1";
+   sils:isOfLCMSApparatusType sils:QUADRUPOLE-ORBITRAP .
+
+sils:TIMSTOF2 a sils:LCMSApparatus;
+   rdfs:label "TIMS-TOF Machine #2" ;
+   sils:isOfLCMSApparatusType sils:TOF ;
+   sils:maximumLCMSResolution 100000 ;
+   sils:LCMSBrandModel "Bruker" ;
+   sils:LCMSIdentifier "TT_BK2" .
+
+sils:MicroArray a sils:SequenceTechnology ;
+   rdfs:label "Microarray" .
+
+sils:MetabarCoding a sils:SequenceTechnology ;
+   rdfs:label "Metabarcoding" .
+
+sils:Illumina a sils:SequenceTechnology ;
+   rdfs:label "Illumina" .
+
+sils:Sequencer a sils:SequenceTechnology ;
+   rdfs:label "Sequencer" .
+
+
+sils:MiSeqPE300 a sils:SequencePlatform ;
+   rdfs:label "MiSeq platform PE300bp" .
+
+sils:Illumina6000 a sils:SequencePlatform ;
+   rdfs:label "Illumina NovaSeq 6000" .    
+
+sils:MiSeq a sils:SequencePlatform ;
+   rdfs:label "Miseq Sequencer" .
+

@@ -1,0 +1,20 @@
+services:
+  metatree-ssl-proxy:
+    image: ${METATREE_SSL_PROXY_IMAGE}
+    container_name: metatree-ssl-proxy
+    environment:
+      METATREE_HOSTNAME: ${METATREE_HOSTNAME:?Please configure METATREE_HOSTNAME.}
+      KEYCLOAK_HOSTNAME: ${KEYCLOAK_HOSTNAME}
+      DOCKER_HOST_IP: ${DOCKER_HOST_IP:?Please configure DOCKER_HOST_IP.}
+    volumes:
+      - ./ssl/server.pem:/etc/nginx/server.pem
+      - ./ssl/server.key:/etc/nginx/server.key
+    ports:
+      - 80:80
+      - 443:443
+    restart: unless-stopped
+    logging:
+      driver: ${DOCKER_LOGGING_DRIVER:-journald}
+      options:
+        labels: application
+        tag: metatree-ssl-proxy

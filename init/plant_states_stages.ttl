@@ -1,0 +1,116 @@
+@prefix fs: <https://metatree.nl/ontology#> .
+@prefix example: <https://example.com/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix file: <http://localhost:8080/api/v1/webdav/> .
+@prefix uniprot: <https://uniprot.org/taxonomy/> .
+@prefix sils: <https://sils.uva.nl/ontology#> .
+@prefix po: <https://browser.planteome.org/ontology#> .
+@prefix peco: <https://browser.planteome.org/plantexpirmentalconditions/ontology#> .
+
+po:0006001 a sils:PlantStructure;
+   rdfs:label "Leaf" .
+
+po:0009005 a sils:PlantStructure;
+   rdfs:label "Root" .
+
+sils:PS_001 a sils:PlantStructure;
+   rdfs:label "Stem" .
+
+sils:PS_002 a sils:PlantStructure;
+   rdfs:label "Flower" .
+
+
+
+po:0007094 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.01";
+    rdfs:description "one leaf visible stage" .
+
+po:0007098 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.02";
+    rdfs:description "two leaves visible stage" .
+
+po:0007106 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.03";
+    rdfs:description "three leaves visible stage" .
+
+po:0007115 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.04";
+    rdfs:description "four leaves visible stage" .
+
+po:0007065 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.05";
+    rdfs:description "five leaves visible stage" .
+
+po:0007123 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.06";
+    rdfs:description "six leaves visible stage" .
+
+po:0007063 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.07";
+    rdfs:description "seven leaves visible stage" .
+
+po:0007095 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.08";
+    rdfs:description "eight leaves visible stage" .
+
+po:0007101 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.09";
+    rdfs:description "nine leaves visible stage" .
+
+po:0007103 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.10";
+    rdfs:description "ten leaves visible stage" .
+
+po:0007116 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.11";
+    rdfs:description "eleven leaves visible stage" .
+
+po:0007064 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.12";
+    rdfs:description "twelve leaves visible stage" .
+
+po:0007083 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.13";
+    rdfs:description "thirteen leaves visible stage" .
+
+po:0007085 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.14";
+    rdfs:description "fourteen leaves visible stage" .
+
+po:0007104 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.15";
+    rdfs:description "fifteen leaves visible stage" .
+
+po:0007119 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.16";
+    rdfs:description "sixteen leaves visible stage" .
+
+po:0007067 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.17";
+    rdfs:description "seventeen leaves visible stage" .
+
+po:0007072 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.18";
+    rdfs:description "eighteen leaves visible stage" .
+
+po:0007120 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.19";
+    rdfs:description "nineteen leaves visible stage" .
+
+po:0007082 a sils:PlantDevelopmentalStage;
+    rdfs:label "LP.20";
+    rdfs:description "twenty or more leaves whorls visible stage" .
+
+
+po:0007131 a sils:PlantDevelopmentalStage;
+   rdfs:label "Seedling stage" ;
+   rdfs:description "Seedling development stage" .
+
+sils:StateHealthy a sils:PlantHealthState;
+   rdfs:label "Healthy" ;
+   rdfs:description "Healthy sample state" .
+

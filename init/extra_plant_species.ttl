@@ -1,0 +1,91 @@
+
+@prefix fs: <https://metatree.nl/ontology#> .
+@prefix example: <https://example.com/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix file: <http://localhost:8080/api/v1/webdav/> .
+@prefix uniprot: <https://uniprot.org/taxonomy/> .
+@prefix sils: <https://sils.uva.nl/ontology#> .
+
+
+uniprot:45834 a sils:Species ;
+rdfs:label "Solanum dulcamara" .
+
+uniprot:113210 a sils:Species ;
+rdfs:label "Capsicum pubescens" .
+
+uniprot:323115 a sils:Species ;
+rdfs:label "Petunia exserta" .
+
+uniprot:126910 a sils:Species ;
+rdfs:label "Withania somnifera" .
+
+sils:ctrl001 a sils:Species ;
+rdfs:label "Unplanted soil control".
+
+sils:ctrlSOIL02 a sils:Species ;
+rdfs:label "Soil".
+
+uniprot:A0A1N7U5Z2 a sils:Species ;
+rdfs:label "Pseudomonas simiae WCS417".
+
+uniprot:PWCS315 a sils:Species ;
+rdfs:label "Pseudomonas WCS315".
+
+uniprot:PWCHA0 a sils:Species ;
+rdfs:label "Pseudomonas CHA0".
+
+uniprot:13164 a sils:Species ;
+rdfs:label "Myzus persicae" .
+
+sils:BORivera a sils:Species ;
+rdfs:label "Brassica oleracea var. rivera" .
+
+uniprot:228874 a sils:Species;
+rdfs:label "Berteroa incana" .
+
+uniprot:15367 a sils:Species;
+rdfs:label "Brachypodium" .
+
+uniprot:3710 a sils:Species;
+rdfs:label "Brassica nigra" .
+
+uniprot:3712k a sils:Species ;
+rdfs:label "Brassica oleraceae Kimmeridge" .
+
+uniprot:90675 a sils:Species ;
+rdfs:label "Camelina sativa" .
+
+uniprot:89410 a sils:Species ;
+rdfs:label "Descurainia" .
+
+uniprot:264416 a sils:Species ;
+rdfs:label "Diplotaxis tenuifolia" .
+
+sils:ERYSCHEIR a sils:Species ;
+rdfs:label "Erysium cheirantoides" .
+
+
+sils:EUCLSYRIA a sils:Species ;
+rdfs:label "Euclydium syriacum" .
+
+uniprot:71354 a sils:Species;
+rdfs:label "Hirschfeldia incana" .
+
+uniprot:190884 a sils:Species;
+rdfs:label "Iberis amara" .
+
+uniprot:161756 a sils:Species;
+rdfs:label "Isatis tinctoria" .
+
+uniprot:313683 a sils:Species;
+rdfs:label "Malcomia maritima" .
+
+uniprot:90898 a sils:Species;
+rdfs:label "Cicer reticulatum" .
+
+uniprot:47742 a sils:Species;
+rdfs:label "Pisum sativum subsp. elatius".

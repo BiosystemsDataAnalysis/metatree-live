@@ -1,0 +1,38 @@
+@prefix fs: <https://metatree.nl/ontology#> .
+@prefix example: <https://example.com/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix file: <http://localhost:8080/api/v1/webdav/> .
+@prefix uniprot: <https://uniprot.org/taxonomy/> .
+@prefix sils: <https://sils.uva.nl/ontology#> .
+@prefix po: <https://browser.planteome.org/ontology#> .
+@prefix peco: <https://browser.planteome.org/plantexpirmentalconditions/ontology#> .
+
+sils:GM_soil a sils:PlantGrowthMedium;
+   rdfs:label "Soil" .   
+
+sils:GM_Aeroponics_Soil a sils:PlantGrowthMedium;
+   rdfs:label "Aeroponics/Soil".
+
+sils:GM_Aeroponics_G_Sterilized_Soil a sils:PlantGrowthMedium;
+   rdfs:label "Aeroponics/Gamma Sterilized Soil".
+   
+sils:GM_Aeroponics_Rockwool a sils:PlantGrowthMedium;
+   rdfs:label "Aeroponics/Rockwool".
+
+sils:GM_Aeroponics_Unspecified a sils:PlantGrowthMedium;
+   rdfs:label "Aeroponics/Unknown substrate".
+
+
+sils:GM_River_Sand a sils:PlantGrowthMedium;
+   rdfs:label "River sand".
+
+sils:GM_SSM a sils:PlantGrowthMedium;
+   rdfs:label "Sterile solid media".
+
+sils:GM_microp_soil a sils:PlantGrowthMedium;
+    rdfs:label "Microp soil" ;
+    rdfs:description "A soil specially designed for the microp project".

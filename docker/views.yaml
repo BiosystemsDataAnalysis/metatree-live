@@ -1,0 +1,485 @@
+views:
+  - name: Files
+    title: Files
+    itemName: Name
+    types:
+      - https://sils.uva.nl/ontology#ExternalFile
+    columns:
+      - name: externalFileLink
+        title: File link
+        source: https://sils.uva.nl/ontology#externalFileLink
+        type: link
+    joinColumns:
+      - name: objectSpecies
+        title: Object species
+        source: https://sils.uva.nl/ontology#objectSpecies
+        rdfType: https://sils.uva.nl/ontology#Species
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object
+        type: term      
+      - name: objectCountry
+        title: Object country
+        source: https://sils.uva.nl/ontology#objectCountry
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object
+        type: text
+      - name: objectGenotype
+        title: Object genotype
+        source: https://sils.uva.nl/ontology#objectGenotype
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object
+        type: text
+      - name: objectTreatmentType
+        title: Object treatment types
+        source: https://sils.uva.nl/ontology#objectTreatmentType
+        rdfType: https://sils.uva.nl/ontology#Treatment
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object      
+        type: term      
+      - name: sampleMaterial
+        title: Sample material
+        source: https://sils.uva.nl/ontology#sampleMaterial
+        sourceClass: https://sils.uva.nl/ontology#Sample
+        sourceClassName: Sample
+        type: text  
+      - name: assayType
+        title: Assay type
+        source: https://sils.uva.nl/ontology#isOfAssayType
+        rdfType: https://sils.uva.nl/ontology#AssayType
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: term
+      - name: assaySequenceTechnology
+        title: Sequence technology
+        source: https://sils.uva.nl/ontology#sequenceTechnology
+        rdfType: https://sils.uva.nl/ontology#SequenceTechnology
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: term
+      - name: assayPairedEnd
+        title: Paired end
+        source: https://sils.uva.nl/ontology#pairedEnd
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: LCMSAssayMachineType
+        title: LCMS Machine Type
+        source: https://sils.uva.nl/ontology#LCMSAssayMachineType
+        rdfType: https://sils.uva.nl/ontology#LCMSApparatusType
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: term
+      - name: assayPositiveMode
+        title: Positive mode
+        source: https://sils.uva.nl/ontology#assayPositiveMode
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: assayNegativeMode
+        title: Negative mode
+        source: https://sils.uva.nl/ontology#assayNegativeMode
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: assayMS1
+        title: MS1
+        source: https://sils.uva.nl/ontology#assayMS1
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: assayMS2
+        title: MS2
+        source: https://sils.uva.nl/ontology#assayMS2
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+    
+  - name: Studies
+    title: Studies
+    itemName: Study    
+    types:
+      - https://sils.uva.nl/ontology#Study      
+    columns:
+      - name: studyTitle
+        title: Study Title
+        source: https://sils.uva.nl/ontology#studyTitle                        
+        type: text     
+      - name: studyGoal
+        title: Study Goal
+        source: https://sils.uva.nl/ontology#studyGoal                
+        type: text                   
+    joinColumns:
+      - name: objectSpecies
+        title: Object species
+        source: https://sils.uva.nl/ontology#objectSpecies
+        rdfType: https://sils.uva.nl/ontology#Species
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object
+        type: term
+      - name: objectCountry
+        title: Object country
+        source: https://sils.uva.nl/ontology#objectCountry
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object
+        type: text
+      - name: objectGenotype
+        title: Object genotype
+        source: https://sils.uva.nl/ontology#objectGenotype
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object
+        type: text
+      - name: objectTreatmentType
+        title: Object treatment types
+        source: https://sils.uva.nl/ontology#objectTreatmentType
+        rdfType: https://sils.uva.nl/ontology#Treatment
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object      
+        type: term      
+      - name: sampleMaterial
+        title: Sample material
+        source: https://sils.uva.nl/ontology#sampleMaterial
+        sourceClass: https://sils.uva.nl/ontology#Sample
+        sourceClassName: Sample
+        type: text    
+      - name: assayType
+        title: Assay type
+        source: https://sils.uva.nl/ontology#isOfAssayType
+        rdfType: https://sils.uva.nl/ontology#AssayType
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: term
+      - name: assaySequenceTechnology
+        title: Sequence technology
+        source: https://sils.uva.nl/ontology#sequenceTechnology
+        rdfType: https://sils.uva.nl/ontology#SequenceTechnology
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: term
+      - name: assayPairedEnd
+        title: Paired end
+        source: https://sils.uva.nl/ontology#pairedEnd
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: LCMSAssayMachineType
+        title: LCMS Machine Type
+        source: https://sils.uva.nl/ontology#LCMSAssayMachineType
+        rdfType: https://sils.uva.nl/ontology#LCMSApparatusType
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: term
+      - name: assayPositiveMode
+        title: Positive mode
+        source: https://sils.uva.nl/ontology#assayPositiveMode
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: assayNegativeMode
+        title: Negative mode
+        source: https://sils.uva.nl/ontology#assayNegativeMode
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: assayMS1
+        title: MS1
+        source: https://sils.uva.nl/ontology#assayMS1
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: assayMS2
+        title: MS2
+        source: https://sils.uva.nl/ontology#assayMS2
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+
+  - name: Projects
+    title: Projects
+    itemName: Project    
+    types:
+      - https://sils.uva.nl/ontology#Project      
+    columns:
+      - name: projectTitle
+        title: Projhect Title
+        source: https://sils.uva.nl/ontology#projectTitle                        
+        type: text           
+    joinColumns:
+      - name: objectSpecies
+        title: Object species
+        source: https://sils.uva.nl/ontology#objectSpecies
+        rdfType: https://sils.uva.nl/ontology#Species
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object
+        type: term
+      - name: objectCountry
+        title: Object country
+        source: https://sils.uva.nl/ontology#objectCountry
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object
+        type: text
+      - name: objectGenotype
+        title: Object genotype
+        source: https://sils.uva.nl/ontology#objectGenotype
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object
+        type: text
+      - name: objectTreatmentType
+        title: Object treatment types
+        source: https://sils.uva.nl/ontology#objectTreatmentType
+        rdfType: https://sils.uva.nl/ontology#Treatment
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object      
+        type: term
+      - name: sampleMaterial
+        title: Sample material
+        source: https://sils.uva.nl/ontology#sampleMaterial
+        sourceClass: https://sils.uva.nl/ontology#Sample
+        sourceClassName: Sample
+        type: text     
+      - name: assayType
+        title: Assay type
+        source: https://sils.uva.nl/ontology#isOfAssayType
+        rdfType: https://sils.uva.nl/ontology#AssayType
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: term
+      - name: assaySequenceTechnology
+        title: Sequence technology
+        source: https://sils.uva.nl/ontology#sequenceTechnology
+        rdfType: https://sils.uva.nl/ontology#SequenceTechnology
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: term
+      - name: assayPairedEnd
+        title: Paired end
+        source: https://sils.uva.nl/ontology#pairedEnd
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: LCMSAssayMachineType
+        title: LCMS Machine Type
+        source: https://sils.uva.nl/ontology#LCMSAssayMachineType
+        rdfType: https://sils.uva.nl/ontology#LCMSApparatusType
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: term
+      - name: assayPositiveMode
+        title: Positive mode
+        source: https://sils.uva.nl/ontology#assayPositiveMode
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: assayNegativeMode
+        title: Negative mode
+        source: https://sils.uva.nl/ontology#assayNegativeMode
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: assayMS1
+        title: MS1
+        source: https://sils.uva.nl/ontology#assayMS1
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: assayMS2
+        title: MS2
+        source: https://sils.uva.nl/ontology#assayMS2
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+
+  - name: PrincipalInvestigators
+    title: Principal Investigators
+    itemName: Principal Investigator
+    types:
+      - https://sils.uva.nl/ontology#PrincipalInvestigator      
+    columns:
+      - name: piFirstName
+        title: First Name
+        source: https://sils.uva.nl/ontology#piFirstName                        
+        type: text     
+      - name: piLastName
+        title: Last Name
+        source: https://sils.uva.nl/ontology#piLastName                
+        type: text                   
+    joinColumns:
+      - name: objectSpecies
+        title: Object species
+        source: https://sils.uva.nl/ontology#objectSpecies
+        rdfType: https://sils.uva.nl/ontology#Species
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object
+        type: term
+      - name: objectCountry
+        title: Object country
+        source: https://sils.uva.nl/ontology#objectCountry
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object
+        type: text
+      - name: objectGenotype
+        title: Object genotype
+        source: https://sils.uva.nl/ontology#objectGenotype
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object
+        type: text
+      - name: objectTreatmentType
+        title: Object treatment types
+        source: https://sils.uva.nl/ontology#objectTreatmentType
+        rdfType: https://sils.uva.nl/ontology#Treatment
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object      
+        type: term  
+      - name: sampleMaterial
+        title: Sample material
+        source: https://sils.uva.nl/ontology#sampleMaterial
+        sourceClass: https://sils.uva.nl/ontology#Sample
+        sourceClassName: Sample
+        type: text  
+      - name: assayType
+        title: Assay type
+        source: https://sils.uva.nl/ontology#isOfAssayType
+        rdfType: https://sils.uva.nl/ontology#AssayType
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: term
+      - name: assaySequenceTechnology
+        title: Sequence technology
+        source: https://sils.uva.nl/ontology#sequenceTechnology
+        rdfType: https://sils.uva.nl/ontology#SequenceTechnology
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: term
+      - name: assayPairedEnd
+        title: Paired end
+        source: https://sils.uva.nl/ontology#pairedEnd
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: LCMSAssayMachineType
+        title: LCMS Machine Type
+        source: https://sils.uva.nl/ontology#LCMSAssayMachineType
+        rdfType: https://sils.uva.nl/ontology#LCMSApparatusType
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: term
+      - name: assayPositiveMode
+        title: Positive mode
+        source: https://sils.uva.nl/ontology#assayPositiveMode
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: assayNegativeMode
+        title: Negative mode
+        source: https://sils.uva.nl/ontology#assayNegativeMode
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: assayMS1
+        title: MS1
+        source: https://sils.uva.nl/ontology#assayMS1
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: assayMS2
+        title: MS2
+        source: https://sils.uva.nl/ontology#assayMS2
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+
+  - name: Departments
+    title: Departments
+    itemName: Department    
+    types:      
+      - https://sils.uva.nl/ontology#Department      
+    columns:
+      - name: Description
+        title: Description
+        source: https://sils.uva.nl/ontology#departmentDescription
+        type: text                       
+    joinColumns:
+      - name: objectSpecies
+        title: Object species
+        source: https://sils.uva.nl/ontology#objectSpecies
+        rdfType: https://sils.uva.nl/ontology#Species
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object
+        type: term
+      - name: objectCountry
+        title: Object country
+        source: https://sils.uva.nl/ontology#objectCountry
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object
+        type: text
+      - name: objectGenotype
+        title: Object genotype
+        source: https://sils.uva.nl/ontology#objectGenotype
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object
+        type: text
+      - name: objectTreatmentType
+        title: Object treatment types
+        source: https://sils.uva.nl/ontology#objectTreatmentType
+        rdfType: https://sils.uva.nl/ontology#Treatment
+        sourceClass: https://sils.uva.nl/ontology#Object
+        sourceClassName: Object      
+        type: term          
+      - name: sampleMaterial
+        title: Sample material
+        source: https://sils.uva.nl/ontology#sampleMaterial
+        sourceClass: https://sils.uva.nl/ontology#Sample
+        sourceClassName: Sample
+        type: text          
+      - name: assayType
+        title: Assay type
+        source: https://sils.uva.nl/ontology#isOfAssayType
+        rdfType: https://sils.uva.nl/ontology#AssayType
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: term
+      - name: assaySequenceTechnology
+        title: Sequence technology
+        source: https://sils.uva.nl/ontology#sequenceTechnology
+        rdfType: https://sils.uva.nl/ontology#SequenceTechnology
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: term
+      - name: assayPairedEnd
+        title: Paired end
+        source: https://sils.uva.nl/ontology#pairedEnd
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: LCMSAssayMachineType
+        title: LCMS Machine Type
+        source: https://sils.uva.nl/ontology#LCMSAssayMachineType
+        rdfType: https://sils.uva.nl/ontology#LCMSApparatusType
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: term
+      - name: assayPositiveMode
+        title: Positive mode
+        source: https://sils.uva.nl/ontology#assayPositiveMode
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: assayNegativeMode
+        title: Negative mode
+        source: https://sils.uva.nl/ontology#assayNegativeMode
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: assayMS1
+        title: MS1
+        source: https://sils.uva.nl/ontology#assayMS1
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+      - name: assayMS2
+        title: MS2
+        source: https://sils.uva.nl/ontology#assayMS2
+        sourceClass: https://sils.uva.nl/ontology#Assay
+        sourceClassName: Assay
+        type: boolean
+  
+  

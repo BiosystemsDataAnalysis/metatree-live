@@ -1,0 +1,35 @@
+@prefix fs: <https://metatree.nl/ontology#> .
+@prefix example: <https://example.com/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix file: <http://localhost:8080/api/v1/webdav/> .
+@prefix uniprot: <https://uniprot.org/taxonomy/> .
+@prefix sils: <https://sils.uva.nl/ontology#> .
+uniprot:9598 a sils:Species ;
+    rdfs:label "Pan troglodytes" .
+
+uniprot:9606 a sils:Species ;
+    rdfs:label "Homo sapiens" .
+
+
+# some grouped species
+
+uniprot:1663633 a sils:Species ;
+    rdfs:label "Brassicaceae" .
+uniprot:2508031 a sils:Species ;
+    rdfs:label "Solanaceae" .
+uniprot:211080 a sils:Species ;
+    rdfs:label "Fabaceae" .
+uniprot:147471 a sils:Species ;
+    rdfs:label "Graminaea" .
+uniprot:333307 a sils:Species ;
+    rdfs:label "Cucurbitaceae" .
+
+uniprot:164851 a sils:Species ;
+   rdfs:label "Uncultured soil bacterium" .
+
+uniprot:410658 a sils:Species ;
+   rdfs:label "Soil metagenome" .

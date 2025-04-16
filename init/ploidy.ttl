@@ -1,0 +1,34 @@
+@prefix fs: <https://metatree.nl/ontology#> .
+@prefix example: <https://example.com/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix file: <http://localhost:8080/api/v1/webdav/> .
+@prefix uniprot: <https://uniprot.org/taxonomy/> .
+@prefix sils: <https://sils.uva.nl/ontology#> .
+
+sils:monoploid a sils:Ploidy;
+   rdfs:label "monoploid" ;
+   rdfs:description "monoploid" .
+
+sils:diploid a sils:Ploidy;
+   rdfs:label "diploid" ;
+   rdfs:description "diploid" .
+
+sils:triploid a sils:Ploidy;
+   rdfs:label "triploid" ;
+   rdfs:description "triploid" .
+
+sils:polyploid a sils:Ploidy;
+   rdfs:label "polyploid" ;
+   rdfs:description "polyploid" .
+
+sils:tetraploid a sils:Ploidy;
+   rdfs:label "tetraploid" ;
+   rdfs:description "tetraploid" .
+
+   
+
+

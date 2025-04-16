@@ -1,0 +1,19 @@
+# configuration files
+
+.env.*
+.env_*
+docker/.env
+
+# backups 
+
+*.tgz
+
+docker/export/
+
+__pycache__/
+ssl/
+
+podman/nginx.conf
+podman/nginx-metatree.conf
+
+podman/
