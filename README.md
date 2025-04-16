@@ -34,7 +34,7 @@ This will allow you to access the metatree and keycloak services via the hostnam
 8. Select the tab "Credentials" and click on the "Regenerate Secret" button. This will create a new secret for the metatree-client. Copy the secret 
 ![images/keycloak_4.png](images/keycloak_4.png)
 
-10. Open the docker/.env file and replace the old secret with the new one. The line should look like this:
+9. Open the docker/.env file and replace the old secret with the new one. The line should look like this:
    ```
    KEYCLOAK_CLIENT_SECRET=your_new_secret
    ```
@@ -44,26 +44,26 @@ This will allow you to access the metatree and keycloak services via the hostnam
     ```
 ## To limit the write access to specific folders, for each user the attribute accessRoot has to be set.
 
-11. First open the Users menu on the left-side and click "view all users"
+10. First open the Users menu on the left-side and click "view all users"
 ![images/keycloak_5.png](images/keycloak_5.png)
 
-12. Select the user "organisation-admin" and click on the "Attributes" tab
+11. Select the user "organisation-admin" and click on the "Attributes" tab
 ![images/keycloak_6.png](images/keycloak_6.png)
-13. Add the attribute "accessRoot" and set the value to the folder you want to limit the access to. For example, if you want to limit the access to the folder "test", set the value to "/test". You can also set multiple values by separating them with a comma. For example, if you want to limit the access to the folders "test" and "test2", set the value to "/test,/test2". To allow the admin to have global access, set the value to "/". This will allow the admin to write/access all folders.
+12. Add the attribute "accessRoot" and set the value to the folder you want to limit the access to. For example, if you want to limit the access to the folder "test", set the value to "/test". You can also set multiple values by separating them with a comma. For example, if you want to limit the access to the folders "test" and "test2", set the value to "/test,/test2". To allow the admin to have global access, set the value to "/". This will allow the admin to write/access all folders.
 ![images/keycloak_7.png](images/keycloak_7.png)
 
 
 ## To allow the changes to take effect, you need to stop and start the containers again.
-14. In the docker directory, run the following command to stop and remove the containers:
+13. In the docker directory, run the following command to stop and remove the containers:
     ```bash
     ./stop_all.sh
     ```
 
-15. Run the following command to start the containers again:
+14. Run the following command to start the containers again:
     ```bash
     ./start_all.sh
     ```
-16. After the containers are started, you can access the metatree service via https://metatree. Because the certificates are self-signed, you need to accept the warning in your browser. You can login with the following credentials:
+15. After the containers are started, you can access the metatree service via https://metatree. Because the certificates are self-signed, you need to accept the warning in your browser. You can login with the following credentials:
    ```
    username: organisation-admin
    password: fairspace123
@@ -71,11 +71,11 @@ This will allow you to access the metatree and keycloak services via the hostnam
 
 ## To initialize the database and upload the different schemas, cd into the **init** directory. This directory contains a python scipt that populates the database with the various ontology options according to the schema defined by the vocabulary file in the **docker** folder.
 
-17. Update the KEYCLOAK_CLIENT_SECRET entry in the  **.env** file with the new secret you generated in step 10. Use the following command (in the docker directory) to replace the secret in the .env file:
+16. Update the KEYCLOAK_CLIENT_SECRET entry in the  **.env** file with the new secret you generated in step 9. Use the following command (in the docker directory) to replace the secret in the .env file:
     ```bash
     sed -i "s/^KEYCLOAK_CLIENT_SECRET=.*/KEYCLOAK_CLIENT_SECRET=your_new_secret/" .env
     ```
-18. Run the following command (in the init folder) to run the init script:
+17. Run the following command (in the init folder) to run the init script:
     ```bash
     python3 initialize_db.py --env ./env
     ```
