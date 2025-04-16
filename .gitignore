@@ -2,7 +2,7 @@
 
 .env.*
 .env_*
-docker/.env
+#docker/.env
 
 # backups 
 

@@ -17,8 +17,8 @@ services:
         labels: application
         tag: metatree-keycloak-postgres
 
-  metatree-keycloak:
-    image: jboss/keycloak:16.1.1
+  metatree-keycloak:    
+    image: ${KEYCLOAK_IMAGE}
     container_name: metatree-keycloak
     environment:
       DB_VENDOR: POSTGRES
