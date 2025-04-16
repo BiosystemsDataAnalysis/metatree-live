@@ -79,6 +79,10 @@ This will allow you to access the metatree and keycloak services via the hostnam
     ```bash
     python3 initialize_db.py --env ./env
     ```
+    *Note* that for this script to run properly you need to have the following packages installed:
+    ```bash
+    pip install typed-argument-parser, dotenv
+    ```
 
 ## **uploading_data** directory
 
