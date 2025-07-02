@@ -658,7 +658,7 @@
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
-      "secret": "**********",
+      "secret": "${KEYCLOAK_CLIENT_SECRET}",
       "redirectUris": [
         "${METATREE_URL}/*"
       ],
