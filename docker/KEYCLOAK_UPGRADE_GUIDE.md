@@ -187,7 +187,87 @@ docker compose -f keycloak-docker-compose.yml up -d
 docker compose -f keycloak-docker-compose.yml logs -f metatree-keycloak
 ```
 
-### 6. Verification Steps
+### 6. User Data Migration (Critical Step)
+
+**Important**: The realm import process only imports realm configuration, not user data. Users need to be migrated separately.
+
+#### Option A: Export/Import Users from Old Keycloak
+
+1. **Export users from old Keycloak 16.x** (before upgrade):
+```bash
+# Export users from the old Keycloak instance
+docker compose -f keycloak-docker-compose.yml exec metatree-keycloak \
+  /opt/jboss/keycloak/bin/standalone.sh \
+  -Djboss.socket.binding.port-offset=100 \
+  -Dkeycloak.migration.action=export \
+  -Dkeycloak.migration.provider=singleFile \
+  -Dkeycloak.migration.file=/tmp/users-export.json \
+  -Dkeycloak.migration.usersExportStrategy=REALM_FILE \
+  -Dkeycloak.migration.realmName=metatree
+```
+
+2. **Copy the export file**:
+```bash
+docker cp metatree-keycloak:/tmp/users-export.json ./keycloak/users-export.json
+```
+
+3. **Import users to new Keycloak 26.x** (after upgrade):
+```bash
+# Copy users file to new container
+docker cp ./keycloak/users-export.json metatree-keycloak:/tmp/users-export.json
+
+# Import users using kcadm
+docker compose -f keycloak-docker-compose.yml exec metatree-keycloak \
+  /opt/keycloak/bin/kcadm.sh config credentials \
+  --server http://localhost:8080 --realm master --user admin --password admin
+
+docker compose -f keycloak-docker-compose.yml exec metatree-keycloak \
+  /opt/keycloak/bin/kcadm.sh create partialImport \
+  -r metatree -s ifResourceExists=OVERWRITE -o -f /tmp/users-export.json
+```
+
+#### Option B: Database Migration (Recommended)
+
+1. **Export database from old Keycloak**:
+```bash
+# Backup old database
+docker compose -f keycloak-docker-compose.yml exec metatree-keycloak-postgres \
+  pg_dump -U keycloak keycloak > keycloak-16-backup.sql
+```
+
+2. **Stop new containers and restore database**:
+```bash
+# Stop new setup
+docker compose -f keycloak-docker-compose.yml down
+
+# Remove new database volume
+docker volume rm docker_metatree-keycloak-postgres-data
+
+# Start only database
+docker compose -f keycloak-docker-compose.yml up -d metatree-keycloak-postgres
+
+# Wait for database to be ready
+sleep 10
+
+# Restore old database
+docker compose -f keycloak-docker-compose.yml exec -T metatree-keycloak-postgres \
+  psql -U keycloak -d keycloak < keycloak-16-backup.sql
+
+# Start all services
+docker compose -f keycloak-docker-compose.yml up -d
+```
+
+#### Option C: Manual User Recreation
+
+If you have a small number of users, you can recreate them manually through the admin console:
+
+1. Access admin console: `http://localhost:8080/admin`
+2. Switch to your realm (e.g., "metatree")
+3. Go to Users → Add User
+4. Recreate each user with their original usernames and details
+5. Set temporary passwords and require password reset on first login
+
+### 7. Verification Steps
 
 #### Check container status:
 ```bash
@@ -211,6 +291,18 @@ docker compose -f keycloak-docker-compose.yml logs metatree-keycloak-init
 docker compose -f keycloak-docker-compose.yml logs --tail=20 metatree-keycloak
 ```
 *Look for: "Keycloak 26.2.5 on JVM started" and "Realm 'metatree' imported"*
+
+#### Verify user data migration:
+```bash
+# Check if users exist in the realm
+docker compose -f keycloak-docker-compose.yml exec metatree-keycloak \
+  /opt/keycloak/bin/kcadm.sh config credentials \
+  --server http://localhost:8080 --realm master --user admin --password admin
+
+docker compose -f keycloak-docker-compose.yml exec metatree-keycloak \
+  /opt/keycloak/bin/kcadm.sh get users -r metatree --fields username,email,enabled
+```
+*Expected: List of your migrated users*
 
 ## Key Changes Summary
 
@@ -250,6 +342,28 @@ docker compose -f keycloak-docker-compose.yml logs --tail=20 metatree-keycloak
 4. **Container Restart Loop**:
    - Remove volumes with `-v` flag and restart
    - Check for conflicting environment variables
+
+5. **Users Not Imported**:
+   ```
+   Realm imported successfully but no users found
+   ```
+   **Cause**: Keycloak 26.x `--import-realm` only imports realm configuration, not user data
+   
+   **Solutions**:
+   - Use database migration (Option B above) - **Recommended**
+   - Export/import users separately using kcadm (Option A above)
+   - Manually recreate users through admin console
+   
+   **Verification**:
+   ```bash
+   # Check user count in realm
+   docker compose -f keycloak-docker-compose.yml exec metatree-keycloak \
+     /opt/keycloak/bin/kcadm.sh config credentials \
+     --server http://localhost:8080 --realm master --user admin --password admin
+   
+   docker compose -f keycloak-docker-compose.yml exec metatree-keycloak \
+     /opt/keycloak/bin/kcadm.sh get users -r metatree --format csv --fields username | wc -l
+   ```
 
 5. **Cannot Login to Admin Console**:
    ```
@@ -349,12 +463,84 @@ After successful upgrade:
 - **Custom Realm** (e.g., metatree): For your application's users and client configurations
 - Switch between realms using the dropdown in the top-left corner of the admin console
 
+## Final Verification Checklist
+
+Before considering the upgrade complete, verify:
+
+### ✅ System Health
+- [ ] All containers are running: `docker compose -f keycloak-docker-compose.yml ps`
+- [ ] Keycloak responds to HTTP requests: `curl -I http://localhost:8080`
+- [ ] Database connection is stable: Check logs for connection errors
+
+### ✅ Realm Configuration
+- [ ] Realm exists and is accessible through admin console
+- [ ] Client configurations are preserved
+- [ ] Realm settings match previous configuration
+- [ ] Authentication flows are working
+
+### ✅ User Data
+- [ ] **Critical**: All users are present in the realm
+- [ ] User attributes and roles are preserved
+- [ ] Test login with existing user credentials
+- [ ] User sessions and tokens work correctly
+
+### ✅ Application Integration
+- [ ] Client applications can authenticate
+- [ ] Token validation works
+- [ ] User permissions and roles function correctly
+- [ ] SSO flows work as expected
+
+### ✅ Verification Commands
+```bash
+# Complete system check
+./verify-keycloak-upgrade.sh
+```
+
+Create this verification script:
+```bash
+#!/bin/bash
+# File: verify-keycloak-upgrade.sh
+
+echo "=== Keycloak Upgrade Verification ==="
+
+# Container status
+echo "\n1. Container Status:"
+docker compose -f keycloak-docker-compose.yml ps
+
+# HTTP response
+echo "\n2. HTTP Response:"
+HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:8080)
+echo "HTTP Status: $HTTP_CODE (Expected: 302)"
+
+# User count
+echo "\n3. User Count Check:"
+docker compose -f keycloak-docker-compose.yml exec metatree-keycloak \
+  /opt/keycloak/bin/kcadm.sh config credentials \
+  --server http://localhost:8080 --realm master --user admin --password admin 2>/dev/null
+
+USER_COUNT=$(docker compose -f keycloak-docker-compose.yml exec metatree-keycloak \
+  /opt/keycloak/bin/kcadm.sh get users -r metatree --format csv --fields username 2>/dev/null | wc -l)
+echo "Users in realm: $((USER_COUNT-1))"  # Subtract header line
+
+# Realm status
+echo "\n4. Realm Status:"
+docker compose -f keycloak-docker-compose.yml exec metatree-keycloak \
+  /opt/keycloak/bin/kcadm.sh get realms/metatree --fields realm,enabled 2>/dev/null
+
+echo "\n=== Verification Complete ==="
+```
+
+```bash
+chmod +x verify-keycloak-upgrade.sh
+```
+
 ## Security Recommendations
 
 1. **Change Admin Password**: Update default admin credentials immediately
 2. **Review Realm Settings**: Verify all configurations are preserved
 3. **Test Applications**: Ensure client applications can still authenticate
 4. **SSL Configuration**: Configure proper SSL certificates for production
+5. **User Data Backup**: Ensure user data migration was successful before decommissioning old instance
 
 ## Rollback Plan
 
