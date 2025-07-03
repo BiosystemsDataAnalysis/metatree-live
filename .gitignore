@@ -17,3 +17,5 @@ podman/nginx.conf
 podman/nginx-metatree.conf
 
 podman/
+
+.venv/
