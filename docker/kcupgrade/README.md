@@ -111,6 +111,7 @@ services:
       KC_PROXY: edge
       KC_BOOTSTRAP_ADMIN_USERNAME: admin
       KC_BOOTSTRAP_ADMIN_PASSWORD: admin      
+      KC_HTTP_RELATIVE_PATH: /auth
     ports:
       - ${KEYCLOAK_PORT:-8080}:8080
     depends_on:
