@@ -1,0 +1,65 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Debug import_users.sh",
+			"type": "shell",
+			"command": "bash",
+			"args": [
+				"-c",
+				"cd ${workspaceFolder}/kcupgrade && DEBUG=true ./import_users.sh"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": [],
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			}
+		},
+		{
+			"label": "Dry Run import_users.sh",
+			"type": "shell",
+			"command": "bash",
+			"args": [
+				"-c",
+				"cd ${workspaceFolder}/kcupgrade && DRY_RUN=true DEBUG=true ./import_users.sh"
+			],
+			"group": "test",
+			"isBackground": false,
+			"problemMatcher": [],
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			}
+		},
+		{
+			"label": "Run import_users.sh (Normal)",
+			"type": "shell",
+			"command": "bash",
+			"args": [
+				"-c",
+				"cd ${workspaceFolder}/kcupgrade && ./import_users.sh"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": [],
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			}
+		}
+	]
+}

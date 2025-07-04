@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "bashdb",
+            "request": "launch",
+            "name": "Debug import_users.sh (with bashdb)",
+            "cwd": "${workspaceFolder}/kcupgrade",
+            "program": "${workspaceFolder}/kcupgrade/import_users.sh",
+            "args": [],
+            "env": {},
+            "pathBashdb": "/usr/bin/bashdb",
+            "pathBashdbLib": "/usr/share/bashdb",
+            "pathBash": "/bin/bash",
+            "pathCat": "/bin/cat",
+            "pathPkill": "/usr/bin/pkill",
+            "showDebugOutput": true,
+            "trace": true
+        },
+        {
+            "name": "Debug import_users.sh (bash -x)",
+            "type": "node",
+            "request": "launch",
+            "program": "/bin/bash",
+            "args": ["-x", "${workspaceFolder}/kcupgrade/import_users.sh"],
+            "cwd": "${workspaceFolder}/kcupgrade",
+            "console": "integratedTerminal",
+            "env": {}
+        }
+    ]
+}
