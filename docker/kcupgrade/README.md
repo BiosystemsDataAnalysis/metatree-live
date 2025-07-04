@@ -110,7 +110,7 @@ services:
       KC_HTTPS_PORT: 8443
       KC_PROXY: edge
       KC_BOOTSTRAP_ADMIN_USERNAME: admin
-      KC_BOOTSTRAP_ADMIN_PASSWORD: admin
+      KC_BOOTSTRAP_ADMIN_PASSWORD: admin      
     ports:
       - ${KEYCLOAK_PORT:-8080}:8080
     depends_on:
@@ -158,6 +158,7 @@ KC_DB_PASSWORD: keycloak
 KC_PROXY: edge
 KEYCLOAK_ADMIN: admin
 KEYCLOAK_ADMIN_PASSWORD: admin
+KC_HTTP_RELATIVE_PATH: /auth
 ```
 
 ### 5. Upgrade Process Commands
