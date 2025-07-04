@@ -1,19 +1,20 @@
 #%% 
-from Metatree_functions_common import *
+from metatree_common import *
 
 from tap import Tap
 
 class myargs(Tap):
     env:str = ".env_debug" # the environment file to load the settings from
     
-# import sys 
-# sys.argv = ['arg0','--env','.env_science']
+import sys 
+sys.argv = ['arg0','--env','.env']
 
 
 args = myargs().parse_args()
 
 #importConfiguration(".env_local")
 #importConfiguration(".env_debug")
+#%%
 importConfiguration(args.env)
 
 print(f"loading settings from {args.env}")

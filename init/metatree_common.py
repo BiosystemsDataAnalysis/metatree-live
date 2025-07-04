@@ -18,6 +18,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 session = None
 
+
+
 config_file = ""
 config = None
 METATREE_USER, METATREE_PASSWORD,KEYCLOAK_REALM = "","",""
@@ -25,6 +27,7 @@ KEYCLOAK_CLIENT_ID,KEYCLOAK_CLIENT_SECRET,KEYCLOAK_SERVER_URL= "","",""
 VERIFY=False
 server_url:str=""
 from dotenv import dotenv_values
+from os.path import expandvars
 
 # make endpoint dictionary for faster access
 dict_endpoints = {}
@@ -35,7 +38,11 @@ def importConfiguration(fileName):
     global METATREE_USER, METATREE_PASSWORD,KEYCLOAK_REALM
     global KEYCLOAK_CLIENT_ID,KEYCLOAK_CLIENT_SECRET,KEYCLOAK_SERVER_URL,server_url
     config_file = fileName
-    config = dotenv_values(config_file)
+    # Load .env file and expand environment variables
+    raw_config = dotenv_values(config_file)
+
+    # Expand environment variables in the configuration values
+    config = {k: expandvars(v) if (isinstance(v, str) and v.startswith('$')) else v for k, v in raw_config.items()}
 
     server_url = config['METATREE_URL']
 
